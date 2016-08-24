@@ -1,0 +1,582 @@
+
+0               SN.node[0].MobilityManager               initial location(x:y:z) is 1:0:0
+0               SN.node[1].MobilityManager               initial location(x:y:z) is 0:0:0
+0               SN.node[2].MobilityManager               initial location(x:y:z) is 15:0:0
+0               SN.node[3].MobilityManager               initial location(x:y:z) is 30:0:0
+0               SN.node[4].MobilityManager               initial location(x:y:z) is 0:15:0
+0               SN.node[5].MobilityManager               initial location(x:y:z) is 15:15:0
+0               SN.node[6].MobilityManager               initial location(x:y:z) is 30:15:0
+0               SN.node[7].MobilityManager               initial location(x:y:z) is 0:30:0
+0               SN.node[8].MobilityManager               initial location(x:y:z) is 15:30:0
+0               SN.node[9].MobilityManager               initial location(x:y:z) is 30:30:0
+0               SN.node[10].MobilityManager              initial location(x:y:z) is 29:30:0
+0.003536244016  SN.node[1].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.006066428963  SN.node[5].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.014545237179  SN.node[4].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.021853097004  SN.node[9].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.025541380047  SN.node[6].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.027539895218  SN.node[0].Application                   Alhumdulillah; This is startup() of NodeSensor and sink
+0.028465566283  SN.node[7].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.035407391109  SN.node[2].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.041997452115  SN.node[3].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.044647347892  SN.node[8].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.044814654556  SN.node[10].Application                  Alhumdulillah; This is startup() of NodeIot 
+1               SN.node[10].MobilityManager              changed location(x:y:z) to 28.305:29.281:0
+1.021872157497  SN.node[9].Application                   This is timerFiredCallback of NodeSensor ID 9 with packetsSent == 0
+1.021872157497  SN.node[9].Application                   Sending [SearchIotPacket] of size 16 bytes to communication layer
+1.023172157496  SN.node[10].Application                  received packet from 9 with LQI = 90 spEnergy = 0.068 rcvPacketName = SearchIotPacket message type is 1
+1.023172157496  SN.node[10].Application                  Sending [IoTReplyPacket] of size 16 bytes to communication layer
+1.024472157495  SN.node[9].Application                   received packet from source10 with LQI = 90 rcvPacketName = IoTReplyPacket message type is 2
+1.024472157495  SN.node[9].Application                   Direction is 1
+1.024472157495  SN.node[9].Application                   adding proposal
+2               SN.node[10].MobilityManager              changed location(x:y:z) to 27.61:28.562:0
+3               SN.node[10].MobilityManager              changed location(x:y:z) to 26.9149:27.843:0
+4               SN.node[10].MobilityManager              changed location(x:y:z) to 26.2199:27.124:0
+5               SN.node[10].MobilityManager              changed location(x:y:z) to 25.5249:26.4051:0
+6               SN.node[10].MobilityManager              changed location(x:y:z) to 24.8299:25.6861:0
+7               SN.node[10].MobilityManager              changed location(x:y:z) to 24.1348:24.9671:0
+8               SN.node[10].MobilityManager              changed location(x:y:z) to 23.4398:24.2481:0
+9               SN.node[10].MobilityManager              changed location(x:y:z) to 22.7448:23.5291:0
+10              SN.node[10].MobilityManager              changed location(x:y:z) to 22.0498:22.8101:0
+10.044824799291 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  1
+10.044824799291 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+11              SN.node[10].MobilityManager              changed location(x:y:z) to 21.3548:22.0911:0
+12              SN.node[10].MobilityManager              changed location(x:y:z) to 20.6597:21.3721:0
+13              SN.node[10].MobilityManager              changed location(x:y:z) to 19.9647:20.6532:0
+14              SN.node[10].MobilityManager              changed location(x:y:z) to 19.2697:19.9342:0
+15              SN.node[10].MobilityManager              changed location(x:y:z) to 18.5747:19.2152:0
+16              SN.node[10].MobilityManager              changed location(x:y:z) to 17.8796:18.4962:0
+16.022158064906 SN.node[9].Application                   best proposal id is 0
+17              SN.node[10].MobilityManager              changed location(x:y:z) to 17.1846:17.7772:0
+18              SN.node[10].MobilityManager              changed location(x:y:z) to 16.4896:17.0582:0
+19              SN.node[10].MobilityManager              changed location(x:y:z) to 15.7946:16.3392:0
+20              SN.node[10].MobilityManager              changed location(x:y:z) to 15.0996:15.6202:0
+20.044834944026 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  2
+20.044834944026 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+21              SN.node[10].MobilityManager              changed location(x:y:z) to 14.4045:14.9012:0
+22              SN.node[10].MobilityManager              changed location(x:y:z) to 13.7095:14.1823:0
+23              SN.node[10].MobilityManager              changed location(x:y:z) to 13.0145:13.4633:0
+24              SN.node[10].MobilityManager              changed location(x:y:z) to 12.3195:12.7443:0
+25              SN.node[10].MobilityManager              changed location(x:y:z) to 11.6244:12.0253:0
+26              SN.node[10].MobilityManager              changed location(x:y:z) to 10.9294:11.3063:0
+27              SN.node[10].MobilityManager              changed location(x:y:z) to 10.2344:10.5873:0
+28              SN.node[10].MobilityManager              changed location(x:y:z) to 9.53938:9.86833:0
+29              SN.node[10].MobilityManager              changed location(x:y:z) to 8.84436:9.14934:0
+30              SN.node[10].MobilityManager              changed location(x:y:z) to 8.14934:8.43035:0
+30.044845088761 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  3
+30.044845088761 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+30.04614508876  SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+31              SN.node[10].MobilityManager              changed location(x:y:z) to 7.45431:7.71136:0
+32              SN.node[10].MobilityManager              changed location(x:y:z) to 6.75929:6.99237:0
+33              SN.node[10].MobilityManager              changed location(x:y:z) to 6.06427:6.27338:0
+34              SN.node[10].MobilityManager              changed location(x:y:z) to 5.36925:5.5544:0
+35              SN.node[10].MobilityManager              changed location(x:y:z) to 4.67423:4.83541:0
+36              SN.node[10].MobilityManager              changed location(x:y:z) to 3.9792:4.11642:0
+37              SN.node[10].MobilityManager              changed location(x:y:z) to 3.28418:3.39743:0
+38              SN.node[10].MobilityManager              changed location(x:y:z) to 2.58916:2.67844:0
+39              SN.node[10].MobilityManager              changed location(x:y:z) to 1.89414:1.95945:0
+40              SN.node[10].MobilityManager              changed location(x:y:z) to 1.19912:1.24046:0
+40.044855233496 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  4
+40.044855233496 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+40.046155233495 SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+41              SN.node[10].MobilityManager              changed location(x:y:z) to 0.504094:0.521477:0
+42              SN.node[10].MobilityManager              changed location(x:y:z) to 0.190928:0.197512:0
+43              SN.node[10].MobilityManager              changed location(x:y:z) to 0.88595:0.9165:0
+44              SN.node[10].MobilityManager              changed location(x:y:z) to 1.58097:1.63549:0
+45              SN.node[10].MobilityManager              changed location(x:y:z) to 2.27599:2.35448:0
+46              SN.node[10].MobilityManager              changed location(x:y:z) to 2.97102:3.07347:0
+47              SN.node[10].MobilityManager              changed location(x:y:z) to 3.66604:3.79245:0
+48              SN.node[10].MobilityManager              changed location(x:y:z) to 4.36106:4.51144:0
+49              SN.node[10].MobilityManager              changed location(x:y:z) to 5.05608:5.23043:0
+50              SN.node[10].MobilityManager              changed location(x:y:z) to 5.7511:5.94942:0
+50.044865378231 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  5
+50.044865378231 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+50.04616537823  SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+51              SN.node[10].MobilityManager              changed location(x:y:z) to 6.44613:6.66841:0
+52              SN.node[10].MobilityManager              changed location(x:y:z) to 7.14115:7.3874:0
+53              SN.node[10].MobilityManager              changed location(x:y:z) to 7.83617:8.10638:0
+54              SN.node[10].MobilityManager              changed location(x:y:z) to 8.53119:8.82537:0
+55              SN.node[10].MobilityManager              changed location(x:y:z) to 9.22622:9.54436:0
+56              SN.node[10].MobilityManager              changed location(x:y:z) to 9.92124:10.2633:0
+57              SN.node[10].MobilityManager              changed location(x:y:z) to 10.6163:10.9823:0
+58              SN.node[10].MobilityManager              changed location(x:y:z) to 11.3113:11.7013:0
+59              SN.node[10].MobilityManager              changed location(x:y:z) to 12.0063:12.4203:0
+60              SN.node[10].MobilityManager              changed location(x:y:z) to 12.7013:13.1393:0
+60.044875522966 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  6
+60.044875522966 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+61              SN.node[10].MobilityManager              changed location(x:y:z) to 13.3963:13.8583:0
+62              SN.node[10].MobilityManager              changed location(x:y:z) to 14.0914:14.5773:0
+63              SN.node[10].MobilityManager              changed location(x:y:z) to 14.7864:15.2963:0
+64              SN.node[10].MobilityManager              changed location(x:y:z) to 15.4814:16.0153:0
+65              SN.node[10].MobilityManager              changed location(x:y:z) to 16.1764:16.7342:0
+66              SN.node[10].MobilityManager              changed location(x:y:z) to 16.8715:17.4532:0
+67              SN.node[10].MobilityManager              changed location(x:y:z) to 17.5665:18.1722:0
+68              SN.node[10].MobilityManager              changed location(x:y:z) to 18.2615:18.8912:0
+69              SN.node[10].MobilityManager              changed location(x:y:z) to 18.9565:19.6102:0
+70              SN.node[10].MobilityManager              changed location(x:y:z) to 19.6515:20.3292:0
+70.044885667701 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  7
+70.044885667701 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+71              SN.node[10].MobilityManager              changed location(x:y:z) to 20.3466:21.0482:0
+72              SN.node[10].MobilityManager              changed location(x:y:z) to 21.0416:21.7672:0
+73              SN.node[10].MobilityManager              changed location(x:y:z) to 21.7366:22.4862:0
+74              SN.node[10].MobilityManager              changed location(x:y:z) to 22.4316:23.2051:0
+75              SN.node[10].MobilityManager              changed location(x:y:z) to 23.1267:23.9241:0
+76              SN.node[10].MobilityManager              changed location(x:y:z) to 23.8217:24.6431:0
+77              SN.node[10].MobilityManager              changed location(x:y:z) to 24.5167:25.3621:0
+78              SN.node[10].MobilityManager              changed location(x:y:z) to 25.2117:26.0811:0
+79              SN.node[10].MobilityManager              changed location(x:y:z) to 25.9067:26.8001:0
+80              SN.node[10].MobilityManager              changed location(x:y:z) to 26.6018:27.5191:0
+80.044895812436 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  8
+80.044895812436 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+81              SN.node[10].MobilityManager              changed location(x:y:z) to 27.2968:28.2381:0
+82              SN.node[10].MobilityManager              changed location(x:y:z) to 27.9918:28.957:0
+83              SN.node[10].MobilityManager              changed location(x:y:z) to 28.6868:29.676:0
+84              SN.node[10].MobilityManager              changed location(x:y:z) to 28.6181:29.605:0
+85              SN.node[10].MobilityManager              changed location(x:y:z) to 27.9231:28.886:0
+86              SN.node[10].MobilityManager              changed location(x:y:z) to 27.2281:28.167:0
+87              SN.node[10].MobilityManager              changed location(x:y:z) to 26.5331:27.448:0
+88              SN.node[10].MobilityManager              changed location(x:y:z) to 25.8381:26.729:0
+89              SN.node[10].MobilityManager              changed location(x:y:z) to 25.143:26.01:0
+90              SN.node[10].MobilityManager              changed location(x:y:z) to 24.448:25.291:0
+90.044905957171 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  9
+90.044905957171 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+91              SN.node[10].MobilityManager              changed location(x:y:z) to 23.753:24.5721:0
+92              SN.node[10].MobilityManager              changed location(x:y:z) to 23.058:23.8531:0
+93              SN.node[10].MobilityManager              changed location(x:y:z) to 22.3629:23.1341:0
+94              SN.node[10].MobilityManager              changed location(x:y:z) to 21.6679:22.4151:0
+95              SN.node[10].MobilityManager              changed location(x:y:z) to 20.9729:21.6961:0
+96              SN.node[10].MobilityManager              changed location(x:y:z) to 20.2779:20.9771:0
+97              SN.node[10].MobilityManager              changed location(x:y:z) to 19.5829:20.2581:0
+98              SN.node[10].MobilityManager              changed location(x:y:z) to 18.8878:19.5391:0
+99              SN.node[10].MobilityManager              changed location(x:y:z) to 18.1928:18.8202:0
+100             SN.node[10].MobilityManager              changed location(x:y:z) to 17.4978:18.1012:0
+100             SN.node[0].Application                   Control packets received = 0
+100             SN.node[0].Application                   Control packets sent 0
+100             SN.node[0].Application                   Data packets received = 0
+100             SN.node[0].Application                   Data packets sent 0
+100             SN.node[1].Application                   Control packets received = 0
+100             SN.node[1].Application                   Control packets sent 0
+100             SN.node[1].Application                   Data packets received = 0
+100             SN.node[1].Application                   Data packets sent 0
+100             SN.node[2].Application                   Control packets received = 0
+100             SN.node[2].Application                   Control packets sent 0
+100             SN.node[2].Application                   Data packets received = 0
+100             SN.node[2].Application                   Data packets sent 0
+100             SN.node[3].Application                   Control packets received = 0
+100             SN.node[3].Application                   Control packets sent 0
+100             SN.node[3].Application                   Data packets received = 0
+100             SN.node[3].Application                   Data packets sent 0
+100             SN.node[4].Application                   Control packets received = 0
+100             SN.node[4].Application                   Control packets sent 0
+100             SN.node[4].Application                   Data packets received = 0
+100             SN.node[4].Application                   Data packets sent 0
+100             SN.node[5].Application                   Control packets received = 0
+100             SN.node[5].Application                   Control packets sent 0
+100             SN.node[5].Application                   Data packets received = 0
+100             SN.node[5].Application                   Data packets sent 0
+100             SN.node[6].Application                   Control packets received = 0
+100             SN.node[6].Application                   Control packets sent 0
+100             SN.node[6].Application                   Data packets received = 0
+100             SN.node[6].Application                   Data packets sent 0
+100             SN.node[7].Application                   Control packets received = 0
+100             SN.node[7].Application                   Control packets sent 0
+100             SN.node[7].Application                   Data packets received = 0
+100             SN.node[7].Application                   Data packets sent 0
+100             SN.node[8].Application                   Control packets received = 0
+100             SN.node[8].Application                   Control packets sent 0
+100             SN.node[8].Application                   Data packets received = 0
+100             SN.node[8].Application                   Data packets sent 0
+100             SN.node[9].Application                   Control packets received = 1
+100             SN.node[9].Application                   Control packets sent 1
+100             SN.node[9].Application                   Data packets received = 0
+100             SN.node[9].Application                   Data packets sent 0
+100             SN.node[10].Application                  packets received = 1
+100             SN.node[10].Application                  packets sent 10
+0               SN.node[0].MobilityManager               initial location(x:y:z) is 1:0:0
+0               SN.node[1].MobilityManager               initial location(x:y:z) is 0:0:0
+0               SN.node[2].MobilityManager               initial location(x:y:z) is 15:0:0
+0               SN.node[3].MobilityManager               initial location(x:y:z) is 30:0:0
+0               SN.node[4].MobilityManager               initial location(x:y:z) is 0:15:0
+0               SN.node[5].MobilityManager               initial location(x:y:z) is 15:15:0
+0               SN.node[6].MobilityManager               initial location(x:y:z) is 30:15:0
+0               SN.node[7].MobilityManager               initial location(x:y:z) is 0:30:0
+0               SN.node[8].MobilityManager               initial location(x:y:z) is 15:30:0
+0               SN.node[9].MobilityManager               initial location(x:y:z) is 30:30:0
+0               SN.node[10].MobilityManager              initial location(x:y:z) is 29:30:0
+0.003536244016  SN.node[1].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.006066428963  SN.node[5].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.014545237179  SN.node[4].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.021853097004  SN.node[9].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.025541380047  SN.node[6].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.027539895218  SN.node[0].Application                   Alhumdulillah; This is startup() of NodeSensor and sink
+0.028465566283  SN.node[7].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.035407391109  SN.node[2].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.041997452115  SN.node[3].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.044647347892  SN.node[8].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.044814654556  SN.node[10].Application                  Alhumdulillah; This is startup() of NodeIot 
+1               SN.node[10].MobilityManager              changed location(x:y:z) to 18.5747:19.2152:0
+1.021872157497  SN.node[9].Application                   This is timerFiredCallback of NodeSensor ID 9 with packetsSent == 0
+1.021872157497  SN.node[9].Application                   Sending [SearchIotPacket] of size 16 bytes to communication layer
+1.023172157496  SN.node[10].Application                  received packet from 9 with LQI = 7.38764 spEnergy = 0.068 rcvPacketName = SearchIotPacket message type is 1
+1.023172157496  SN.node[10].Application                  Sending [IoTReplyPacket] of size 16 bytes to communication layer
+1.024472157495  SN.node[9].Application                   received packet from source10 with LQI = 7.38764 rcvPacketName = IoTReplyPacket message type is 2
+1.024472157495  SN.node[9].Application                   Direction is 1
+1.024472157495  SN.node[9].Application                   adding proposal
+2               SN.node[10].MobilityManager              changed location(x:y:z) to 8.14934:8.43035:0
+3               SN.node[10].MobilityManager              changed location(x:y:z) to 2.27599:2.35448:0
+4               SN.node[10].MobilityManager              changed location(x:y:z) to 12.7013:13.1393:0
+5               SN.node[10].MobilityManager              changed location(x:y:z) to 23.1267:23.9241:0
+6               SN.node[10].MobilityManager              changed location(x:y:z) to 24.448:25.291:0
+7               SN.node[10].MobilityManager              changed location(x:y:z) to 14.0227:14.5062:0
+8               SN.node[10].MobilityManager              changed location(x:y:z) to 3.59735:3.72139:0
+9               SN.node[10].MobilityManager              changed location(x:y:z) to 6.82798:7.06343:0
+10              SN.node[10].MobilityManager              changed location(x:y:z) to 17.2533:17.8483:0
+10.044824799291 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  1
+10.044824799291 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+11              SN.node[10].MobilityManager              changed location(x:y:z) to 27.6786:28.6331:0
+12              SN.node[10].MobilityManager              changed location(x:y:z) to 19.896:20.5821:0
+13              SN.node[10].MobilityManager              changed location(x:y:z) to 9.47069:9.79727:0
+14              SN.node[10].MobilityManager              changed location(x:y:z) to 0.95464:0.987559:0
+15              SN.node[10].MobilityManager              changed location(x:y:z) to 11.38:11.7724:0
+16              SN.node[10].MobilityManager              changed location(x:y:z) to 21.8053:22.5572:0
+16.022158064906 SN.node[9].Application                   best proposal id is 0
+17              SN.node[10].MobilityManager              changed location(x:y:z) to 25.7694:26.658:0
+18              SN.node[10].MobilityManager              changed location(x:y:z) to 15.344:15.8731:0
+19              SN.node[10].MobilityManager              changed location(x:y:z) to 4.9187:5.08831:0
+20              SN.node[10].MobilityManager              changed location(x:y:z) to 5.50663:5.69651:0
+20.044834944026 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  2
+20.044834944026 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+20.046134944025 SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+21              SN.node[10].MobilityManager              changed location(x:y:z) to 15.932:16.4813:0
+22              SN.node[10].MobilityManager              changed location(x:y:z) to 26.3573:27.2662:0
+23              SN.node[10].MobilityManager              changed location(x:y:z) to 21.2174:21.949:0
+24              SN.node[10].MobilityManager              changed location(x:y:z) to 10.792:11.1642:0
+25              SN.node[10].MobilityManager              changed location(x:y:z) to 0.366714:0.379359:0
+26              SN.node[10].MobilityManager              changed location(x:y:z) to 10.0586:10.4055:0
+27              SN.node[10].MobilityManager              changed location(x:y:z) to 20.4839:21.1903:0
+28              SN.node[10].MobilityManager              changed location(x:y:z) to 27.0907:28.0249:0
+29              SN.node[10].MobilityManager              changed location(x:y:z) to 16.6654:17.2401:0
+30              SN.node[10].MobilityManager              changed location(x:y:z) to 6.24006:6.45523:0
+30.044845088761 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  3
+30.044845088761 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+30.04614508876  SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+31              SN.node[10].MobilityManager              changed location(x:y:z) to 4.18528:4.32959:0
+32              SN.node[10].MobilityManager              changed location(x:y:z) to 14.6106:15.1144:0
+33              SN.node[10].MobilityManager              changed location(x:y:z) to 25.0359:25.8992:0
+34              SN.node[10].MobilityManager              changed location(x:y:z) to 22.5387:23.3159:0
+35              SN.node[10].MobilityManager              changed location(x:y:z) to 12.1134:12.5311:0
+36              SN.node[10].MobilityManager              changed location(x:y:z) to 1.68807:1.74628:0
+37              SN.node[10].MobilityManager              changed location(x:y:z) to 8.73726:9.03855:0
+38              SN.node[10].MobilityManager              changed location(x:y:z) to 19.1626:19.8234:0
+39              SN.node[10].MobilityManager              changed location(x:y:z) to 28.4121:29.3918:0
+40              SN.node[10].MobilityManager              changed location(x:y:z) to 17.9867:18.607:0
+40.044855233496 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  4
+40.044855233496 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+41              SN.node[10].MobilityManager              changed location(x:y:z) to 7.56141:7.82215:0
+42              SN.node[10].MobilityManager              changed location(x:y:z) to 2.86392:2.96268:0
+43              SN.node[10].MobilityManager              changed location(x:y:z) to 13.2893:13.7475:0
+44              SN.node[10].MobilityManager              changed location(x:y:z) to 23.7146:24.5323:0
+45              SN.node[10].MobilityManager              changed location(x:y:z) to 23.8601:24.6828:0
+46              SN.node[10].MobilityManager              changed location(x:y:z) to 13.4348:13.898:0
+47              SN.node[10].MobilityManager              changed location(x:y:z) to 3.00942:3.11319:0
+48              SN.node[10].MobilityManager              changed location(x:y:z) to 7.41591:7.67163:0
+49              SN.node[10].MobilityManager              changed location(x:y:z) to 17.8412:18.4565:0
+50              SN.node[10].MobilityManager              changed location(x:y:z) to 28.2666:29.2413:0
+50.044865378231 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  5
+50.044865378231 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+51              SN.node[10].MobilityManager              changed location(x:y:z) to 19.3081:19.9739:0
+52              SN.node[10].MobilityManager              changed location(x:y:z) to 8.88276:9.18907:0
+53              SN.node[10].MobilityManager              changed location(x:y:z) to 1.54257:1.59576:0
+54              SN.node[10].MobilityManager              changed location(x:y:z) to 11.9679:12.3806:0
+55              SN.node[10].MobilityManager              changed location(x:y:z) to 22.3932:23.1654:0
+56              SN.node[10].MobilityManager              changed location(x:y:z) to 25.1814:26.0498:0
+57              SN.node[10].MobilityManager              changed location(x:y:z) to 14.7561:15.2649:0
+58              SN.node[10].MobilityManager              changed location(x:y:z) to 4.33078:4.48011:0
+59              SN.node[10].MobilityManager              changed location(x:y:z) to 6.09456:6.30471:0
+60              SN.node[10].MobilityManager              changed location(x:y:z) to 16.5199:17.0895:0
+60.044875522966 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  6
+60.044875522966 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+61              SN.node[10].MobilityManager              changed location(x:y:z) to 26.9452:27.8744:0
+62              SN.node[10].MobilityManager              changed location(x:y:z) to 20.6294:21.3408:0
+63              SN.node[10].MobilityManager              changed location(x:y:z) to 10.2041:10.556:0
+64              SN.node[10].MobilityManager              changed location(x:y:z) to 0.221213:0.228841:0
+65              SN.node[10].MobilityManager              changed location(x:y:z) to 10.6465:11.0137:0
+66              SN.node[10].MobilityManager              changed location(x:y:z) to 21.0719:21.7985:0
+67              SN.node[10].MobilityManager              changed location(x:y:z) to 26.5028:27.4167:0
+68              SN.node[10].MobilityManager              changed location(x:y:z) to 16.0775:16.6319:0
+69              SN.node[10].MobilityManager              changed location(x:y:z) to 5.65213:5.84703:0
+70              SN.node[10].MobilityManager              changed location(x:y:z) to 4.7732:4.93779:0
+70.044885667701 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  7
+70.044885667701 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+70.0461856677   SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+71              SN.node[10].MobilityManager              changed location(x:y:z) to 15.1985:15.7226:0
+72              SN.node[10].MobilityManager              changed location(x:y:z) to 25.6239:26.5074:0
+73              SN.node[10].MobilityManager              changed location(x:y:z) to 21.9508:22.7077:0
+74              SN.node[10].MobilityManager              changed location(x:y:z) to 11.5255:11.9229:0
+75              SN.node[10].MobilityManager              changed location(x:y:z) to 1.10014:1.13808:0
+76              SN.node[10].MobilityManager              changed location(x:y:z) to 9.32519:9.64675:0
+77              SN.node[10].MobilityManager              changed location(x:y:z) to 19.7505:20.4316:0
+78              SN.node[10].MobilityManager              changed location(x:y:z) to 27.8241:28.7836:0
+79              SN.node[10].MobilityManager              changed location(x:y:z) to 17.3988:17.9988:0
+80              SN.node[10].MobilityManager              changed location(x:y:z) to 6.97348:7.21395:0
+80.044895812436 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  8
+80.044895812436 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+80.046195812435 SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+81              SN.node[10].MobilityManager              changed location(x:y:z) to 3.45185:3.57088:0
+82              SN.node[10].MobilityManager              changed location(x:y:z) to 13.8772:14.3557:0
+83              SN.node[10].MobilityManager              changed location(x:y:z) to 24.3025:25.1405:0
+84              SN.node[10].MobilityManager              changed location(x:y:z) to 23.2722:24.0746:0
+85              SN.node[10].MobilityManager              changed location(x:y:z) to 12.8468:13.2898:0
+86              SN.node[10].MobilityManager              changed location(x:y:z) to 2.4215:2.50499:0
+87              SN.node[10].MobilityManager              changed location(x:y:z) to 8.00384:8.27983:0
+88              SN.node[10].MobilityManager              changed location(x:y:z) to 18.4292:19.0647:0
+89              SN.node[10].MobilityManager              changed location(x:y:z) to 28.8545:29.8495:0
+90              SN.node[10].MobilityManager              changed location(x:y:z) to 18.7202:19.3657:0
+90.044905957171 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  9
+90.044905957171 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+91              SN.node[10].MobilityManager              changed location(x:y:z) to 8.29484:8.58087:0
+92              SN.node[10].MobilityManager              changed location(x:y:z) to 2.13049:2.20396:0
+93              SN.node[10].MobilityManager              changed location(x:y:z) to 12.5558:12.9888:0
+94              SN.node[10].MobilityManager              changed location(x:y:z) to 22.9812:23.7736:0
+95              SN.node[10].MobilityManager              changed location(x:y:z) to 24.5935:25.4416:0
+96              SN.node[10].MobilityManager              changed location(x:y:z) to 14.1682:14.6567:0
+97              SN.node[10].MobilityManager              changed location(x:y:z) to 3.74285:3.87191:0
+98              SN.node[10].MobilityManager              changed location(x:y:z) to 6.68248:6.91291:0
+99              SN.node[10].MobilityManager              changed location(x:y:z) to 17.1078:17.6977:0
+100             SN.node[10].MobilityManager              changed location(x:y:z) to 27.5331:28.4826:0
+100             SN.node[0].Application                   Control packets received = 0
+100             SN.node[0].Application                   Control packets sent 0
+100             SN.node[0].Application                   Data packets received = 0
+100             SN.node[0].Application                   Data packets sent 0
+100             SN.node[1].Application                   Control packets received = 0
+100             SN.node[1].Application                   Control packets sent 0
+100             SN.node[1].Application                   Data packets received = 0
+100             SN.node[1].Application                   Data packets sent 0
+100             SN.node[2].Application                   Control packets received = 0
+100             SN.node[2].Application                   Control packets sent 0
+100             SN.node[2].Application                   Data packets received = 0
+100             SN.node[2].Application                   Data packets sent 0
+100             SN.node[3].Application                   Control packets received = 0
+100             SN.node[3].Application                   Control packets sent 0
+100             SN.node[3].Application                   Data packets received = 0
+100             SN.node[3].Application                   Data packets sent 0
+100             SN.node[4].Application                   Control packets received = 0
+100             SN.node[4].Application                   Control packets sent 0
+100             SN.node[4].Application                   Data packets received = 0
+100             SN.node[4].Application                   Data packets sent 0
+100             SN.node[5].Application                   Control packets received = 0
+100             SN.node[5].Application                   Control packets sent 0
+100             SN.node[5].Application                   Data packets received = 0
+100             SN.node[5].Application                   Data packets sent 0
+100             SN.node[6].Application                   Control packets received = 0
+100             SN.node[6].Application                   Control packets sent 0
+100             SN.node[6].Application                   Data packets received = 0
+100             SN.node[6].Application                   Data packets sent 0
+100             SN.node[7].Application                   Control packets received = 0
+100             SN.node[7].Application                   Control packets sent 0
+100             SN.node[7].Application                   Data packets received = 0
+100             SN.node[7].Application                   Data packets sent 0
+100             SN.node[8].Application                   Control packets received = 0
+100             SN.node[8].Application                   Control packets sent 0
+100             SN.node[8].Application                   Data packets received = 0
+100             SN.node[8].Application                   Data packets sent 0
+100             SN.node[9].Application                   Control packets received = 1
+100             SN.node[9].Application                   Control packets sent 1
+100             SN.node[9].Application                   Data packets received = 0
+100             SN.node[9].Application                   Data packets sent 0
+100             SN.node[10].Application                  packets received = 1
+100             SN.node[10].Application                  packets sent 10
+0               SN.node[0].MobilityManager               initial location(x:y:z) is 1:0:0
+0               SN.node[1].MobilityManager               initial location(x:y:z) is 0:0:0
+0               SN.node[2].MobilityManager               initial location(x:y:z) is 15:0:0
+0               SN.node[3].MobilityManager               initial location(x:y:z) is 30:0:0
+0               SN.node[4].MobilityManager               initial location(x:y:z) is 0:15:0
+0               SN.node[5].MobilityManager               initial location(x:y:z) is 15:15:0
+0               SN.node[6].MobilityManager               initial location(x:y:z) is 30:15:0
+0               SN.node[7].MobilityManager               initial location(x:y:z) is 0:30:0
+0               SN.node[8].MobilityManager               initial location(x:y:z) is 15:30:0
+0               SN.node[9].MobilityManager               initial location(x:y:z) is 30:30:0
+0               SN.node[10].MobilityManager              initial location(x:y:z) is 29:30:0
+0.003536244016  SN.node[1].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.006066428963  SN.node[5].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.014545237179  SN.node[4].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.021853097004  SN.node[9].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.025541380047  SN.node[6].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.027539895218  SN.node[0].Application                   Alhumdulillah; This is startup() of NodeSensor and sink
+0.028465566283  SN.node[7].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.035407391109  SN.node[2].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.041997452115  SN.node[3].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.044647347892  SN.node[8].Application                   Alhumdulillah; This is startup() of NodeSensor 
+0.044814654556  SN.node[10].Application                  Alhumdulillah; This is startup() of NodeIot 
+1               SN.node[10].MobilityManager              changed location(x:y:z) to 15.0996:15.6202:0
+1.021872157497  SN.node[9].Application                   This is timerFiredCallback of NodeSensor ID 9 with packetsSent == 0
+1.021872157497  SN.node[9].Application                   Sending [SearchIotPacket] of size 16 bytes to communication layer
+1.023172157496  SN.node[10].Application                  received packet from 9 with LQI = 7.38764 spEnergy = 0.068 rcvPacketName = SearchIotPacket message type is 1
+1.023172157496  SN.node[10].Application                  Sending [IoTReplyPacket] of size 16 bytes to communication layer
+1.024472157495  SN.node[9].Application                   received packet from source10 with LQI = 7.38764 rcvPacketName = IoTReplyPacket message type is 2
+1.024472157495  SN.node[9].Application                   Direction is 1
+1.024472157495  SN.node[9].Application                   adding proposal
+2               SN.node[10].MobilityManager              changed location(x:y:z) to 1.19912:1.24046:0
+3               SN.node[10].MobilityManager              changed location(x:y:z) to 12.7013:13.1393:0
+4               SN.node[10].MobilityManager              changed location(x:y:z) to 26.6018:27.5191:0
+5               SN.node[10].MobilityManager              changed location(x:y:z) to 17.4978:18.1012:0
+6               SN.node[10].MobilityManager              changed location(x:y:z) to 3.59735:3.72139:0
+7               SN.node[10].MobilityManager              changed location(x:y:z) to 10.3031:10.6584:0
+8               SN.node[10].MobilityManager              changed location(x:y:z) to 24.2035:25.0381:0
+9               SN.node[10].MobilityManager              changed location(x:y:z) to 19.896:20.5821:0
+10              SN.node[10].MobilityManager              changed location(x:y:z) to 5.99558:6.20232:0
+10.044824799291 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  1
+10.044824799291 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+10.04612479929  SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+11              SN.node[10].MobilityManager              changed location(x:y:z) to 7.90486:8.17744:0
+12              SN.node[10].MobilityManager              changed location(x:y:z) to 21.8053:22.5572:0
+13              SN.node[10].MobilityManager              changed location(x:y:z) to 22.2943:23.063:0
+14              SN.node[10].MobilityManager              changed location(x:y:z) to 8.39381:8.68325:0
+15              SN.node[10].MobilityManager              changed location(x:y:z) to 5.50663:5.69651:0
+16              SN.node[10].MobilityManager              changed location(x:y:z) to 19.4071:20.0763:0
+16.022158064906 SN.node[9].Application                   best proposal id is 0
+17              SN.node[10].MobilityManager              changed location(x:y:z) to 24.6925:25.544:0
+18              SN.node[10].MobilityManager              changed location(x:y:z) to 10.792:11.1642:0
+19              SN.node[10].MobilityManager              changed location(x:y:z) to 3.1084:3.21558:0
+20              SN.node[10].MobilityManager              changed location(x:y:z) to 17.0088:17.5954:0
+20.044834944026 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  2
+20.044834944026 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+21              SN.node[10].MobilityManager              changed location(x:y:z) to 27.0907:28.0249:0
+22              SN.node[10].MobilityManager              changed location(x:y:z) to 13.1903:13.6451:0
+23              SN.node[10].MobilityManager              changed location(x:y:z) to 0.710165:0.734653:0
+24              SN.node[10].MobilityManager              changed location(x:y:z) to 14.6106:15.1144:0
+25              SN.node[10].MobilityManager              changed location(x:y:z) to 28.511:29.4942:0
+26              SN.node[10].MobilityManager              changed location(x:y:z) to 15.5885:16.126:0
+27              SN.node[10].MobilityManager              changed location(x:y:z) to 1.68807:1.74628:0
+28              SN.node[10].MobilityManager              changed location(x:y:z) to 12.2124:12.6335:0
+29              SN.node[10].MobilityManager              changed location(x:y:z) to 26.1128:27.0133:0
+30              SN.node[10].MobilityManager              changed location(x:y:z) to 17.9867:18.607:0
+30.044845088761 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  3
+30.044845088761 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+31              SN.node[10].MobilityManager              changed location(x:y:z) to 4.0863:4.22721:0
+32              SN.node[10].MobilityManager              changed location(x:y:z) to 9.81414:10.1526:0
+33              SN.node[10].MobilityManager              changed location(x:y:z) to 23.7146:24.5323:0
+34              SN.node[10].MobilityManager              changed location(x:y:z) to 20.385:21.0879:0
+35              SN.node[10].MobilityManager              changed location(x:y:z) to 6.48453:6.70814:0
+36              SN.node[10].MobilityManager              changed location(x:y:z) to 7.41591:7.67163:0
+37              SN.node[10].MobilityManager              changed location(x:y:z) to 21.3164:22.0514:0
+38              SN.node[10].MobilityManager              changed location(x:y:z) to 22.7832:23.5688:0
+39              SN.node[10].MobilityManager              changed location(x:y:z) to 8.88276:9.18907:0
+40              SN.node[10].MobilityManager              changed location(x:y:z) to 5.01768:5.1907:0
+40.044855233496 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  4
+40.044855233496 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+40.046155233495 SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+41              SN.node[10].MobilityManager              changed location(x:y:z) to 18.9181:19.5705:0
+42              SN.node[10].MobilityManager              changed location(x:y:z) to 25.1814:26.0498:0
+43              SN.node[10].MobilityManager              changed location(x:y:z) to 11.281:11.67:0
+44              SN.node[10].MobilityManager              changed location(x:y:z) to 2.61945:2.70977:0
+45              SN.node[10].MobilityManager              changed location(x:y:z) to 16.5199:17.0895:0
+46              SN.node[10].MobilityManager              changed location(x:y:z) to 27.5797:28.5307:0
+47              SN.node[10].MobilityManager              changed location(x:y:z) to 13.6792:14.1509:0
+48              SN.node[10].MobilityManager              changed location(x:y:z) to 0.221213:0.228841:0
+49              SN.node[10].MobilityManager              changed location(x:y:z) to 14.1217:14.6086:0
+50              SN.node[10].MobilityManager              changed location(x:y:z) to 28.0221:28.9884:0
+50.044865378231 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  5
+50.044865378231 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+51              SN.node[10].MobilityManager              changed location(x:y:z) to 16.0775:16.6319:0
+52              SN.node[10].MobilityManager              changed location(x:y:z) to 2.17702:2.25209:0
+53              SN.node[10].MobilityManager              changed location(x:y:z) to 11.7234:12.1277:0
+54              SN.node[10].MobilityManager              changed location(x:y:z) to 25.6239:26.5074:0
+55              SN.node[10].MobilityManager              changed location(x:y:z) to 18.4757:19.1128:0
+56              SN.node[10].MobilityManager              changed location(x:y:z) to 4.57525:4.73302:0
+57              SN.node[10].MobilityManager              changed location(x:y:z) to 9.32519:9.64675:0
+58              SN.node[10].MobilityManager              changed location(x:y:z) to 23.2256:24.0265:0
+59              SN.node[10].MobilityManager              changed location(x:y:z) to 20.8739:21.5937:0
+60              SN.node[10].MobilityManager              changed location(x:y:z) to 6.97348:7.21395:0
+60.044875522966 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  6
+60.044875522966 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+60.046175522965 SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+61              SN.node[10].MobilityManager              changed location(x:y:z) to 6.92696:7.16582:0
+62              SN.node[10].MobilityManager              changed location(x:y:z) to 20.8274:21.5456:0
+63              SN.node[10].MobilityManager              changed location(x:y:z) to 23.2722:24.0746:0
+64              SN.node[10].MobilityManager              changed location(x:y:z) to 9.37172:9.69488:0
+65              SN.node[10].MobilityManager              changed location(x:y:z) to 4.52873:4.68489:0
+66              SN.node[10].MobilityManager              changed location(x:y:z) to 18.4292:19.0647:0
+67              SN.node[10].MobilityManager              changed location(x:y:z) to 25.6704:26.5556:0
+68              SN.node[10].MobilityManager              changed location(x:y:z) to 11.7699:12.1758:0
+69              SN.node[10].MobilityManager              changed location(x:y:z) to 2.13049:2.20396:0
+70              SN.node[10].MobilityManager              changed location(x:y:z) to 16.0309:16.5837:0
+70.044885667701 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  7
+70.044885667701 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+71              SN.node[10].MobilityManager              changed location(x:y:z) to 28.0686:29.0365:0
+72              SN.node[10].MobilityManager              changed location(x:y:z) to 14.1682:14.6567:0
+73              SN.node[10].MobilityManager              changed location(x:y:z) to 0.267739:0.276971:0
+74              SN.node[10].MobilityManager              changed location(x:y:z) to 13.6327:14.1028:0
+75              SN.node[10].MobilityManager              changed location(x:y:z) to 27.5331:28.4826:0
+76              SN.node[10].MobilityManager              changed location(x:y:z) to 16.5664:17.1377:0
+77              SN.node[10].MobilityManager              changed location(x:y:z) to 2.66597:2.7579:0
+78              SN.node[10].MobilityManager              changed location(x:y:z) to 11.2345:11.6219:0
+79              SN.node[10].MobilityManager              changed location(x:y:z) to 25.1349:26.0016:0
+80              SN.node[10].MobilityManager              changed location(x:y:z) to 18.9646:19.6186:0
+80.044895812436 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  8
+80.044895812436 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+81              SN.node[10].MobilityManager              changed location(x:y:z) to 5.0642:5.23883:0
+82              SN.node[10].MobilityManager              changed location(x:y:z) to 8.83624:9.14094:0
+83              SN.node[10].MobilityManager              changed location(x:y:z) to 22.7367:23.5207:0
+84              SN.node[10].MobilityManager              changed location(x:y:z) to 21.3629:22.0995:0
+85              SN.node[10].MobilityManager              changed location(x:y:z) to 7.46244:7.71976:0
+86              SN.node[10].MobilityManager              changed location(x:y:z) to 6.43801:6.66001:0
+87              SN.node[10].MobilityManager              changed location(x:y:z) to 20.3384:21.0398:0
+88              SN.node[10].MobilityManager              changed location(x:y:z) to 23.7611:24.5805:0
+89              SN.node[10].MobilityManager              changed location(x:y:z) to 9.86067:10.2007:0
+90              SN.node[10].MobilityManager              changed location(x:y:z) to 4.03977:4.17908:0
+90.044905957171 SN.node[10].Application                  This is timerFiredCallback of NodeIoT ID 10 with packetsSent ==  9
+90.044905957171 SN.node[10].Application                  Sending [App generic packet] of size 16 bytes to communication layer
+90.04620595717  SN.node[0].Application                   Packet reached at sink from 10 sink id is 0
+91              SN.node[10].MobilityManager              changed location(x:y:z) to 17.9402:18.5588:0
+92              SN.node[10].MobilityManager              changed location(x:y:z) to 26.1593:27.0614:0
+93              SN.node[10].MobilityManager              changed location(x:y:z) to 12.2589:12.6816:0
+94              SN.node[10].MobilityManager              changed location(x:y:z) to 1.64154:1.69815:0
+95              SN.node[10].MobilityManager              changed location(x:y:z) to 15.542:16.0779:0
+96              SN.node[10].MobilityManager              changed location(x:y:z) to 28.5576:29.5423:0
+97              SN.node[10].MobilityManager              changed location(x:y:z) to 14.6571:15.1626:0
+98              SN.node[10].MobilityManager              changed location(x:y:z) to 0.75669:0.782783:0
+99              SN.node[10].MobilityManager              changed location(x:y:z) to 13.1438:13.597:0
+100             SN.node[10].MobilityManager              changed location(x:y:z) to 27.0442:27.9768:0
+100             SN.node[0].Application                   Control packets received = 0
+100             SN.node[0].Application                   Control packets sent 0
+100             SN.node[0].Application                   Data packets received = 0
+100             SN.node[0].Application                   Data packets sent 0
+100             SN.node[1].Application                   Control packets received = 0
+100             SN.node[1].Application                   Control packets sent 0
+100             SN.node[1].Application                   Data packets received = 0
+100             SN.node[1].Application                   Data packets sent 0
+100             SN.node[2].Application                   Control packets received = 0
+100             SN.node[2].Application                   Control packets sent 0
+100             SN.node[2].Application                   Data packets received = 0
+100             SN.node[2].Application                   Data packets sent 0
+100             SN.node[3].Application                   Control packets received = 0
+100             SN.node[3].Application                   Control packets sent 0
+100             SN.node[3].Application                   Data packets received = 0
+100             SN.node[3].Application                   Data packets sent 0
+100             SN.node[4].Application                   Control packets received = 0
+100             SN.node[4].Application                   Control packets sent 0
+100             SN.node[4].Application                   Data packets received = 0
+100             SN.node[4].Application                   Data packets sent 0
+100             SN.node[5].Application                   Control packets received = 0
+100             SN.node[5].Application                   Control packets sent 0
+100             SN.node[5].Application                   Data packets received = 0
+100             SN.node[5].Application                   Data packets sent 0
+100             SN.node[6].Application                   Control packets received = 0
+100             SN.node[6].Application                   Control packets sent 0
+100             SN.node[6].Application                   Data packets received = 0
+100             SN.node[6].Application                   Data packets sent 0
+100             SN.node[7].Application                   Control packets received = 0
+100             SN.node[7].Application                   Control packets sent 0
+100             SN.node[7].Application                   Data packets received = 0
+100             SN.node[7].Application                   Data packets sent 0
+100             SN.node[8].Application                   Control packets received = 0
+100             SN.node[8].Application                   Control packets sent 0
+100             SN.node[8].Application                   Data packets received = 0
+100             SN.node[8].Application                   Data packets sent 0
+100             SN.node[9].Application                   Control packets received = 1
+100             SN.node[9].Application                   Control packets sent 1
+100             SN.node[9].Application                   Data packets received = 0
+100             SN.node[9].Application                   Data packets sent 0
+100             SN.node[10].Application                  packets received = 1
+100             SN.node[10].Application                  packets sent 10

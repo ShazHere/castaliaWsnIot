@@ -1,0 +1,16 @@
+Castalia| what:General (1)
+Castalia| when:2016-08-15 14:45
+Castalia| label:General
+Assigned runID=General-0-20160815-14:45:09-5714
+Setting up network `SN'...
+Initializing...
+
+Running simulation...
+** Event #1   T=0   Elapsed: 0.000s (0m 00s)  0% completed   ev/sec=0
+** Event #1   T=0   Elapsed: 0.000s (0m 00s)  0% completed   ev/sec=0
+
+<!> Error in module (WirelessChannel) SN.wirelessChannel (id=2) at event #1, t=0: Model error: Error: Rerceived WS_NODE_MOVEMENT msg, while onlyStaticNodes is TRUE.
+
+undisposed object: (WirelessChannelNodeMoveMessage) SN.wirelessChannel.location update message -- check module destructor
+
+End.

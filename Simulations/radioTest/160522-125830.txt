@@ -1,0 +1,37 @@
+Castalia| what:InterferenceTest2 (1)
+Castalia| when:2016-05-22 12:58
+Castalia| label:InterferenceTest2
+Castalia|	module:SN.node[0].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			5.43813 
+Castalia|	module:SN.node[0].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			579 Failed with interference
+Castalia|			160 Failed, below sensitivity
+Castalia|			21 Received despite interference
+Castalia|			19 Received with NO interference
+Castalia|	module:SN.node[0].Application
+Castalia|		 index:1 simple output name:Packets received per node
+Castalia|			20 
+Castalia|		 index:2 simple output name:Packets received per node
+Castalia|			20 
+Castalia|		histogram name:Application level latency, in ms
+Castalia|		histogram_min:0 histogram_max:200
+Castalia|		histogram_values 0 0 0 40 0 0 0 0 0 0 0
+Castalia|	module:SN.node[1].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			5.03044 
+Castalia|	module:SN.node[1].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			340 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			399 TX pkts
+Castalia|	module:SN.node[2].ResourceManager
+Castalia|		simple output name:Consumed Energy
+Castalia|			5.02827 
+Castalia|	module:SN.node[2].Communication.Radio
+Castalia|		simple output name:RX pkt breakdown
+Castalia|			160 Failed, below sensitivity
+Castalia|			180 Failed, non RX state
+Castalia|		simple output name:TXed pkts
+Castalia|			399 TX pkts

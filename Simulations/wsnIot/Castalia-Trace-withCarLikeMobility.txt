@@ -1,0 +1,1333 @@
+
+0               SN.node[0].MobilityManager               initial location(x:y:z) is 29:30:0
+0               SN.node[1].MobilityManager               initial location(x:y:z) is 0:0:0
+0               SN.node[2].MobilityManager               initial location(x:y:z) is 15:0:0
+0               SN.node[3].MobilityManager               initial location(x:y:z) is 30:0:0
+0               SN.node[4].MobilityManager               initial location(x:y:z) is 0:15:0
+0               SN.node[5].MobilityManager               initial location(x:y:z) is 15:15:0
+0               SN.node[6].MobilityManager               initial location(x:y:z) is 30:15:0
+0               SN.node[7].MobilityManager               initial location(x:y:z) is 0:30:0
+0               SN.node[8].MobilityManager               initial location(x:y:z) is 15:30:0
+0               SN.node[9].MobilityManager               initial location(x:y:z) is 30:30:0
+0.027539895218  SN.node[0].Application                   Not sending packets
+0.1             SN.node[0].MobilityManager               changed location(x:y:z) to 27.61:28.562:0
+0.2             SN.node[0].MobilityManager               changed location(x:y:z) to 26.2199:27.124:0
+0.3             SN.node[0].MobilityManager               changed location(x:y:z) to 24.8299:25.6861:0
+0.4             SN.node[0].MobilityManager               changed location(x:y:z) to 23.4398:24.2481:0
+0.5             SN.node[0].MobilityManager               changed location(x:y:z) to 22.0498:22.8101:0
+0.6             SN.node[0].MobilityManager               changed location(x:y:z) to 20.6597:21.3721:0
+0.7             SN.node[0].MobilityManager               changed location(x:y:z) to 19.2697:19.9342:0
+0.8             SN.node[0].MobilityManager               changed location(x:y:z) to 17.8796:18.4962:0
+0.9             SN.node[0].MobilityManager               changed location(x:y:z) to 16.4896:17.0582:0
+1               SN.node[0].MobilityManager               changed location(x:y:z) to 15.0996:15.6202:0
+1.1             SN.node[0].MobilityManager               changed location(x:y:z) to 13.7095:14.1823:0
+1.2             SN.node[0].MobilityManager               changed location(x:y:z) to 12.3195:12.7443:0
+1.3             SN.node[0].MobilityManager               changed location(x:y:z) to 10.9294:11.3063:0
+1.4             SN.node[0].MobilityManager               changed location(x:y:z) to 9.53938:9.86833:0
+1.5             SN.node[0].MobilityManager               changed location(x:y:z) to 8.14934:8.43035:0
+1.6             SN.node[0].MobilityManager               changed location(x:y:z) to 6.75929:6.99237:0
+1.7             SN.node[0].MobilityManager               changed location(x:y:z) to 5.36925:5.5544:0
+1.8             SN.node[0].MobilityManager               changed location(x:y:z) to 3.9792:4.11642:0
+1.9             SN.node[0].MobilityManager               changed location(x:y:z) to 2.58916:2.67844:0
+2               SN.node[0].MobilityManager               changed location(x:y:z) to 1.19912:1.24046:0
+2.1             SN.node[0].MobilityManager               changed location(x:y:z) to 0.190928:0.197512:0
+2.2             SN.node[0].MobilityManager               changed location(x:y:z) to 1.58097:1.63549:0
+2.3             SN.node[0].MobilityManager               changed location(x:y:z) to 2.97102:3.07347:0
+2.4             SN.node[0].MobilityManager               changed location(x:y:z) to 4.36106:4.51144:0
+2.5             SN.node[0].MobilityManager               changed location(x:y:z) to 5.7511:5.94942:0
+2.6             SN.node[0].MobilityManager               changed location(x:y:z) to 7.14115:7.3874:0
+2.7             SN.node[0].MobilityManager               changed location(x:y:z) to 8.53119:8.82537:0
+2.8             SN.node[0].MobilityManager               changed location(x:y:z) to 9.92124:10.2633:0
+2.9             SN.node[0].MobilityManager               changed location(x:y:z) to 11.3113:11.7013:0
+3               SN.node[0].MobilityManager               changed location(x:y:z) to 12.7013:13.1393:0
+3.1             SN.node[0].MobilityManager               changed location(x:y:z) to 14.0914:14.5773:0
+3.2             SN.node[0].MobilityManager               changed location(x:y:z) to 15.4814:16.0153:0
+3.3             SN.node[0].MobilityManager               changed location(x:y:z) to 16.8715:17.4532:0
+3.4             SN.node[0].MobilityManager               changed location(x:y:z) to 18.2615:18.8912:0
+3.5             SN.node[0].MobilityManager               changed location(x:y:z) to 19.6515:20.3292:0
+3.6             SN.node[0].MobilityManager               changed location(x:y:z) to 21.0416:21.7672:0
+3.7             SN.node[0].MobilityManager               changed location(x:y:z) to 22.4316:23.2051:0
+3.8             SN.node[0].MobilityManager               changed location(x:y:z) to 23.8217:24.6431:0
+3.9             SN.node[0].MobilityManager               changed location(x:y:z) to 25.2117:26.0811:0
+4               SN.node[0].MobilityManager               changed location(x:y:z) to 26.6018:27.5191:0
+4.1             SN.node[0].MobilityManager               changed location(x:y:z) to 27.9918:28.957:0
+4.2             SN.node[0].MobilityManager               changed location(x:y:z) to 28.6181:29.605:0
+4.3             SN.node[0].MobilityManager               changed location(x:y:z) to 27.2281:28.167:0
+4.4             SN.node[0].MobilityManager               changed location(x:y:z) to 25.8381:26.729:0
+4.5             SN.node[0].MobilityManager               changed location(x:y:z) to 24.448:25.291:0
+4.6             SN.node[0].MobilityManager               changed location(x:y:z) to 23.058:23.8531:0
+4.7             SN.node[0].MobilityManager               changed location(x:y:z) to 21.6679:22.4151:0
+4.8             SN.node[0].MobilityManager               changed location(x:y:z) to 20.2779:20.9771:0
+4.9             SN.node[0].MobilityManager               changed location(x:y:z) to 18.8878:19.5391:0
+5               SN.node[0].MobilityManager               changed location(x:y:z) to 17.4978:18.1012:0
+5.1             SN.node[0].MobilityManager               changed location(x:y:z) to 16.1077:16.6632:0
+5.2             SN.node[0].MobilityManager               changed location(x:y:z) to 14.7177:15.2252:0
+5.3             SN.node[0].MobilityManager               changed location(x:y:z) to 13.3277:13.7872:0
+5.4             SN.node[0].MobilityManager               changed location(x:y:z) to 11.9376:12.3493:0
+5.5             SN.node[0].MobilityManager               changed location(x:y:z) to 10.5476:10.9113:0
+5.6             SN.node[0].MobilityManager               changed location(x:y:z) to 9.15753:9.4733:0
+5.7             SN.node[0].MobilityManager               changed location(x:y:z) to 7.76748:8.03533:0
+5.8             SN.node[0].MobilityManager               changed location(x:y:z) to 6.37744:6.59735:0
+5.9             SN.node[0].MobilityManager               changed location(x:y:z) to 4.98739:5.15937:0
+6               SN.node[0].MobilityManager               changed location(x:y:z) to 3.59735:3.72139:0
+6.1             SN.node[0].MobilityManager               changed location(x:y:z) to 2.2073:2.28342:0
+6.2             SN.node[0].MobilityManager               changed location(x:y:z) to 0.81726:0.845441:0
+6.3             SN.node[0].MobilityManager               changed location(x:y:z) to 0.572784:0.592535:0
+6.4             SN.node[0].MobilityManager               changed location(x:y:z) to 1.96283:2.03051:0
+6.5             SN.node[0].MobilityManager               changed location(x:y:z) to 3.35287:3.46849:0
+6.6             SN.node[0].MobilityManager               changed location(x:y:z) to 4.74292:4.90647:0
+6.7             SN.node[0].MobilityManager               changed location(x:y:z) to 6.13296:6.34444:0
+6.8             SN.node[0].MobilityManager               changed location(x:y:z) to 7.52301:7.78242:0
+6.9             SN.node[0].MobilityManager               changed location(x:y:z) to 8.91305:9.2204:0
+7               SN.node[0].MobilityManager               changed location(x:y:z) to 10.3031:10.6584:0
+7.1             SN.node[0].MobilityManager               changed location(x:y:z) to 11.6931:12.0963:0
+7.2             SN.node[0].MobilityManager               changed location(x:y:z) to 13.0832:13.5343:0
+7.3             SN.node[0].MobilityManager               changed location(x:y:z) to 14.4732:14.9723:0
+7.4             SN.node[0].MobilityManager               changed location(x:y:z) to 15.8633:16.4103:0
+7.5             SN.node[0].MobilityManager               changed location(x:y:z) to 17.2533:17.8483:0
+7.6             SN.node[0].MobilityManager               changed location(x:y:z) to 18.6434:19.2862:0
+7.7             SN.node[0].MobilityManager               changed location(x:y:z) to 20.0334:20.7242:0
+7.8             SN.node[0].MobilityManager               changed location(x:y:z) to 21.4234:22.1622:0
+7.9             SN.node[0].MobilityManager               changed location(x:y:z) to 22.8135:23.6002:0
+8               SN.node[0].MobilityManager               changed location(x:y:z) to 24.2035:25.0381:0
+8.1             SN.node[0].MobilityManager               changed location(x:y:z) to 25.5936:26.4761:0
+8.2             SN.node[0].MobilityManager               changed location(x:y:z) to 26.9836:27.9141:0
+8.3             SN.node[0].MobilityManager               changed location(x:y:z) to 28.3737:29.3521:0
+8.4             SN.node[0].MobilityManager               changed location(x:y:z) to 28.2363:29.21:0
+8.5             SN.node[0].MobilityManager               changed location(x:y:z) to 26.8462:27.772:0
+8.6             SN.node[0].MobilityManager               changed location(x:y:z) to 25.4562:26.334:0
+8.7             SN.node[0].MobilityManager               changed location(x:y:z) to 24.0662:24.896:0
+8.8             SN.node[0].MobilityManager               changed location(x:y:z) to 22.6761:23.458:0
+8.9             SN.node[0].MobilityManager               changed location(x:y:z) to 21.2861:22.0201:0
+9               SN.node[0].MobilityManager               changed location(x:y:z) to 19.896:20.5821:0
+9.1             SN.node[0].MobilityManager               changed location(x:y:z) to 18.506:19.1441:0
+9.2             SN.node[0].MobilityManager               changed location(x:y:z) to 17.1159:17.7061:0
+9.3             SN.node[0].MobilityManager               changed location(x:y:z) to 15.7259:16.2682:0
+9.4             SN.node[0].MobilityManager               changed location(x:y:z) to 14.3358:14.8302:0
+9.5             SN.node[0].MobilityManager               changed location(x:y:z) to 12.9458:13.3922:0
+9.6             SN.node[0].MobilityManager               changed location(x:y:z) to 11.5558:11.9542:0
+9.7             SN.node[0].MobilityManager               changed location(x:y:z) to 10.1657:10.5163:0
+9.8             SN.node[0].MobilityManager               changed location(x:y:z) to 8.77567:9.07828:0
+9.9             SN.node[0].MobilityManager               changed location(x:y:z) to 7.38562:7.6403:0
+10              SN.node[0].MobilityManager               changed location(x:y:z) to 5.99558:6.20232:0
+10.005672233666 SN.node[0].Application                   Received packet #0 from node 1
+10.1            SN.node[0].MobilityManager               changed location(x:y:z) to 4.60554:4.76435:0
+10.105672913562 SN.node[0].Application                   Received packet #1 from node 1
+10.2            SN.node[0].MobilityManager               changed location(x:y:z) to 3.21549:3.32637:0
+10.205673593458 SN.node[0].Application                   Received packet #2 from node 1
+10.3            SN.node[0].MobilityManager               changed location(x:y:z) to 1.82545:1.88839:0
+10.305674273354 SN.node[0].Application                   Received packet #3 from node 1
+10.4            SN.node[0].MobilityManager               changed location(x:y:z) to 0.435404:0.450418:0
+10.40567495325  SN.node[0].Application                   Received packet #4 from node 1
+10.5            SN.node[0].MobilityManager               changed location(x:y:z) to 0.95464:0.987559:0
+10.505675633146 SN.node[0].Application                   Received packet #5 from node 1
+10.6            SN.node[0].MobilityManager               changed location(x:y:z) to 2.34468:2.42554:0
+10.605676313042 SN.node[0].Application                   Received packet #6 from node 1
+10.7            SN.node[0].MobilityManager               changed location(x:y:z) to 3.73473:3.86351:0
+10.705676992938 SN.node[0].Application                   Received packet #7 from node 1
+10.8            SN.node[0].MobilityManager               changed location(x:y:z) to 5.12477:5.30149:0
+10.805677672834 SN.node[0].Application                   Received packet #8 from node 1
+10.9            SN.node[0].MobilityManager               changed location(x:y:z) to 6.51482:6.73947:0
+10.90567835273  SN.node[0].Application                   Received packet #9 from node 1
+11              SN.node[0].MobilityManager               changed location(x:y:z) to 7.90486:8.17744:0
+11.005679032626 SN.node[0].Application                   Received packet #10 from node 1
+11.1            SN.node[0].MobilityManager               changed location(x:y:z) to 9.29491:9.61542:0
+11.105679712522 SN.node[0].Application                   Received packet #11 from node 1
+11.2            SN.node[0].MobilityManager               changed location(x:y:z) to 10.6849:11.0534:0
+11.205680392418 SN.node[0].Application                   Received packet #12 from node 1
+11.3            SN.node[0].MobilityManager               changed location(x:y:z) to 12.075:12.4914:0
+11.4            SN.node[0].MobilityManager               changed location(x:y:z) to 13.465:13.9293:0
+11.40568175221  SN.node[0].Application                   Received packet #14 from node 1
+11.5            SN.node[0].MobilityManager               changed location(x:y:z) to 14.8551:15.3673:0
+11.6            SN.node[0].MobilityManager               changed location(x:y:z) to 16.2451:16.8053:0
+11.7            SN.node[0].MobilityManager               changed location(x:y:z) to 17.6352:18.2433:0
+11.8            SN.node[0].MobilityManager               changed location(x:y:z) to 19.0252:19.6813:0
+11.9            SN.node[0].MobilityManager               changed location(x:y:z) to 20.4153:21.1192:0
+12              SN.node[0].MobilityManager               changed location(x:y:z) to 21.8053:22.5572:0
+12.1            SN.node[0].MobilityManager               changed location(x:y:z) to 23.1953:23.9952:0
+12.2            SN.node[0].MobilityManager               changed location(x:y:z) to 24.5854:25.4332:0
+12.3            SN.node[0].MobilityManager               changed location(x:y:z) to 25.9754:26.8711:0
+12.4            SN.node[0].MobilityManager               changed location(x:y:z) to 27.3655:28.3091:0
+12.5            SN.node[0].MobilityManager               changed location(x:y:z) to 28.7555:29.7471:0
+12.6            SN.node[0].MobilityManager               changed location(x:y:z) to 27.8544:28.8149:0
+12.7            SN.node[0].MobilityManager               changed location(x:y:z) to 26.4644:27.377:0
+12.8            SN.node[0].MobilityManager               changed location(x:y:z) to 25.0743:25.939:0
+12.9            SN.node[0].MobilityManager               changed location(x:y:z) to 23.6843:24.501:0
+13              SN.node[0].MobilityManager               changed location(x:y:z) to 22.2943:23.063:0
+13.1            SN.node[0].MobilityManager               changed location(x:y:z) to 20.9042:21.625:0
+13.2            SN.node[0].MobilityManager               changed location(x:y:z) to 19.5142:20.1871:0
+13.3            SN.node[0].MobilityManager               changed location(x:y:z) to 18.1241:18.7491:0
+13.4            SN.node[0].MobilityManager               changed location(x:y:z) to 16.7341:17.3111:0
+13.5            SN.node[0].MobilityManager               changed location(x:y:z) to 15.344:15.8731:0
+13.6            SN.node[0].MobilityManager               changed location(x:y:z) to 13.954:14.4352:0
+13.7            SN.node[0].MobilityManager               changed location(x:y:z) to 12.5639:12.9972:0
+13.8            SN.node[0].MobilityManager               changed location(x:y:z) to 11.1739:11.5592:0
+13.9            SN.node[0].MobilityManager               changed location(x:y:z) to 9.78386:10.1212:0
+13.90569874961  SN.node[0].Application                   Received packet #39 from node 1
+14              SN.node[0].MobilityManager               changed location(x:y:z) to 8.39381:8.68325:0
+14.005699429506 SN.node[0].Application                   Received packet #40 from node 1
+14.1            SN.node[0].MobilityManager               changed location(x:y:z) to 7.00377:7.24528:0
+14.105700109402 SN.node[0].Application                   Received packet #41 from node 1
+14.2            SN.node[0].MobilityManager               changed location(x:y:z) to 5.61372:5.8073:0
+14.205700789298 SN.node[0].Application                   Received packet #42 from node 1
+14.3            SN.node[0].MobilityManager               changed location(x:y:z) to 4.22368:4.36932:0
+14.305701469194 SN.node[0].Application                   Received packet #43 from node 1
+14.4            SN.node[0].MobilityManager               changed location(x:y:z) to 2.83364:2.93135:0
+14.40570214909  SN.node[0].Application                   Received packet #44 from node 1
+14.5            SN.node[0].MobilityManager               changed location(x:y:z) to 1.44359:1.49337:0
+14.505702828986 SN.node[0].Application                   Received packet #45 from node 1
+14.6            SN.node[0].MobilityManager               changed location(x:y:z) to 0.0535477:0.0553942:0
+14.605703508882 SN.node[0].Application                   Received packet #46 from node 1
+14.7            SN.node[0].MobilityManager               changed location(x:y:z) to 1.3365:1.38258:0
+14.705704188778 SN.node[0].Application                   Received packet #47 from node 1
+14.8            SN.node[0].MobilityManager               changed location(x:y:z) to 2.72654:2.82056:0
+14.805704868674 SN.node[0].Application                   Received packet #48 from node 1
+14.9            SN.node[0].MobilityManager               changed location(x:y:z) to 4.11658:4.25854:0
+14.90570554857  SN.node[0].Application                   Received packet #49 from node 1
+15              SN.node[0].MobilityManager               changed location(x:y:z) to 5.50663:5.69651:0
+15.005706228466 SN.node[0].Application                   Received packet #50 from node 1
+15.1            SN.node[0].MobilityManager               changed location(x:y:z) to 6.89667:7.13449:0
+15.105706908362 SN.node[0].Application                   Received packet #51 from node 1
+15.2            SN.node[0].MobilityManager               changed location(x:y:z) to 8.28672:8.57247:0
+15.205707588258 SN.node[0].Application                   Received packet #52 from node 1
+15.3            SN.node[0].MobilityManager               changed location(x:y:z) to 9.67676:10.0104:0
+15.305708268154 SN.node[0].Application                   Received packet #53 from node 1
+15.4            SN.node[0].MobilityManager               changed location(x:y:z) to 11.0668:11.4484:0
+15.40570894805  SN.node[0].Application                   Received packet #54 from node 1
+15.5            SN.node[0].MobilityManager               changed location(x:y:z) to 12.4569:12.8864:0
+15.6            SN.node[0].MobilityManager               changed location(x:y:z) to 13.8469:14.3244:0
+15.7            SN.node[0].MobilityManager               changed location(x:y:z) to 15.2369:15.7624:0
+15.8            SN.node[0].MobilityManager               changed location(x:y:z) to 16.627:17.2003:0
+15.9            SN.node[0].MobilityManager               changed location(x:y:z) to 18.017:18.6383:0
+16              SN.node[0].MobilityManager               changed location(x:y:z) to 19.4071:20.0763:0
+16.1            SN.node[0].MobilityManager               changed location(x:y:z) to 20.7971:21.5143:0
+16.2            SN.node[0].MobilityManager               changed location(x:y:z) to 22.1872:22.9522:0
+16.3            SN.node[0].MobilityManager               changed location(x:y:z) to 23.5772:24.3902:0
+16.4            SN.node[0].MobilityManager               changed location(x:y:z) to 24.9672:25.8282:0
+16.5            SN.node[0].MobilityManager               changed location(x:y:z) to 26.3573:27.2662:0
+16.6            SN.node[0].MobilityManager               changed location(x:y:z) to 27.7473:28.7041:0
+16.7            SN.node[0].MobilityManager               changed location(x:y:z) to 28.8626:29.8579:0
+16.8            SN.node[0].MobilityManager               changed location(x:y:z) to 27.4726:28.4199:0
+16.9            SN.node[0].MobilityManager               changed location(x:y:z) to 26.0825:26.9819:0
+17              SN.node[0].MobilityManager               changed location(x:y:z) to 24.6925:25.544:0
+17.1            SN.node[0].MobilityManager               changed location(x:y:z) to 23.3024:24.106:0
+17.2            SN.node[0].MobilityManager               changed location(x:y:z) to 21.9124:22.668:0
+17.3            SN.node[0].MobilityManager               changed location(x:y:z) to 20.5224:21.23:0
+17.4            SN.node[0].MobilityManager               changed location(x:y:z) to 19.1323:19.792:0
+17.5            SN.node[0].MobilityManager               changed location(x:y:z) to 17.7423:18.3541:0
+17.6            SN.node[0].MobilityManager               changed location(x:y:z) to 16.3522:16.9161:0
+17.7            SN.node[0].MobilityManager               changed location(x:y:z) to 14.9622:15.4781:0
+17.8            SN.node[0].MobilityManager               changed location(x:y:z) to 13.5721:14.0401:0
+17.9            SN.node[0].MobilityManager               changed location(x:y:z) to 12.1821:12.6022:0
+17.90572594545  SN.node[0].Application                   Received packet #79 from node 1
+18              SN.node[0].MobilityManager               changed location(x:y:z) to 10.792:11.1642:0
+18.1            SN.node[0].MobilityManager               changed location(x:y:z) to 9.402:9.72621:0
+18.105727305242 SN.node[0].Application                   Received packet #81 from node 1
+18.2            SN.node[0].MobilityManager               changed location(x:y:z) to 8.01196:8.28823:0
+18.205727985138 SN.node[0].Application                   Received packet #82 from node 1
+18.3            SN.node[0].MobilityManager               changed location(x:y:z) to 6.62191:6.85025:0
+18.305728665034 SN.node[0].Application                   Received packet #83 from node 1
+18.4            SN.node[0].MobilityManager               changed location(x:y:z) to 5.23187:5.41228:0
+18.40572934493  SN.node[0].Application                   Received packet #84 from node 1
+18.5            SN.node[0].MobilityManager               changed location(x:y:z) to 3.84182:3.9743:0
+18.505730024826 SN.node[0].Application                   Received packet #85 from node 1
+18.6            SN.node[0].MobilityManager               changed location(x:y:z) to 2.45178:2.53632:0
+18.605730704722 SN.node[0].Application                   Received packet #86 from node 1
+18.7            SN.node[0].MobilityManager               changed location(x:y:z) to 1.06174:1.09835:0
+18.705731384618 SN.node[0].Application                   Received packet #87 from node 1
+18.8            SN.node[0].MobilityManager               changed location(x:y:z) to 0.328308:0.339629:0
+18.805732064514 SN.node[0].Application                   Received packet #88 from node 1
+18.9            SN.node[0].MobilityManager               changed location(x:y:z) to 1.71835:1.77761:0
+18.90573274441  SN.node[0].Application                   Received packet #89 from node 1
+19              SN.node[0].MobilityManager               changed location(x:y:z) to 3.1084:3.21558:0
+19.005733424306 SN.node[0].Application                   Received packet #90 from node 1
+19.1            SN.node[0].MobilityManager               changed location(x:y:z) to 4.49844:4.65356:0
+19.105734104202 SN.node[0].Application                   Received packet #91 from node 1
+19.2            SN.node[0].MobilityManager               changed location(x:y:z) to 5.88849:6.09154:0
+19.205734784098 SN.node[0].Application                   Received packet #92 from node 1
+19.3            SN.node[0].MobilityManager               changed location(x:y:z) to 7.27853:7.52951:0
+19.305735463994 SN.node[0].Application                   Received packet #93 from node 1
+19.4            SN.node[0].MobilityManager               changed location(x:y:z) to 8.66857:8.96749:0
+19.40573614389  SN.node[0].Application                   Received packet #94 from node 1
+19.5            SN.node[0].MobilityManager               changed location(x:y:z) to 10.0586:10.4055:0
+19.505736823786 SN.node[0].Application                   Received packet #95 from node 1
+19.6            SN.node[0].MobilityManager               changed location(x:y:z) to 11.4487:11.8434:0
+19.7            SN.node[0].MobilityManager               changed location(x:y:z) to 12.8387:13.2814:0
+19.705738183578 SN.node[0].Application                   Received packet #97 from node 1
+19.8            SN.node[0].MobilityManager               changed location(x:y:z) to 14.2288:14.7194:0
+19.805738863474 SN.node[0].Application                   Received packet #98 from node 1
+19.9            SN.node[0].MobilityManager               changed location(x:y:z) to 15.6188:16.1574:0
+20              SN.node[0].MobilityManager               changed location(x:y:z) to 17.0088:17.5954:0
+20.038499249381 SN.node[0].Application                   Received packet #0 from node 2
+20.1            SN.node[0].MobilityManager               changed location(x:y:z) to 18.3989:19.0333:0
+20.2            SN.node[0].MobilityManager               changed location(x:y:z) to 19.7889:20.4713:0
+20.3            SN.node[0].MobilityManager               changed location(x:y:z) to 21.179:21.9093:0
+20.4            SN.node[0].MobilityManager               changed location(x:y:z) to 22.569:23.3473:0
+20.5            SN.node[0].MobilityManager               changed location(x:y:z) to 23.9591:24.7852:0
+20.6            SN.node[0].MobilityManager               changed location(x:y:z) to 25.3491:26.2232:0
+20.7            SN.node[0].MobilityManager               changed location(x:y:z) to 26.7391:27.6612:0
+20.8            SN.node[0].MobilityManager               changed location(x:y:z) to 28.1292:29.0992:0
+20.9            SN.node[0].MobilityManager               changed location(x:y:z) to 28.4808:29.4629:0
+21              SN.node[0].MobilityManager               changed location(x:y:z) to 27.0907:28.0249:0
+21.1            SN.node[0].MobilityManager               changed location(x:y:z) to 25.7007:26.5869:0
+21.2            SN.node[0].MobilityManager               changed location(x:y:z) to 24.3106:25.1489:0
+21.3            SN.node[0].MobilityManager               changed location(x:y:z) to 22.9206:23.711:0
+21.4            SN.node[0].MobilityManager               changed location(x:y:z) to 21.5305:22.273:0
+21.5            SN.node[0].MobilityManager               changed location(x:y:z) to 20.1405:20.835:0
+21.6            SN.node[0].MobilityManager               changed location(x:y:z) to 18.7505:19.397:0
+21.638581158037 SN.node[0].Application                   Received packet #16 from node 2
+21.7            SN.node[0].MobilityManager               changed location(x:y:z) to 17.3604:17.959:0
+21.8            SN.node[0].MobilityManager               changed location(x:y:z) to 15.9704:16.5211:0
+21.9            SN.node[0].MobilityManager               changed location(x:y:z) to 14.5803:15.0831:0
+22              SN.node[0].MobilityManager               changed location(x:y:z) to 13.1903:13.6451:0
+22.038601635201 SN.node[0].Application                   Received packet #20 from node 2
+22.1            SN.node[0].MobilityManager               changed location(x:y:z) to 11.8002:12.2071:0
+22.2            SN.node[0].MobilityManager               changed location(x:y:z) to 10.4102:10.7692:0
+22.238611873783 SN.node[0].Application                   Received packet #22 from node 2
+22.3            SN.node[0].MobilityManager               changed location(x:y:z) to 9.02014:9.33118:0
+22.338616993074 SN.node[0].Application                   Received packet #23 from node 2
+22.4            SN.node[0].MobilityManager               changed location(x:y:z) to 7.6301:7.89321:0
+22.438622112365 SN.node[0].Application                   Received packet #24 from node 2
+22.5            SN.node[0].MobilityManager               changed location(x:y:z) to 6.24006:6.45523:0
+22.538627231656 SN.node[0].Application                   Received packet #25 from node 2
+22.6            SN.node[0].MobilityManager               changed location(x:y:z) to 4.85001:5.01725:0
+22.7            SN.node[0].MobilityManager               changed location(x:y:z) to 3.45997:3.57928:0
+22.8            SN.node[0].MobilityManager               changed location(x:y:z) to 2.06992:2.1413:0
+22.9            SN.node[0].MobilityManager               changed location(x:y:z) to 0.67988:0.703324:0
+23              SN.node[0].MobilityManager               changed location(x:y:z) to 0.710165:0.734653:0
+23.1            SN.node[0].MobilityManager               changed location(x:y:z) to 2.10021:2.17263:0
+23.2            SN.node[0].MobilityManager               changed location(x:y:z) to 3.49025:3.61061:0
+23.3            SN.node[0].MobilityManager               changed location(x:y:z) to 4.8803:5.04858:0
+23.4            SN.node[0].MobilityManager               changed location(x:y:z) to 6.27034:6.48656:0
+23.438673305275 SN.node[0].Application                   Received packet #34 from node 2
+23.5            SN.node[0].MobilityManager               changed location(x:y:z) to 7.66039:7.92454:0
+23.538678424566 SN.node[0].Application                   Received packet #35 from node 2
+23.6            SN.node[0].MobilityManager               changed location(x:y:z) to 9.05043:9.36251:0
+23.638683543857 SN.node[0].Application                   Received packet #36 from node 2
+23.7            SN.node[0].MobilityManager               changed location(x:y:z) to 10.4405:10.8005:0
+23.738688663148 SN.node[0].Application                   Received packet #37 from node 2
+23.8            SN.node[0].MobilityManager               changed location(x:y:z) to 11.8305:12.2385:0
+23.838693782439 SN.node[0].Application                   Received packet #38 from node 2
+23.9            SN.node[0].MobilityManager               changed location(x:y:z) to 13.2206:13.6764:0
+23.93869890173  SN.node[0].Application                   Received packet #39 from node 2
+24              SN.node[0].MobilityManager               changed location(x:y:z) to 14.6106:15.1144:0
+24.1            SN.node[0].MobilityManager               changed location(x:y:z) to 16.0007:16.5524:0
+24.2            SN.node[0].MobilityManager               changed location(x:y:z) to 17.3907:17.9904:0
+24.3            SN.node[0].MobilityManager               changed location(x:y:z) to 18.7807:19.4284:0
+24.4            SN.node[0].MobilityManager               changed location(x:y:z) to 20.1708:20.8663:0
+24.5            SN.node[0].MobilityManager               changed location(x:y:z) to 21.5608:22.3043:0
+24.6            SN.node[0].MobilityManager               changed location(x:y:z) to 22.9509:23.7423:0
+24.7            SN.node[0].MobilityManager               changed location(x:y:z) to 24.3409:25.1803:0
+24.8            SN.node[0].MobilityManager               changed location(x:y:z) to 25.731:26.6182:0
+24.9            SN.node[0].MobilityManager               changed location(x:y:z) to 27.121:28.0562:0
+25              SN.node[0].MobilityManager               changed location(x:y:z) to 28.511:29.4942:0
+25.1            SN.node[0].MobilityManager               changed location(x:y:z) to 28.0989:29.0678:0
+25.2            SN.node[0].MobilityManager               changed location(x:y:z) to 26.7089:27.6299:0
+25.3            SN.node[0].MobilityManager               changed location(x:y:z) to 25.3188:26.1919:0
+25.4            SN.node[0].MobilityManager               changed location(x:y:z) to 23.9288:24.7539:0
+25.5            SN.node[0].MobilityManager               changed location(x:y:z) to 22.5387:23.3159:0
+25.6            SN.node[0].MobilityManager               changed location(x:y:z) to 21.1487:21.878:0
+25.7            SN.node[0].MobilityManager               changed location(x:y:z) to 19.7586:20.44:0
+25.8            SN.node[0].MobilityManager               changed location(x:y:z) to 18.3686:19.002:0
+25.9            SN.node[0].MobilityManager               changed location(x:y:z) to 16.9786:17.564:0
+26              SN.node[0].MobilityManager               changed location(x:y:z) to 15.5885:16.126:0
+26.1            SN.node[0].MobilityManager               changed location(x:y:z) to 14.1985:14.6881:0
+26.138811526132 SN.node[0].Application                   Received packet #61 from node 2
+26.2            SN.node[0].MobilityManager               changed location(x:y:z) to 12.8084:13.2501:0
+26.238816645423 SN.node[0].Application                   Received packet #62 from node 2
+26.3            SN.node[0].MobilityManager               changed location(x:y:z) to 11.4184:11.8121:0
+26.338821764714 SN.node[0].Application                   Received packet #63 from node 2
+26.4            SN.node[0].MobilityManager               changed location(x:y:z) to 10.0283:10.3741:0
+26.438826884005 SN.node[0].Application                   Received packet #64 from node 2
+26.5            SN.node[0].MobilityManager               changed location(x:y:z) to 8.63829:8.93616:0
+26.538832003296 SN.node[0].Application                   Received packet #65 from node 2
+26.6            SN.node[0].MobilityManager               changed location(x:y:z) to 7.24824:7.49818:0
+26.638837122587 SN.node[0].Application                   Received packet #66 from node 2
+26.7            SN.node[0].MobilityManager               changed location(x:y:z) to 5.8582:6.06021:0
+26.738842241878 SN.node[0].Application                   Received packet #67 from node 2
+26.8            SN.node[0].MobilityManager               changed location(x:y:z) to 4.46816:4.62223:0
+26.9            SN.node[0].MobilityManager               changed location(x:y:z) to 3.07811:3.18425:0
+26.93885248046  SN.node[0].Application                   Received packet #69 from node 2
+27              SN.node[0].MobilityManager               changed location(x:y:z) to 1.68807:1.74628:0
+27.1            SN.node[0].MobilityManager               changed location(x:y:z) to 0.298024:0.3083:0
+27.138862719042 SN.node[0].Application                   Received packet #71 from node 2
+27.2            SN.node[0].MobilityManager               changed location(x:y:z) to 1.09202:1.12968:0
+27.3            SN.node[0].MobilityManager               changed location(x:y:z) to 2.48206:2.56765:0
+27.338872957624 SN.node[0].Application                   Received packet #73 from node 2
+27.4            SN.node[0].MobilityManager               changed location(x:y:z) to 3.87211:4.00563:0
+27.438878076915 SN.node[0].Application                   Received packet #74 from node 2
+27.5            SN.node[0].MobilityManager               changed location(x:y:z) to 5.26215:5.44361:0
+27.538883196206 SN.node[0].Application                   Received packet #75 from node 2
+27.6            SN.node[0].MobilityManager               changed location(x:y:z) to 6.6522:6.88158:0
+27.638888315497 SN.node[0].Application                   Received packet #76 from node 2
+27.7            SN.node[0].MobilityManager               changed location(x:y:z) to 8.04224:8.31956:0
+27.738893434788 SN.node[0].Application                   Received packet #77 from node 2
+27.8            SN.node[0].MobilityManager               changed location(x:y:z) to 9.43229:9.75754:0
+27.838898554079 SN.node[0].Application                   Received packet #78 from node 2
+27.9            SN.node[0].MobilityManager               changed location(x:y:z) to 10.8223:11.1955:0
+27.93890367337  SN.node[0].Application                   Received packet #79 from node 2
+28              SN.node[0].MobilityManager               changed location(x:y:z) to 12.2124:12.6335:0
+28.038908792661 SN.node[0].Application                   Received packet #80 from node 2
+28.1            SN.node[0].MobilityManager               changed location(x:y:z) to 13.6024:14.0715:0
+28.138913911952 SN.node[0].Application                   Received packet #81 from node 2
+28.2            SN.node[0].MobilityManager               changed location(x:y:z) to 14.9925:15.5094:0
+28.3            SN.node[0].MobilityManager               changed location(x:y:z) to 16.3825:16.9474:0
+28.4            SN.node[0].MobilityManager               changed location(x:y:z) to 17.7726:18.3854:0
+28.5            SN.node[0].MobilityManager               changed location(x:y:z) to 19.1626:19.8234:0
+28.538934389116 SN.node[0].Application                   Received packet #85 from node 2
+28.6            SN.node[0].MobilityManager               changed location(x:y:z) to 20.5526:21.2614:0
+28.7            SN.node[0].MobilityManager               changed location(x:y:z) to 21.9427:22.6993:0
+28.8            SN.node[0].MobilityManager               changed location(x:y:z) to 23.3327:24.1373:0
+28.9            SN.node[0].MobilityManager               changed location(x:y:z) to 24.7228:25.5753:0
+29              SN.node[0].MobilityManager               changed location(x:y:z) to 26.1128:27.0133:0
+29.1            SN.node[0].MobilityManager               changed location(x:y:z) to 27.5029:28.4512:0
+29.2            SN.node[0].MobilityManager               changed location(x:y:z) to 28.8929:29.8892:0
+29.3            SN.node[0].MobilityManager               changed location(x:y:z) to 27.7171:28.6728:0
+29.4            SN.node[0].MobilityManager               changed location(x:y:z) to 26.327:27.2348:0
+29.5            SN.node[0].MobilityManager               changed location(x:y:z) to 24.937:25.7969:0
+29.6            SN.node[0].MobilityManager               changed location(x:y:z) to 23.5469:24.3589:0
+29.7            SN.node[0].MobilityManager               changed location(x:y:z) to 22.1569:22.9209:0
+29.8            SN.node[0].MobilityManager               changed location(x:y:z) to 20.7668:21.4829:0
+29.9            SN.node[0].MobilityManager               changed location(x:y:z) to 19.3768:20.045:0
+30              SN.node[0].MobilityManager               changed location(x:y:z) to 17.9867:18.607:0
+30.1            SN.node[0].MobilityManager               changed location(x:y:z) to 16.5967:17.169:0
+30.2            SN.node[0].MobilityManager               changed location(x:y:z) to 15.2067:15.731:0
+30.3            SN.node[0].MobilityManager               changed location(x:y:z) to 13.8166:14.293:0
+30.4            SN.node[0].MobilityManager               changed location(x:y:z) to 12.4266:12.8551:0
+30.5            SN.node[0].MobilityManager               changed location(x:y:z) to 11.0365:11.4171:0
+30.6            SN.node[0].MobilityManager               changed location(x:y:z) to 9.64648:9.97911:0
+30.7            SN.node[0].MobilityManager               changed location(x:y:z) to 8.25643:8.54114:0
+30.8            SN.node[0].MobilityManager               changed location(x:y:z) to 6.86639:7.10316:0
+30.9            SN.node[0].MobilityManager               changed location(x:y:z) to 5.47634:5.66518:0
+31              SN.node[0].MobilityManager               changed location(x:y:z) to 4.0863:4.22721:0
+31.1            SN.node[0].MobilityManager               changed location(x:y:z) to 2.69626:2.78923:0
+31.2            SN.node[0].MobilityManager               changed location(x:y:z) to 1.30621:1.35125:0
+31.3            SN.node[0].MobilityManager               changed location(x:y:z) to 0.0838326:0.0867234:0
+31.4            SN.node[0].MobilityManager               changed location(x:y:z) to 1.47388:1.5247:0
+31.5            SN.node[0].MobilityManager               changed location(x:y:z) to 2.86392:2.96268:0
+31.6            SN.node[0].MobilityManager               changed location(x:y:z) to 4.25397:4.40065:0
+31.7            SN.node[0].MobilityManager               changed location(x:y:z) to 5.64401:5.83863:0
+31.8            SN.node[0].MobilityManager               changed location(x:y:z) to 7.03405:7.27661:0
+31.9            SN.node[0].MobilityManager               changed location(x:y:z) to 8.4241:8.71458:0
+32              SN.node[0].MobilityManager               changed location(x:y:z) to 9.81414:10.1526:0
+32.1            SN.node[0].MobilityManager               changed location(x:y:z) to 11.2042:11.5905:0
+32.2            SN.node[0].MobilityManager               changed location(x:y:z) to 12.5942:13.0285:0
+32.3            SN.node[0].MobilityManager               changed location(x:y:z) to 13.9843:14.4665:0
+32.4            SN.node[0].MobilityManager               changed location(x:y:z) to 15.3743:15.9045:0
+32.5            SN.node[0].MobilityManager               changed location(x:y:z) to 16.7644:17.3424:0
+32.6            SN.node[0].MobilityManager               changed location(x:y:z) to 18.1544:18.7804:0
+32.7            SN.node[0].MobilityManager               changed location(x:y:z) to 19.5445:20.2184:0
+32.8            SN.node[0].MobilityManager               changed location(x:y:z) to 20.9345:21.6564:0
+32.9            SN.node[0].MobilityManager               changed location(x:y:z) to 22.3245:23.0944:0
+33              SN.node[0].MobilityManager               changed location(x:y:z) to 23.7146:24.5323:0
+33.1            SN.node[0].MobilityManager               changed location(x:y:z) to 25.1046:25.9703:0
+33.2            SN.node[0].MobilityManager               changed location(x:y:z) to 26.4947:27.4083:0
+33.3            SN.node[0].MobilityManager               changed location(x:y:z) to 27.8847:28.8463:0
+33.4            SN.node[0].MobilityManager               changed location(x:y:z) to 28.7252:29.7158:0
+33.5            SN.node[0].MobilityManager               changed location(x:y:z) to 27.3352:28.2778:0
+33.6            SN.node[0].MobilityManager               changed location(x:y:z) to 25.9452:26.8398:0
+33.7            SN.node[0].MobilityManager               changed location(x:y:z) to 24.5551:25.4018:0
+33.8            SN.node[0].MobilityManager               changed location(x:y:z) to 23.1651:23.9639:0
+33.9            SN.node[0].MobilityManager               changed location(x:y:z) to 21.775:22.5259:0
+34              SN.node[0].MobilityManager               changed location(x:y:z) to 20.385:21.0879:0
+34.1            SN.node[0].MobilityManager               changed location(x:y:z) to 18.9949:19.6499:0
+34.2            SN.node[0].MobilityManager               changed location(x:y:z) to 17.6049:18.212:0
+34.3            SN.node[0].MobilityManager               changed location(x:y:z) to 16.2148:16.774:0
+34.4            SN.node[0].MobilityManager               changed location(x:y:z) to 14.8248:15.336:0
+34.5            SN.node[0].MobilityManager               changed location(x:y:z) to 13.4348:13.898:0
+34.6            SN.node[0].MobilityManager               changed location(x:y:z) to 12.0447:12.46:0
+34.7            SN.node[0].MobilityManager               changed location(x:y:z) to 10.6547:11.0221:0
+34.8            SN.node[0].MobilityManager               changed location(x:y:z) to 9.26462:9.58409:0
+34.9            SN.node[0].MobilityManager               changed location(x:y:z) to 7.87458:8.14611:0
+35              SN.node[0].MobilityManager               changed location(x:y:z) to 6.48453:6.70814:0
+35.1            SN.node[0].MobilityManager               changed location(x:y:z) to 5.09449:5.27016:0
+35.2            SN.node[0].MobilityManager               changed location(x:y:z) to 3.70444:3.83218:0
+35.3            SN.node[0].MobilityManager               changed location(x:y:z) to 2.3144:2.39421:0
+35.4            SN.node[0].MobilityManager               changed location(x:y:z) to 0.924355:0.95623:0
+35.5            SN.node[0].MobilityManager               changed location(x:y:z) to 0.465689:0.481747:0
+35.6            SN.node[0].MobilityManager               changed location(x:y:z) to 1.85573:1.91972:0
+35.7            SN.node[0].MobilityManager               changed location(x:y:z) to 3.24578:3.3577:0
+35.8            SN.node[0].MobilityManager               changed location(x:y:z) to 4.63582:4.79568:0
+35.9            SN.node[0].MobilityManager               changed location(x:y:z) to 6.02587:6.23365:0
+36              SN.node[0].MobilityManager               changed location(x:y:z) to 7.41591:7.67163:0
+36.1            SN.node[0].MobilityManager               changed location(x:y:z) to 8.80595:9.10961:0
+36.2            SN.node[0].MobilityManager               changed location(x:y:z) to 10.196:10.5476:0
+36.3            SN.node[0].MobilityManager               changed location(x:y:z) to 11.586:11.9856:0
+36.4            SN.node[0].MobilityManager               changed location(x:y:z) to 12.9761:13.4235:0
+36.5            SN.node[0].MobilityManager               changed location(x:y:z) to 14.3661:14.8615:0
+36.6            SN.node[0].MobilityManager               changed location(x:y:z) to 15.7562:16.2995:0
+36.7            SN.node[0].MobilityManager               changed location(x:y:z) to 17.1462:17.7375:0
+36.8            SN.node[0].MobilityManager               changed location(x:y:z) to 18.5363:19.1754:0
+36.9            SN.node[0].MobilityManager               changed location(x:y:z) to 19.9263:20.6134:0
+37              SN.node[0].MobilityManager               changed location(x:y:z) to 21.3164:22.0514:0
+37.1            SN.node[0].MobilityManager               changed location(x:y:z) to 22.7064:23.4894:0
+37.2            SN.node[0].MobilityManager               changed location(x:y:z) to 24.0964:24.9274:0
+37.3            SN.node[0].MobilityManager               changed location(x:y:z) to 25.4865:26.3653:0
+37.4            SN.node[0].MobilityManager               changed location(x:y:z) to 26.8765:27.8033:0
+37.5            SN.node[0].MobilityManager               changed location(x:y:z) to 28.2666:29.2413:0
+37.6            SN.node[0].MobilityManager               changed location(x:y:z) to 28.3434:29.3207:0
+37.7            SN.node[0].MobilityManager               changed location(x:y:z) to 26.9533:27.8828:0
+37.8            SN.node[0].MobilityManager               changed location(x:y:z) to 25.5633:26.4448:0
+37.9            SN.node[0].MobilityManager               changed location(x:y:z) to 24.1733:25.0068:0
+38              SN.node[0].MobilityManager               changed location(x:y:z) to 22.7832:23.5688:0
+38.1            SN.node[0].MobilityManager               changed location(x:y:z) to 21.3932:22.1309:0
+38.2            SN.node[0].MobilityManager               changed location(x:y:z) to 20.0031:20.6929:0
+38.3            SN.node[0].MobilityManager               changed location(x:y:z) to 18.6131:19.2549:0
+38.4            SN.node[0].MobilityManager               changed location(x:y:z) to 17.223:17.8169:0
+38.5            SN.node[0].MobilityManager               changed location(x:y:z) to 15.833:16.379:0
+38.6            SN.node[0].MobilityManager               changed location(x:y:z) to 14.4429:14.941:0
+38.7            SN.node[0].MobilityManager               changed location(x:y:z) to 13.0529:13.503:0
+38.8            SN.node[0].MobilityManager               changed location(x:y:z) to 11.6629:12.065:0
+38.9            SN.node[0].MobilityManager               changed location(x:y:z) to 10.2728:10.627:0
+39              SN.node[0].MobilityManager               changed location(x:y:z) to 8.88276:9.18907:0
+39.1            SN.node[0].MobilityManager               changed location(x:y:z) to 7.49272:7.75109:0
+39.2            SN.node[0].MobilityManager               changed location(x:y:z) to 6.10268:6.31311:0
+39.3            SN.node[0].MobilityManager               changed location(x:y:z) to 4.71263:4.87514:0
+39.4            SN.node[0].MobilityManager               changed location(x:y:z) to 3.32259:3.43716:0
+39.5            SN.node[0].MobilityManager               changed location(x:y:z) to 1.93254:1.99918:0
+39.6            SN.node[0].MobilityManager               changed location(x:y:z) to 0.542499:0.561206:0
+39.7            SN.node[0].MobilityManager               changed location(x:y:z) to 0.847545:0.876771:0
+39.8            SN.node[0].MobilityManager               changed location(x:y:z) to 2.23759:2.31475:0
+39.9            SN.node[0].MobilityManager               changed location(x:y:z) to 3.62763:3.75272:0
+40              SN.node[0].MobilityManager               changed location(x:y:z) to 5.01768:5.1907:0
+40.017183456697 SN.node[0].Application                   Received packet #0 from node 4
+40.1            SN.node[0].MobilityManager               changed location(x:y:z) to 6.40772:6.62868:0
+40.117184882245 SN.node[0].Application                   Received packet #1 from node 4
+40.2            SN.node[0].MobilityManager               changed location(x:y:z) to 7.79777:8.06665:0
+40.217186307793 SN.node[0].Application                   Received packet #2 from node 4
+40.3            SN.node[0].MobilityManager               changed location(x:y:z) to 9.18781:9.50463:0
+40.317187733341 SN.node[0].Application                   Received packet #3 from node 4
+40.4            SN.node[0].MobilityManager               changed location(x:y:z) to 10.5779:10.9426:0
+40.417189158889 SN.node[0].Application                   Received packet #4 from node 4
+40.5            SN.node[0].MobilityManager               changed location(x:y:z) to 11.9679:12.3806:0
+40.517190584437 SN.node[0].Application                   Received packet #5 from node 4
+40.6            SN.node[0].MobilityManager               changed location(x:y:z) to 13.3579:13.8186:0
+40.617192009985 SN.node[0].Application                   Received packet #6 from node 4
+40.7            SN.node[0].MobilityManager               changed location(x:y:z) to 14.748:15.2565:0
+40.717193435533 SN.node[0].Application                   Received packet #7 from node 4
+40.8            SN.node[0].MobilityManager               changed location(x:y:z) to 16.138:16.6945:0
+40.9            SN.node[0].MobilityManager               changed location(x:y:z) to 17.5281:18.1325:0
+41              SN.node[0].MobilityManager               changed location(x:y:z) to 18.9181:19.5705:0
+41.1            SN.node[0].MobilityManager               changed location(x:y:z) to 20.3082:21.0084:0
+41.2            SN.node[0].MobilityManager               changed location(x:y:z) to 21.6982:22.4464:0
+41.3            SN.node[0].MobilityManager               changed location(x:y:z) to 23.0883:23.8844:0
+41.4            SN.node[0].MobilityManager               changed location(x:y:z) to 24.4783:25.3224:0
+41.5            SN.node[0].MobilityManager               changed location(x:y:z) to 25.8683:26.7604:0
+41.6            SN.node[0].MobilityManager               changed location(x:y:z) to 27.2584:28.1983:0
+41.7            SN.node[0].MobilityManager               changed location(x:y:z) to 28.6484:29.6363:0
+41.8            SN.node[0].MobilityManager               changed location(x:y:z) to 27.9615:28.9257:0
+41.9            SN.node[0].MobilityManager               changed location(x:y:z) to 26.5715:27.4877:0
+42              SN.node[0].MobilityManager               changed location(x:y:z) to 25.1814:26.0498:0
+42.1            SN.node[0].MobilityManager               changed location(x:y:z) to 23.7914:24.6118:0
+42.2            SN.node[0].MobilityManager               changed location(x:y:z) to 22.4014:23.1738:0
+42.3            SN.node[0].MobilityManager               changed location(x:y:z) to 21.0113:21.7358:0
+42.4            SN.node[0].MobilityManager               changed location(x:y:z) to 19.6213:20.2979:0
+42.417217669849 SN.node[0].Application                   Received packet #24 from node 4
+42.5            SN.node[0].MobilityManager               changed location(x:y:z) to 18.2312:18.8599:0
+42.6            SN.node[0].MobilityManager               changed location(x:y:z) to 16.8412:17.4219:0
+42.7            SN.node[0].MobilityManager               changed location(x:y:z) to 15.4511:15.9839:0
+42.717221946493 SN.node[0].Application                   Received packet #27 from node 4
+42.8            SN.node[0].MobilityManager               changed location(x:y:z) to 14.0611:14.546:0
+42.817223372041 SN.node[0].Application                   Received packet #28 from node 4
+42.9            SN.node[0].MobilityManager               changed location(x:y:z) to 12.671:13.108:0
+42.917224797589 SN.node[0].Application                   Received packet #29 from node 4
+43              SN.node[0].MobilityManager               changed location(x:y:z) to 11.281:11.67:0
+43.017226223137 SN.node[0].Application                   Received packet #30 from node 4
+43.1            SN.node[0].MobilityManager               changed location(x:y:z) to 9.89095:10.232:0
+43.117227648685 SN.node[0].Application                   Received packet #31 from node 4
+43.2            SN.node[0].MobilityManager               changed location(x:y:z) to 8.50091:8.79404:0
+43.217229074233 SN.node[0].Application                   Received packet #32 from node 4
+43.3            SN.node[0].MobilityManager               changed location(x:y:z) to 7.11086:7.35607:0
+43.317230499781 SN.node[0].Application                   Received packet #33 from node 4
+43.4            SN.node[0].MobilityManager               changed location(x:y:z) to 5.72082:5.91809:0
+43.417231925329 SN.node[0].Application                   Received packet #34 from node 4
+43.5            SN.node[0].MobilityManager               changed location(x:y:z) to 4.33078:4.48011:0
+43.6            SN.node[0].MobilityManager               changed location(x:y:z) to 2.94073:3.04214:0
+43.7            SN.node[0].MobilityManager               changed location(x:y:z) to 1.55069:1.60416:0
+43.717236201973 SN.node[0].Application                   Received packet #37 from node 4
+43.8            SN.node[0].MobilityManager               changed location(x:y:z) to 0.160643:0.166183:0
+43.9            SN.node[0].MobilityManager               changed location(x:y:z) to 1.2294:1.27179:0
+43.917239053069 SN.node[0].Application                   Received packet #39 from node 4
+44              SN.node[0].MobilityManager               changed location(x:y:z) to 2.61945:2.70977:0
+44.1            SN.node[0].MobilityManager               changed location(x:y:z) to 4.00949:4.14775:0
+44.2            SN.node[0].MobilityManager               changed location(x:y:z) to 5.39953:5.58572:0
+44.217243329713 SN.node[0].Application                   Received packet #42 from node 4
+44.3            SN.node[0].MobilityManager               changed location(x:y:z) to 6.78958:7.0237:0
+44.317244755261 SN.node[0].Application                   Received packet #43 from node 4
+44.4            SN.node[0].MobilityManager               changed location(x:y:z) to 8.17962:8.46168:0
+44.417246180809 SN.node[0].Application                   Received packet #44 from node 4
+44.5            SN.node[0].MobilityManager               changed location(x:y:z) to 9.56967:9.89965:0
+44.517247606357 SN.node[0].Application                   Received packet #45 from node 4
+44.6            SN.node[0].MobilityManager               changed location(x:y:z) to 10.9597:11.3376:0
+44.617249031905 SN.node[0].Application                   Received packet #46 from node 4
+44.7            SN.node[0].MobilityManager               changed location(x:y:z) to 12.3498:12.7756:0
+44.717250457453 SN.node[0].Application                   Received packet #47 from node 4
+44.8            SN.node[0].MobilityManager               changed location(x:y:z) to 13.7398:14.2136:0
+44.817251883001 SN.node[0].Application                   Received packet #48 from node 4
+44.9            SN.node[0].MobilityManager               changed location(x:y:z) to 15.1298:15.6516:0
+45              SN.node[0].MobilityManager               changed location(x:y:z) to 16.5199:17.0895:0
+45.1            SN.node[0].MobilityManager               changed location(x:y:z) to 17.9099:18.5275:0
+45.2            SN.node[0].MobilityManager               changed location(x:y:z) to 19.3:19.9655:0
+45.3            SN.node[0].MobilityManager               changed location(x:y:z) to 20.69:21.4035:0
+45.4            SN.node[0].MobilityManager               changed location(x:y:z) to 22.0801:22.8414:0
+45.5            SN.node[0].MobilityManager               changed location(x:y:z) to 23.4701:24.2794:0
+45.6            SN.node[0].MobilityManager               changed location(x:y:z) to 24.8602:25.7174:0
+45.7            SN.node[0].MobilityManager               changed location(x:y:z) to 26.2502:27.1554:0
+45.8            SN.node[0].MobilityManager               changed location(x:y:z) to 27.6402:28.5934:0
+45.9            SN.node[0].MobilityManager               changed location(x:y:z) to 28.9697:29.9687:0
+46              SN.node[0].MobilityManager               changed location(x:y:z) to 27.5797:28.5307:0
+46.1            SN.node[0].MobilityManager               changed location(x:y:z) to 26.1896:27.0927:0
+46.2            SN.node[0].MobilityManager               changed location(x:y:z) to 24.7996:25.6547:0
+46.3            SN.node[0].MobilityManager               changed location(x:y:z) to 23.4095:24.2168:0
+46.4            SN.node[0].MobilityManager               changed location(x:y:z) to 22.0195:22.7788:0
+46.5            SN.node[0].MobilityManager               changed location(x:y:z) to 20.6294:21.3408:0
+46.6            SN.node[0].MobilityManager               changed location(x:y:z) to 19.2394:19.9028:0
+46.7            SN.node[0].MobilityManager               changed location(x:y:z) to 17.8494:18.4649:0
+46.8            SN.node[0].MobilityManager               changed location(x:y:z) to 16.4593:17.0269:0
+46.9            SN.node[0].MobilityManager               changed location(x:y:z) to 15.0693:15.5889:0
+47              SN.node[0].MobilityManager               changed location(x:y:z) to 13.6792:14.1509:0
+47.017283245057 SN.node[0].Application                   Received packet #70 from node 4
+47.1            SN.node[0].MobilityManager               changed location(x:y:z) to 12.2892:12.7129:0
+47.117284670605 SN.node[0].Application                   Received packet #71 from node 4
+47.2            SN.node[0].MobilityManager               changed location(x:y:z) to 10.8991:11.275:0
+47.217286096153 SN.node[0].Application                   Received packet #72 from node 4
+47.3            SN.node[0].MobilityManager               changed location(x:y:z) to 9.5091:9.837:0
+47.317287521701 SN.node[0].Application                   Received packet #73 from node 4
+47.4            SN.node[0].MobilityManager               changed location(x:y:z) to 8.11905:8.39902:0
+47.417288947249 SN.node[0].Application                   Received packet #74 from node 4
+47.5            SN.node[0].MobilityManager               changed location(x:y:z) to 6.72901:6.96104:0
+47.517290372797 SN.node[0].Application                   Received packet #75 from node 4
+47.6            SN.node[0].MobilityManager               changed location(x:y:z) to 5.33896:5.52307:0
+47.617291798345 SN.node[0].Application                   Received packet #76 from node 4
+47.7            SN.node[0].MobilityManager               changed location(x:y:z) to 3.94892:4.08509:0
+47.8            SN.node[0].MobilityManager               changed location(x:y:z) to 2.55888:2.64711:0
+47.9            SN.node[0].MobilityManager               changed location(x:y:z) to 1.16883:1.20914:0
+47.917296074989 SN.node[0].Application                   Received packet #79 from node 4
+48              SN.node[0].MobilityManager               changed location(x:y:z) to 0.221213:0.228841:0
+48.017297500537 SN.node[0].Application                   Received packet #80 from node 4
+48.1            SN.node[0].MobilityManager               changed location(x:y:z) to 1.61126:1.66682:0
+48.2            SN.node[0].MobilityManager               changed location(x:y:z) to 3.0013:3.10479:0
+48.3            SN.node[0].MobilityManager               changed location(x:y:z) to 4.39135:4.54277:0
+48.4            SN.node[0].MobilityManager               changed location(x:y:z) to 5.78139:5.98075:0
+48.417303202729 SN.node[0].Application                   Received packet #84 from node 4
+48.5            SN.node[0].MobilityManager               changed location(x:y:z) to 7.17143:7.41872:0
+48.517304628277 SN.node[0].Application                   Received packet #85 from node 4
+48.6            SN.node[0].MobilityManager               changed location(x:y:z) to 8.56148:8.8567:0
+48.617306053825 SN.node[0].Application                   Received packet #86 from node 4
+48.7            SN.node[0].MobilityManager               changed location(x:y:z) to 9.95152:10.2947:0
+48.717307479373 SN.node[0].Application                   Received packet #87 from node 4
+48.8            SN.node[0].MobilityManager               changed location(x:y:z) to 11.3416:11.7327:0
+48.817308904921 SN.node[0].Application                   Received packet #88 from node 4
+48.9            SN.node[0].MobilityManager               changed location(x:y:z) to 12.7316:13.1706:0
+48.917310330469 SN.node[0].Application                   Received packet #89 from node 4
+49              SN.node[0].MobilityManager               changed location(x:y:z) to 14.1217:14.6086:0
+49.017311756017 SN.node[0].Application                   Received packet #90 from node 4
+49.1            SN.node[0].MobilityManager               changed location(x:y:z) to 15.5117:16.0466:0
+49.117313181565 SN.node[0].Application                   Received packet #91 from node 4
+49.2            SN.node[0].MobilityManager               changed location(x:y:z) to 16.9017:17.4846:0
+49.3            SN.node[0].MobilityManager               changed location(x:y:z) to 18.2918:18.9225:0
+49.4            SN.node[0].MobilityManager               changed location(x:y:z) to 19.6818:20.3605:0
+49.5            SN.node[0].MobilityManager               changed location(x:y:z) to 21.0719:21.7985:0
+49.6            SN.node[0].MobilityManager               changed location(x:y:z) to 22.4619:23.2365:0
+49.7            SN.node[0].MobilityManager               changed location(x:y:z) to 23.852:24.6744:0
+49.8            SN.node[0].MobilityManager               changed location(x:y:z) to 25.242:26.1124:0
+49.9            SN.node[0].MobilityManager               changed location(x:y:z) to 26.6321:27.5504:0
+50              SN.node[0].MobilityManager               changed location(x:y:z) to 28.0221:28.9884:0
+50.1            SN.node[0].MobilityManager               changed location(x:y:z) to 28.5879:29.5736:0
+50.2            SN.node[0].MobilityManager               changed location(x:y:z) to 27.1978:28.1357:0
+50.209776624296 SN.node[0].Application                   Received packet #2 from node 5
+50.3            SN.node[0].MobilityManager               changed location(x:y:z) to 25.8078:26.6977:0
+50.4            SN.node[0].MobilityManager               changed location(x:y:z) to 24.4177:25.2597:0
+50.409783166906 SN.node[0].Application                   Received packet #4 from node 5
+50.5            SN.node[0].MobilityManager               changed location(x:y:z) to 23.0277:23.8217:0
+50.509786438211 SN.node[0].Application                   Received packet #5 from node 5
+50.6            SN.node[0].MobilityManager               changed location(x:y:z) to 21.6376:22.3838:0
+50.609789709516 SN.node[0].Application                   Received packet #6 from node 5
+50.7            SN.node[0].MobilityManager               changed location(x:y:z) to 20.2476:20.9458:0
+50.709792980821 SN.node[0].Application                   Received packet #7 from node 5
+50.8            SN.node[0].MobilityManager               changed location(x:y:z) to 18.8575:19.5078:0
+50.809796252126 SN.node[0].Application                   Received packet #8 from node 5
+50.9            SN.node[0].MobilityManager               changed location(x:y:z) to 17.4675:18.0698:0
+50.909799523431 SN.node[0].Application                   Received packet #9 from node 5
+51              SN.node[0].MobilityManager               changed location(x:y:z) to 16.0775:16.6319:0
+51.009802794736 SN.node[0].Application                   Received packet #10 from node 5
+51.1            SN.node[0].MobilityManager               changed location(x:y:z) to 14.6874:15.1939:0
+51.109806066041 SN.node[0].Application                   Received packet #11 from node 5
+51.2            SN.node[0].MobilityManager               changed location(x:y:z) to 13.2974:13.7559:0
+51.209809337346 SN.node[0].Application                   Received packet #12 from node 5
+51.3            SN.node[0].MobilityManager               changed location(x:y:z) to 11.9073:12.3179:0
+51.309812608651 SN.node[0].Application                   Received packet #13 from node 5
+51.4            SN.node[0].MobilityManager               changed location(x:y:z) to 10.5173:10.8799:0
+51.409815879956 SN.node[0].Application                   Received packet #14 from node 5
+51.5            SN.node[0].MobilityManager               changed location(x:y:z) to 9.12724:9.44197:0
+51.509819151261 SN.node[0].Application                   Received packet #15 from node 5
+51.6            SN.node[0].MobilityManager               changed location(x:y:z) to 7.7372:8.004:0
+51.7            SN.node[0].MobilityManager               changed location(x:y:z) to 6.34715:6.56602:0
+51.8            SN.node[0].MobilityManager               changed location(x:y:z) to 4.95711:5.12804:0
+51.9            SN.node[0].MobilityManager               changed location(x:y:z) to 3.56706:3.69007:0
+52              SN.node[0].MobilityManager               changed location(x:y:z) to 2.17702:2.25209:0
+52.1            SN.node[0].MobilityManager               changed location(x:y:z) to 0.786975:0.814112:0
+52.2            SN.node[0].MobilityManager               changed location(x:y:z) to 0.603069:0.623865:0
+52.3            SN.node[0].MobilityManager               changed location(x:y:z) to 1.99311:2.06184:0
+52.4            SN.node[0].MobilityManager               changed location(x:y:z) to 3.38316:3.49982:0
+52.5            SN.node[0].MobilityManager               changed location(x:y:z) to 4.7732:4.93779:0
+52.6            SN.node[0].MobilityManager               changed location(x:y:z) to 6.16325:6.37577:0
+52.7            SN.node[0].MobilityManager               changed location(x:y:z) to 7.55329:7.81375:0
+52.8            SN.node[0].MobilityManager               changed location(x:y:z) to 8.94333:9.25173:0
+52.809861678226 SN.node[0].Application                   Received packet #28 from node 5
+52.9            SN.node[0].MobilityManager               changed location(x:y:z) to 10.3334:10.6897:0
+52.909864949531 SN.node[0].Application                   Received packet #29 from node 5
+53              SN.node[0].MobilityManager               changed location(x:y:z) to 11.7234:12.1277:0
+53.009868220836 SN.node[0].Application                   Received packet #30 from node 5
+53.1            SN.node[0].MobilityManager               changed location(x:y:z) to 13.1135:13.5657:0
+53.109871492141 SN.node[0].Application                   Received packet #31 from node 5
+53.2            SN.node[0].MobilityManager               changed location(x:y:z) to 14.5035:15.0036:0
+53.209874763446 SN.node[0].Application                   Received packet #32 from node 5
+53.3            SN.node[0].MobilityManager               changed location(x:y:z) to 15.8936:16.4416:0
+53.309878034751 SN.node[0].Application                   Received packet #33 from node 5
+53.4            SN.node[0].MobilityManager               changed location(x:y:z) to 17.2836:17.8796:0
+53.409881306056 SN.node[0].Application                   Received packet #34 from node 5
+53.5            SN.node[0].MobilityManager               changed location(x:y:z) to 18.6736:19.3176:0
+53.509884577361 SN.node[0].Application                   Received packet #35 from node 5
+53.6            SN.node[0].MobilityManager               changed location(x:y:z) to 20.0637:20.7555:0
+53.609887848666 SN.node[0].Application                   Received packet #36 from node 5
+53.7            SN.node[0].MobilityManager               changed location(x:y:z) to 21.4537:22.1935:0
+53.709891119971 SN.node[0].Application                   Received packet #37 from node 5
+53.8            SN.node[0].MobilityManager               changed location(x:y:z) to 22.8438:23.6315:0
+53.809894391276 SN.node[0].Application                   Received packet #38 from node 5
+53.9            SN.node[0].MobilityManager               changed location(x:y:z) to 24.2338:25.0695:0
+53.909897662581 SN.node[0].Application                   Received packet #39 from node 5
+54              SN.node[0].MobilityManager               changed location(x:y:z) to 25.6239:26.5074:0
+54.1            SN.node[0].MobilityManager               changed location(x:y:z) to 27.0139:27.9454:0
+54.109904205191 SN.node[0].Application                   Received packet #41 from node 5
+54.2            SN.node[0].MobilityManager               changed location(x:y:z) to 28.404:29.3834:0
+54.209907476496 SN.node[0].Application                   Received packet #42 from node 5
+54.3            SN.node[0].MobilityManager               changed location(x:y:z) to 28.206:29.1786:0
+54.4            SN.node[0].MobilityManager               changed location(x:y:z) to 26.816:27.7406:0
+54.409914019106 SN.node[0].Application                   Received packet #44 from node 5
+54.5            SN.node[0].MobilityManager               changed location(x:y:z) to 25.4259:26.3027:0
+54.509917290411 SN.node[0].Application                   Received packet #45 from node 5
+54.6            SN.node[0].MobilityManager               changed location(x:y:z) to 24.0359:24.8647:0
+54.609920561716 SN.node[0].Application                   Received packet #46 from node 5
+54.7            SN.node[0].MobilityManager               changed location(x:y:z) to 22.6458:23.4267:0
+54.709923833021 SN.node[0].Application                   Received packet #47 from node 5
+54.8            SN.node[0].MobilityManager               changed location(x:y:z) to 21.2558:21.9887:0
+54.809927104326 SN.node[0].Application                   Received packet #48 from node 5
+54.9            SN.node[0].MobilityManager               changed location(x:y:z) to 19.8657:20.5508:0
+54.909930375631 SN.node[0].Application                   Received packet #49 from node 5
+55              SN.node[0].MobilityManager               changed location(x:y:z) to 18.4757:19.1128:0
+55.009933646936 SN.node[0].Application                   Received packet #50 from node 5
+55.1            SN.node[0].MobilityManager               changed location(x:y:z) to 17.0856:17.6748:0
+55.109936918241 SN.node[0].Application                   Received packet #51 from node 5
+55.2            SN.node[0].MobilityManager               changed location(x:y:z) to 15.6956:16.2368:0
+55.209940189546 SN.node[0].Application                   Received packet #52 from node 5
+55.3            SN.node[0].MobilityManager               changed location(x:y:z) to 14.3056:14.7989:0
+55.309943460851 SN.node[0].Application                   Received packet #53 from node 5
+55.4            SN.node[0].MobilityManager               changed location(x:y:z) to 12.9155:13.3609:0
+55.409946732156 SN.node[0].Application                   Received packet #54 from node 5
+55.5            SN.node[0].MobilityManager               changed location(x:y:z) to 11.5255:11.9229:0
+55.509950003461 SN.node[0].Application                   Received packet #55 from node 5
+55.6            SN.node[0].MobilityManager               changed location(x:y:z) to 10.1354:10.4849:0
+55.609953274766 SN.node[0].Application                   Received packet #56 from node 5
+55.7            SN.node[0].MobilityManager               changed location(x:y:z) to 8.74538:9.04695:0
+55.709956546071 SN.node[0].Application                   Received packet #57 from node 5
+55.8            SN.node[0].MobilityManager               changed location(x:y:z) to 7.35534:7.60897:0
+55.809959817376 SN.node[0].Application                   Received packet #58 from node 5
+55.9            SN.node[0].MobilityManager               changed location(x:y:z) to 5.9653:6.171:0
+55.909963088681 SN.node[0].Application                   Received packet #59 from node 5
+56              SN.node[0].MobilityManager               changed location(x:y:z) to 4.57525:4.73302:0
+56.1            SN.node[0].MobilityManager               changed location(x:y:z) to 3.18521:3.29504:0
+56.2            SN.node[0].MobilityManager               changed location(x:y:z) to 1.79516:1.85707:0
+56.3            SN.node[0].MobilityManager               changed location(x:y:z) to 0.405119:0.419089:0
+56.4            SN.node[0].MobilityManager               changed location(x:y:z) to 0.984925:1.01889:0
+56.5            SN.node[0].MobilityManager               changed location(x:y:z) to 2.37497:2.45686:0
+56.6            SN.node[0].MobilityManager               changed location(x:y:z) to 3.76501:3.89484:0
+56.7            SN.node[0].MobilityManager               changed location(x:y:z) to 5.15506:5.33282:0
+56.709989259121 SN.node[0].Application                   Received packet #67 from node 5
+56.8            SN.node[0].MobilityManager               changed location(x:y:z) to 6.5451:6.7708:0
+56.9            SN.node[0].MobilityManager               changed location(x:y:z) to 7.93515:8.20877:0
+56.909995801731 SN.node[0].Application                   Received packet #69 from node 5
+57              SN.node[0].MobilityManager               changed location(x:y:z) to 9.32519:9.64675:0
+57.009999073036 SN.node[0].Application                   Received packet #70 from node 5
+57.1            SN.node[0].MobilityManager               changed location(x:y:z) to 10.7152:11.0847:0
+57.110002344341 SN.node[0].Application                   Received packet #71 from node 5
+57.2            SN.node[0].MobilityManager               changed location(x:y:z) to 12.1053:12.5227:0
+57.210005615646 SN.node[0].Application                   Received packet #72 from node 5
+57.3            SN.node[0].MobilityManager               changed location(x:y:z) to 13.4953:13.9607:0
+57.310008886951 SN.node[0].Application                   Received packet #73 from node 5
+57.4            SN.node[0].MobilityManager               changed location(x:y:z) to 14.8854:15.3987:0
+57.410012158256 SN.node[0].Application                   Received packet #74 from node 5
+57.5            SN.node[0].MobilityManager               changed location(x:y:z) to 16.2754:16.8366:0
+57.510015429561 SN.node[0].Application                   Received packet #75 from node 5
+57.6            SN.node[0].MobilityManager               changed location(x:y:z) to 17.6655:18.2746:0
+57.610018700866 SN.node[0].Application                   Received packet #76 from node 5
+57.7            SN.node[0].MobilityManager               changed location(x:y:z) to 19.0555:19.7126:0
+57.710021972171 SN.node[0].Application                   Received packet #77 from node 5
+57.8            SN.node[0].MobilityManager               changed location(x:y:z) to 20.4455:21.1506:0
+57.810025243476 SN.node[0].Application                   Received packet #78 from node 5
+57.9            SN.node[0].MobilityManager               changed location(x:y:z) to 21.8356:22.5885:0
+57.910028514781 SN.node[0].Application                   Received packet #79 from node 5
+58              SN.node[0].MobilityManager               changed location(x:y:z) to 23.2256:24.0265:0
+58.010031786086 SN.node[0].Application                   Received packet #80 from node 5
+58.1            SN.node[0].MobilityManager               changed location(x:y:z) to 24.6157:25.4645:0
+58.110035057391 SN.node[0].Application                   Received packet #81 from node 5
+58.2            SN.node[0].MobilityManager               changed location(x:y:z) to 26.0057:26.9025:0
+58.3            SN.node[0].MobilityManager               changed location(x:y:z) to 27.3958:28.3404:0
+58.4            SN.node[0].MobilityManager               changed location(x:y:z) to 28.7858:29.7784:0
+58.410044871306 SN.node[0].Application                   Received packet #84 from node 5
+58.5            SN.node[0].MobilityManager               changed location(x:y:z) to 27.8241:28.7836:0
+58.6            SN.node[0].MobilityManager               changed location(x:y:z) to 26.4341:27.3456:0
+58.610051413916 SN.node[0].Application                   Received packet #86 from node 5
+58.7            SN.node[0].MobilityManager               changed location(x:y:z) to 25.0441:25.9076:0
+58.710054685221 SN.node[0].Application                   Received packet #87 from node 5
+58.8            SN.node[0].MobilityManager               changed location(x:y:z) to 23.654:24.4697:0
+58.810057956526 SN.node[0].Application                   Received packet #88 from node 5
+58.9            SN.node[0].MobilityManager               changed location(x:y:z) to 22.264:23.0317:0
+58.910061227831 SN.node[0].Application                   Received packet #89 from node 5
+59              SN.node[0].MobilityManager               changed location(x:y:z) to 20.8739:21.5937:0
+59.010064499136 SN.node[0].Application                   Received packet #90 from node 5
+59.1            SN.node[0].MobilityManager               changed location(x:y:z) to 19.4839:20.1557:0
+59.110067770441 SN.node[0].Application                   Received packet #91 from node 5
+59.2            SN.node[0].MobilityManager               changed location(x:y:z) to 18.0938:18.7178:0
+59.210071041746 SN.node[0].Application                   Received packet #92 from node 5
+59.3            SN.node[0].MobilityManager               changed location(x:y:z) to 16.7038:17.2798:0
+59.310074313051 SN.node[0].Application                   Received packet #93 from node 5
+59.4            SN.node[0].MobilityManager               changed location(x:y:z) to 15.3137:15.8418:0
+59.410077584356 SN.node[0].Application                   Received packet #94 from node 5
+59.5            SN.node[0].MobilityManager               changed location(x:y:z) to 13.9237:14.4038:0
+59.510080855661 SN.node[0].Application                   Received packet #95 from node 5
+59.6            SN.node[0].MobilityManager               changed location(x:y:z) to 12.5337:12.9659:0
+59.610084126966 SN.node[0].Application                   Received packet #96 from node 5
+59.7            SN.node[0].MobilityManager               changed location(x:y:z) to 11.1436:11.5279:0
+59.710087398271 SN.node[0].Application                   Received packet #97 from node 5
+59.8            SN.node[0].MobilityManager               changed location(x:y:z) to 9.75357:10.0899:0
+59.810090669576 SN.node[0].Application                   Received packet #98 from node 5
+59.9            SN.node[0].MobilityManager               changed location(x:y:z) to 8.36353:8.65193:0
+59.910093940881 SN.node[0].Application                   Received packet #99 from node 5
+60              SN.node[0].MobilityManager               changed location(x:y:z) to 6.97348:7.21395:0
+60.1            SN.node[0].MobilityManager               changed location(x:y:z) to 5.58344:5.77597:0
+60.2            SN.node[0].MobilityManager               changed location(x:y:z) to 4.1934:4.338:0
+60.3            SN.node[0].MobilityManager               changed location(x:y:z) to 2.80335:2.90002:0
+60.4            SN.node[0].MobilityManager               changed location(x:y:z) to 1.41331:1.46204:0
+60.5            SN.node[0].MobilityManager               changed location(x:y:z) to 0.0232628:0.024065:0
+60.6            SN.node[0].MobilityManager               changed location(x:y:z) to 1.36678:1.41391:0
+60.7            SN.node[0].MobilityManager               changed location(x:y:z) to 2.75683:2.85189:0
+60.8            SN.node[0].MobilityManager               changed location(x:y:z) to 4.14687:4.28987:0
+60.9            SN.node[0].MobilityManager               changed location(x:y:z) to 5.53691:5.72784:0
+61              SN.node[0].MobilityManager               changed location(x:y:z) to 6.92696:7.16582:0
+61.1            SN.node[0].MobilityManager               changed location(x:y:z) to 8.317:8.6038:0
+61.2            SN.node[0].MobilityManager               changed location(x:y:z) to 9.70705:10.0418:0
+61.3            SN.node[0].MobilityManager               changed location(x:y:z) to 11.0971:11.4797:0
+61.4            SN.node[0].MobilityManager               changed location(x:y:z) to 12.4871:12.9177:0
+61.42585200216  SN.node[0].Application                   Received packet #14 from node 6
+61.5            SN.node[0].MobilityManager               changed location(x:y:z) to 13.8772:14.3557:0
+61.6            SN.node[0].MobilityManager               changed location(x:y:z) to 15.2672:15.7937:0
+61.625846277802 SN.node[0].Application                   Received packet #16 from node 6
+61.7            SN.node[0].MobilityManager               changed location(x:y:z) to 16.6573:17.2317:0
+61.725843415623 SN.node[0].Application                   Received packet #17 from node 6
+61.8            SN.node[0].MobilityManager               changed location(x:y:z) to 18.0473:18.6696:0
+61.825840553444 SN.node[0].Application                   Received packet #18 from node 6
+61.9            SN.node[0].MobilityManager               changed location(x:y:z) to 19.4374:20.1076:0
+61.925837691265 SN.node[0].Application                   Received packet #19 from node 6
+62              SN.node[0].MobilityManager               changed location(x:y:z) to 20.8274:21.5456:0
+62.025834829086 SN.node[0].Application                   Received packet #20 from node 6
+62.1            SN.node[0].MobilityManager               changed location(x:y:z) to 22.2174:22.9836:0
+62.125831966907 SN.node[0].Application                   Received packet #21 from node 6
+62.2            SN.node[0].MobilityManager               changed location(x:y:z) to 23.6075:24.4215:0
+62.225829104728 SN.node[0].Application                   Received packet #22 from node 6
+62.3            SN.node[0].MobilityManager               changed location(x:y:z) to 24.9975:25.8595:0
+62.325826242549 SN.node[0].Application                   Received packet #23 from node 6
+62.4            SN.node[0].MobilityManager               changed location(x:y:z) to 26.3876:27.2975:0
+62.42582338037  SN.node[0].Application                   Received packet #24 from node 6
+62.5            SN.node[0].MobilityManager               changed location(x:y:z) to 27.7776:28.7355:0
+62.525820518191 SN.node[0].Application                   Received packet #25 from node 6
+62.6            SN.node[0].MobilityManager               changed location(x:y:z) to 28.8323:29.8266:0
+62.625817656012 SN.node[0].Application                   Received packet #26 from node 6
+62.7            SN.node[0].MobilityManager               changed location(x:y:z) to 27.4423:28.3886:0
+62.725814793833 SN.node[0].Application                   Received packet #27 from node 6
+62.8            SN.node[0].MobilityManager               changed location(x:y:z) to 26.0522:26.9506:0
+62.825811931654 SN.node[0].Application                   Received packet #28 from node 6
+62.9            SN.node[0].MobilityManager               changed location(x:y:z) to 24.6622:25.5126:0
+62.925809069475 SN.node[0].Application                   Received packet #29 from node 6
+63              SN.node[0].MobilityManager               changed location(x:y:z) to 23.2722:24.0746:0
+63.025806207296 SN.node[0].Application                   Received packet #30 from node 6
+63.1            SN.node[0].MobilityManager               changed location(x:y:z) to 21.8821:22.6367:0
+63.125803345117 SN.node[0].Application                   Received packet #31 from node 6
+63.2            SN.node[0].MobilityManager               changed location(x:y:z) to 20.4921:21.1987:0
+63.225800482938 SN.node[0].Application                   Received packet #32 from node 6
+63.3            SN.node[0].MobilityManager               changed location(x:y:z) to 19.102:19.7607:0
+63.325797620759 SN.node[0].Application                   Received packet #33 from node 6
+63.4            SN.node[0].MobilityManager               changed location(x:y:z) to 17.712:18.3227:0
+63.42579475858  SN.node[0].Application                   Received packet #34 from node 6
+63.5            SN.node[0].MobilityManager               changed location(x:y:z) to 16.3219:16.8848:0
+63.525791896401 SN.node[0].Application                   Received packet #35 from node 6
+63.6            SN.node[0].MobilityManager               changed location(x:y:z) to 14.9319:15.4468:0
+63.625789034222 SN.node[0].Application                   Received packet #36 from node 6
+63.7            SN.node[0].MobilityManager               changed location(x:y:z) to 13.5418:14.0088:0
+63.8            SN.node[0].MobilityManager               changed location(x:y:z) to 12.1518:12.5708:0
+63.9            SN.node[0].MobilityManager               changed location(x:y:z) to 10.7618:11.1329:0
+64              SN.node[0].MobilityManager               changed location(x:y:z) to 9.37172:9.69488:0
+64.1            SN.node[0].MobilityManager               changed location(x:y:z) to 7.98167:8.2569:0
+64.2            SN.node[0].MobilityManager               changed location(x:y:z) to 6.59163:6.81893:0
+64.3            SN.node[0].MobilityManager               changed location(x:y:z) to 5.20158:5.38095:0
+64.4            SN.node[0].MobilityManager               changed location(x:y:z) to 3.81154:3.94297:0
+64.5            SN.node[0].MobilityManager               changed location(x:y:z) to 2.4215:2.50499:0
+64.6            SN.node[0].MobilityManager               changed location(x:y:z) to 1.03145:1.06702:0
+64.7            SN.node[0].MobilityManager               changed location(x:y:z) to 0.358593:0.370959:0
+64.8            SN.node[0].MobilityManager               changed location(x:y:z) to 1.74864:1.80894:0
+64.9            SN.node[0].MobilityManager               changed location(x:y:z) to 3.13868:3.24691:0
+65              SN.node[0].MobilityManager               changed location(x:y:z) to 4.52873:4.68489:0
+65.1            SN.node[0].MobilityManager               changed location(x:y:z) to 5.91877:6.12287:0
+65.2            SN.node[0].MobilityManager               changed location(x:y:z) to 7.30881:7.56084:0
+65.3            SN.node[0].MobilityManager               changed location(x:y:z) to 8.69886:8.99882:0
+65.4            SN.node[0].MobilityManager               changed location(x:y:z) to 10.0889:10.4368:0
+65.5            SN.node[0].MobilityManager               changed location(x:y:z) to 11.4789:11.8748:0
+65.6            SN.node[0].MobilityManager               changed location(x:y:z) to 12.869:13.3127:0
+65.7            SN.node[0].MobilityManager               changed location(x:y:z) to 14.259:14.7507:0
+65.8            SN.node[0].MobilityManager               changed location(x:y:z) to 15.6491:16.1887:0
+65.825726066284 SN.node[0].Application                   Received packet #58 from node 6
+65.9            SN.node[0].MobilityManager               changed location(x:y:z) to 17.0391:17.6267:0
+65.925723204105 SN.node[0].Application                   Received packet #59 from node 6
+66              SN.node[0].MobilityManager               changed location(x:y:z) to 18.4292:19.0647:0
+66.025720341926 SN.node[0].Application                   Received packet #60 from node 6
+66.1            SN.node[0].MobilityManager               changed location(x:y:z) to 19.8192:20.5026:0
+66.125717479747 SN.node[0].Application                   Received packet #61 from node 6
+66.2            SN.node[0].MobilityManager               changed location(x:y:z) to 21.2093:21.9406:0
+66.225714617568 SN.node[0].Application                   Received packet #62 from node 6
+66.3            SN.node[0].MobilityManager               changed location(x:y:z) to 22.5993:23.3786:0
+66.325711755389 SN.node[0].Application                   Received packet #63 from node 6
+66.4            SN.node[0].MobilityManager               changed location(x:y:z) to 23.9893:24.8166:0
+66.42570889321  SN.node[0].Application                   Received packet #64 from node 6
+66.5            SN.node[0].MobilityManager               changed location(x:y:z) to 25.3794:26.2545:0
+66.525706031031 SN.node[0].Application                   Received packet #65 from node 6
+66.6            SN.node[0].MobilityManager               changed location(x:y:z) to 26.7694:27.6925:0
+66.625703168852 SN.node[0].Application                   Received packet #66 from node 6
+66.7            SN.node[0].MobilityManager               changed location(x:y:z) to 28.1595:29.1305:0
+66.725700306673 SN.node[0].Application                   Received packet #67 from node 6
+66.8            SN.node[0].MobilityManager               changed location(x:y:z) to 28.4505:29.4315:0
+66.825697444494 SN.node[0].Application                   Received packet #68 from node 6
+66.9            SN.node[0].MobilityManager               changed location(x:y:z) to 27.0604:27.9936:0
+66.925694582315 SN.node[0].Application                   Received packet #69 from node 6
+67              SN.node[0].MobilityManager               changed location(x:y:z) to 25.6704:26.5556:0
+67.025691720136 SN.node[0].Application                   Received packet #70 from node 6
+67.1            SN.node[0].MobilityManager               changed location(x:y:z) to 24.2803:25.1176:0
+67.125688857957 SN.node[0].Application                   Received packet #71 from node 6
+67.2            SN.node[0].MobilityManager               changed location(x:y:z) to 22.8903:23.6796:0
+67.225685995778 SN.node[0].Application                   Received packet #72 from node 6
+67.3            SN.node[0].MobilityManager               changed location(x:y:z) to 21.5003:22.2416:0
+67.325683133599 SN.node[0].Application                   Received packet #73 from node 6
+67.4            SN.node[0].MobilityManager               changed location(x:y:z) to 20.1102:20.8037:0
+67.42568027142  SN.node[0].Application                   Received packet #74 from node 6
+67.5            SN.node[0].MobilityManager               changed location(x:y:z) to 18.7202:19.3657:0
+67.525677409241 SN.node[0].Application                   Received packet #75 from node 6
+67.6            SN.node[0].MobilityManager               changed location(x:y:z) to 17.3301:17.9277:0
+67.625674547062 SN.node[0].Application                   Received packet #76 from node 6
+67.7            SN.node[0].MobilityManager               changed location(x:y:z) to 15.9401:16.4897:0
+67.725671684883 SN.node[0].Application                   Received packet #77 from node 6
+67.8            SN.node[0].MobilityManager               changed location(x:y:z) to 14.55:15.0518:0
+67.9            SN.node[0].MobilityManager               changed location(x:y:z) to 13.16:13.6138:0
+68              SN.node[0].MobilityManager               changed location(x:y:z) to 11.7699:12.1758:0
+68.1            SN.node[0].MobilityManager               changed location(x:y:z) to 10.3799:10.7378:0
+68.2            SN.node[0].MobilityManager               changed location(x:y:z) to 8.98986:9.29986:0
+68.3            SN.node[0].MobilityManager               changed location(x:y:z) to 7.59982:7.86188:0
+68.4            SN.node[0].MobilityManager               changed location(x:y:z) to 6.20977:6.4239:0
+68.5            SN.node[0].MobilityManager               changed location(x:y:z) to 4.81973:4.98592:0
+68.6            SN.node[0].MobilityManager               changed location(x:y:z) to 3.42968:3.54795:0
+68.7            SN.node[0].MobilityManager               changed location(x:y:z) to 2.03964:2.10997:0
+68.8            SN.node[0].MobilityManager               changed location(x:y:z) to 0.649595:0.671995:0
+68.9            SN.node[0].MobilityManager               changed location(x:y:z) to 0.740449:0.765982:0
+69              SN.node[0].MobilityManager               changed location(x:y:z) to 2.13049:2.20396:0
+69.1            SN.node[0].MobilityManager               changed location(x:y:z) to 3.52054:3.64194:0
+69.2            SN.node[0].MobilityManager               changed location(x:y:z) to 4.91058:5.07991:0
+69.3            SN.node[0].MobilityManager               changed location(x:y:z) to 6.30063:6.51789:0
+69.4            SN.node[0].MobilityManager               changed location(x:y:z) to 7.69067:7.95587:0
+69.5            SN.node[0].MobilityManager               changed location(x:y:z) to 9.08071:9.39384:0
+69.6            SN.node[0].MobilityManager               changed location(x:y:z) to 10.4708:10.8318:0
+69.7            SN.node[0].MobilityManager               changed location(x:y:z) to 11.8608:12.2698:0
+69.8            SN.node[0].MobilityManager               changed location(x:y:z) to 13.2508:13.7078:0
+69.9            SN.node[0].MobilityManager               changed location(x:y:z) to 14.6409:15.1457:0
+70              SN.node[0].MobilityManager               changed location(x:y:z) to 16.0309:16.5837:0
+70.1            SN.node[0].MobilityManager               changed location(x:y:z) to 17.421:18.0217:0
+70.2            SN.node[0].MobilityManager               changed location(x:y:z) to 18.811:19.4597:0
+70.3            SN.node[0].MobilityManager               changed location(x:y:z) to 20.2011:20.8977:0
+70.4            SN.node[0].MobilityManager               changed location(x:y:z) to 21.5911:22.3356:0
+70.5            SN.node[0].MobilityManager               changed location(x:y:z) to 22.9812:23.7736:0
+70.6            SN.node[0].MobilityManager               changed location(x:y:z) to 24.3712:25.2116:0
+70.7            SN.node[0].MobilityManager               changed location(x:y:z) to 25.7612:26.6496:0
+70.8            SN.node[0].MobilityManager               changed location(x:y:z) to 27.1513:28.0875:0
+70.9            SN.node[0].MobilityManager               changed location(x:y:z) to 28.5413:29.5255:0
+71              SN.node[0].MobilityManager               changed location(x:y:z) to 28.0686:29.0365:0
+71.1            SN.node[0].MobilityManager               changed location(x:y:z) to 26.6786:27.5985:0
+71.2            SN.node[0].MobilityManager               changed location(x:y:z) to 25.2885:26.1606:0
+71.3            SN.node[0].MobilityManager               changed location(x:y:z) to 23.8985:24.7226:0
+71.4            SN.node[0].MobilityManager               changed location(x:y:z) to 22.5084:23.2846:0
+71.5            SN.node[0].MobilityManager               changed location(x:y:z) to 21.1184:21.8466:0
+71.6            SN.node[0].MobilityManager               changed location(x:y:z) to 19.7284:20.4086:0
+71.7            SN.node[0].MobilityManager               changed location(x:y:z) to 18.3383:18.9707:0
+71.8            SN.node[0].MobilityManager               changed location(x:y:z) to 16.9483:17.5327:0
+71.9            SN.node[0].MobilityManager               changed location(x:y:z) to 15.5582:16.0947:0
+72              SN.node[0].MobilityManager               changed location(x:y:z) to 14.1682:14.6567:0
+72.1            SN.node[0].MobilityManager               changed location(x:y:z) to 12.7781:13.2188:0
+72.2            SN.node[0].MobilityManager               changed location(x:y:z) to 11.3881:11.7808:0
+72.3            SN.node[0].MobilityManager               changed location(x:y:z) to 9.99805:10.3428:0
+72.4            SN.node[0].MobilityManager               changed location(x:y:z) to 8.608:8.90483:0
+72.5            SN.node[0].MobilityManager               changed location(x:y:z) to 7.21796:7.46685:0
+72.6            SN.node[0].MobilityManager               changed location(x:y:z) to 5.82792:6.02888:0
+72.7            SN.node[0].MobilityManager               changed location(x:y:z) to 4.43787:4.5909:0
+72.8            SN.node[0].MobilityManager               changed location(x:y:z) to 3.04783:3.15292:0
+72.9            SN.node[0].MobilityManager               changed location(x:y:z) to 1.65778:1.71495:0
+73              SN.node[0].MobilityManager               changed location(x:y:z) to 0.267739:0.276971:0
+73.1            SN.node[0].MobilityManager               changed location(x:y:z) to 1.12231:1.16101:0
+73.2            SN.node[0].MobilityManager               changed location(x:y:z) to 2.51235:2.59898:0
+73.3            SN.node[0].MobilityManager               changed location(x:y:z) to 3.90239:4.03696:0
+73.4            SN.node[0].MobilityManager               changed location(x:y:z) to 5.29244:5.47494:0
+73.5            SN.node[0].MobilityManager               changed location(x:y:z) to 6.68248:6.91291:0
+73.6            SN.node[0].MobilityManager               changed location(x:y:z) to 8.07253:8.35089:0
+73.7            SN.node[0].MobilityManager               changed location(x:y:z) to 9.46257:9.78887:0
+73.8            SN.node[0].MobilityManager               changed location(x:y:z) to 10.8526:11.2268:0
+73.9            SN.node[0].MobilityManager               changed location(x:y:z) to 12.2427:12.6648:0
+74              SN.node[0].MobilityManager               changed location(x:y:z) to 13.6327:14.1028:0
+74.1            SN.node[0].MobilityManager               changed location(x:y:z) to 15.0227:15.5408:0
+74.2            SN.node[0].MobilityManager               changed location(x:y:z) to 16.4128:16.9788:0
+74.3            SN.node[0].MobilityManager               changed location(x:y:z) to 17.8028:18.4167:0
+74.4            SN.node[0].MobilityManager               changed location(x:y:z) to 19.1929:19.8547:0
+74.5            SN.node[0].MobilityManager               changed location(x:y:z) to 20.5829:21.2927:0
+74.6            SN.node[0].MobilityManager               changed location(x:y:z) to 21.973:22.7307:0
+74.7            SN.node[0].MobilityManager               changed location(x:y:z) to 23.363:24.1686:0
+74.8            SN.node[0].MobilityManager               changed location(x:y:z) to 24.7531:25.6066:0
+74.9            SN.node[0].MobilityManager               changed location(x:y:z) to 26.1431:27.0446:0
+75              SN.node[0].MobilityManager               changed location(x:y:z) to 27.5331:28.4826:0
+75.1            SN.node[0].MobilityManager               changed location(x:y:z) to 28.9232:29.9205:0
+75.2            SN.node[0].MobilityManager               changed location(x:y:z) to 27.6868:28.6415:0
+75.3            SN.node[0].MobilityManager               changed location(x:y:z) to 26.2967:27.2035:0
+75.4            SN.node[0].MobilityManager               changed location(x:y:z) to 24.9067:25.7655:0
+75.5            SN.node[0].MobilityManager               changed location(x:y:z) to 23.5166:24.3276:0
+75.6            SN.node[0].MobilityManager               changed location(x:y:z) to 22.1266:22.8896:0
+75.7            SN.node[0].MobilityManager               changed location(x:y:z) to 20.7365:21.4516:0
+75.8            SN.node[0].MobilityManager               changed location(x:y:z) to 19.3465:20.0136:0
+75.9            SN.node[0].MobilityManager               changed location(x:y:z) to 17.9565:18.5756:0
+76              SN.node[0].MobilityManager               changed location(x:y:z) to 16.5664:17.1377:0
+76.1            SN.node[0].MobilityManager               changed location(x:y:z) to 15.1764:15.6997:0
+76.2            SN.node[0].MobilityManager               changed location(x:y:z) to 13.7863:14.2617:0
+76.3            SN.node[0].MobilityManager               changed location(x:y:z) to 12.3963:12.8237:0
+76.4            SN.node[0].MobilityManager               changed location(x:y:z) to 11.0062:11.3858:0
+76.5            SN.node[0].MobilityManager               changed location(x:y:z) to 9.61619:9.94778:0
+76.6            SN.node[0].MobilityManager               changed location(x:y:z) to 8.22615:8.50981:0
+76.7            SN.node[0].MobilityManager               changed location(x:y:z) to 6.8361:7.07183:0
+76.8            SN.node[0].MobilityManager               changed location(x:y:z) to 5.44606:5.63385:0
+76.9            SN.node[0].MobilityManager               changed location(x:y:z) to 4.05602:4.19588:0
+77              SN.node[0].MobilityManager               changed location(x:y:z) to 2.66597:2.7579:0
+77.1            SN.node[0].MobilityManager               changed location(x:y:z) to 1.27593:1.31992:0
+77.2            SN.node[0].MobilityManager               changed location(x:y:z) to 0.114118:0.118053:0
+77.3            SN.node[0].MobilityManager               changed location(x:y:z) to 1.50416:1.55603:0
+77.4            SN.node[0].MobilityManager               changed location(x:y:z) to 2.89421:2.99401:0
+77.5            SN.node[0].MobilityManager               changed location(x:y:z) to 4.28425:4.43198:0
+77.6            SN.node[0].MobilityManager               changed location(x:y:z) to 5.67429:5.86996:0
+77.7            SN.node[0].MobilityManager               changed location(x:y:z) to 7.06434:7.30794:0
+77.8            SN.node[0].MobilityManager               changed location(x:y:z) to 8.45438:8.74591:0
+77.9            SN.node[0].MobilityManager               changed location(x:y:z) to 9.84443:10.1839:0
+78              SN.node[0].MobilityManager               changed location(x:y:z) to 11.2345:11.6219:0
+78.1            SN.node[0].MobilityManager               changed location(x:y:z) to 12.6245:13.0598:0
+78.2            SN.node[0].MobilityManager               changed location(x:y:z) to 14.0146:14.4978:0
+78.3            SN.node[0].MobilityManager               changed location(x:y:z) to 15.4046:15.9358:0
+78.4            SN.node[0].MobilityManager               changed location(x:y:z) to 16.7946:17.3738:0
+78.5            SN.node[0].MobilityManager               changed location(x:y:z) to 18.1847:18.8118:0
+78.6            SN.node[0].MobilityManager               changed location(x:y:z) to 19.5747:20.2497:0
+78.7            SN.node[0].MobilityManager               changed location(x:y:z) to 20.9648:21.6877:0
+78.8            SN.node[0].MobilityManager               changed location(x:y:z) to 22.3548:23.1257:0
+78.9            SN.node[0].MobilityManager               changed location(x:y:z) to 23.7449:24.5637:0
+79              SN.node[0].MobilityManager               changed location(x:y:z) to 25.1349:26.0016:0
+79.1            SN.node[0].MobilityManager               changed location(x:y:z) to 26.525:27.4396:0
+79.2            SN.node[0].MobilityManager               changed location(x:y:z) to 27.915:28.8776:0
+79.3            SN.node[0].MobilityManager               changed location(x:y:z) to 28.695:29.6844:0
+79.4            SN.node[0].MobilityManager               changed location(x:y:z) to 27.3049:28.2465:0
+79.5            SN.node[0].MobilityManager               changed location(x:y:z) to 25.9149:26.8085:0
+79.6            SN.node[0].MobilityManager               changed location(x:y:z) to 24.5248:25.3705:0
+79.7            SN.node[0].MobilityManager               changed location(x:y:z) to 23.1348:23.9325:0
+79.8            SN.node[0].MobilityManager               changed location(x:y:z) to 21.7447:22.4946:0
+79.9            SN.node[0].MobilityManager               changed location(x:y:z) to 20.3547:21.0566:0
+80              SN.node[0].MobilityManager               changed location(x:y:z) to 18.9646:19.6186:0
+80.044558426547 SN.node[0].Application                   Received packet #0 from node 8
+80.1            SN.node[0].MobilityManager               changed location(x:y:z) to 17.5746:18.1806:0
+80.144555730395 SN.node[0].Application                   Received packet #1 from node 8
+80.2            SN.node[0].MobilityManager               changed location(x:y:z) to 16.1846:16.7426:0
+80.244553034243 SN.node[0].Application                   Received packet #2 from node 8
+80.3            SN.node[0].MobilityManager               changed location(x:y:z) to 14.7945:15.3047:0
+80.344550338091 SN.node[0].Application                   Received packet #3 from node 8
+80.4            SN.node[0].MobilityManager               changed location(x:y:z) to 13.4045:13.8667:0
+80.5            SN.node[0].MobilityManager               changed location(x:y:z) to 12.0144:12.4287:0
+80.6            SN.node[0].MobilityManager               changed location(x:y:z) to 10.6244:10.9907:0
+80.7            SN.node[0].MobilityManager               changed location(x:y:z) to 9.23434:9.55276:0
+80.8            SN.node[0].MobilityManager               changed location(x:y:z) to 7.84429:8.11478:0
+80.9            SN.node[0].MobilityManager               changed location(x:y:z) to 6.45425:6.67681:0
+81              SN.node[0].MobilityManager               changed location(x:y:z) to 5.0642:5.23883:0
+81.1            SN.node[0].MobilityManager               changed location(x:y:z) to 3.67416:3.80085:0
+81.2            SN.node[0].MobilityManager               changed location(x:y:z) to 2.28411:2.36288:0
+81.3            SN.node[0].MobilityManager               changed location(x:y:z) to 0.894071:0.924901:0
+81.4            SN.node[0].MobilityManager               changed location(x:y:z) to 0.495974:0.513076:0
+81.5            SN.node[0].MobilityManager               changed location(x:y:z) to 1.88602:1.95105:0
+81.6            SN.node[0].MobilityManager               changed location(x:y:z) to 3.27606:3.38903:0
+81.7            SN.node[0].MobilityManager               changed location(x:y:z) to 4.66611:4.82701:0
+81.8            SN.node[0].MobilityManager               changed location(x:y:z) to 6.05615:6.26498:0
+81.9            SN.node[0].MobilityManager               changed location(x:y:z) to 7.44619:7.70296:0
+82              SN.node[0].MobilityManager               changed location(x:y:z) to 8.83624:9.14094:0
+82.1            SN.node[0].MobilityManager               changed location(x:y:z) to 10.2263:10.5789:0
+82.2            SN.node[0].MobilityManager               changed location(x:y:z) to 11.6163:12.0169:0
+82.3            SN.node[0].MobilityManager               changed location(x:y:z) to 13.0064:13.4549:0
+82.344496415051 SN.node[0].Application                   Received packet #23 from node 8
+82.4            SN.node[0].MobilityManager               changed location(x:y:z) to 14.3964:14.8928:0
+82.5            SN.node[0].MobilityManager               changed location(x:y:z) to 15.7865:16.3308:0
+82.544491022747 SN.node[0].Application                   Received packet #25 from node 8
+82.6            SN.node[0].MobilityManager               changed location(x:y:z) to 17.1765:17.7688:0
+82.644488326595 SN.node[0].Application                   Received packet #26 from node 8
+82.7            SN.node[0].MobilityManager               changed location(x:y:z) to 18.5665:19.2068:0
+82.744485630443 SN.node[0].Application                   Received packet #27 from node 8
+82.8            SN.node[0].MobilityManager               changed location(x:y:z) to 19.9566:20.6448:0
+82.844482934291 SN.node[0].Application                   Received packet #28 from node 8
+82.9            SN.node[0].MobilityManager               changed location(x:y:z) to 21.3466:22.0827:0
+82.944480238139 SN.node[0].Application                   Received packet #29 from node 8
+83              SN.node[0].MobilityManager               changed location(x:y:z) to 22.7367:23.5207:0
+83.044477541987 SN.node[0].Application                   Received packet #30 from node 8
+83.1            SN.node[0].MobilityManager               changed location(x:y:z) to 24.1267:24.9587:0
+83.144474845835 SN.node[0].Application                   Received packet #31 from node 8
+83.2            SN.node[0].MobilityManager               changed location(x:y:z) to 25.5168:26.3967:0
+83.244472149683 SN.node[0].Application                   Received packet #32 from node 8
+83.3            SN.node[0].MobilityManager               changed location(x:y:z) to 26.9068:27.8346:0
+83.344469453531 SN.node[0].Application                   Received packet #33 from node 8
+83.4            SN.node[0].MobilityManager               changed location(x:y:z) to 28.2969:29.2726:0
+83.444466757379 SN.node[0].Application                   Received packet #34 from node 8
+83.5            SN.node[0].MobilityManager               changed location(x:y:z) to 28.3131:29.2894:0
+83.544464061227 SN.node[0].Application                   Received packet #35 from node 8
+83.6            SN.node[0].MobilityManager               changed location(x:y:z) to 26.9231:27.8514:0
+83.644461365075 SN.node[0].Application                   Received packet #36 from node 8
+83.7            SN.node[0].MobilityManager               changed location(x:y:z) to 25.533:26.4135:0
+83.744458668923 SN.node[0].Application                   Received packet #37 from node 8
+83.8            SN.node[0].MobilityManager               changed location(x:y:z) to 24.143:24.9755:0
+83.844455972771 SN.node[0].Application                   Received packet #38 from node 8
+83.9            SN.node[0].MobilityManager               changed location(x:y:z) to 22.7529:23.5375:0
+83.944453276619 SN.node[0].Application                   Received packet #39 from node 8
+84              SN.node[0].MobilityManager               changed location(x:y:z) to 21.3629:22.0995:0
+84.044450580467 SN.node[0].Application                   Received packet #40 from node 8
+84.1            SN.node[0].MobilityManager               changed location(x:y:z) to 19.9728:20.6616:0
+84.144447884315 SN.node[0].Application                   Received packet #41 from node 8
+84.2            SN.node[0].MobilityManager               changed location(x:y:z) to 18.5828:19.2236:0
+84.244445188163 SN.node[0].Application                   Received packet #42 from node 8
+84.3            SN.node[0].MobilityManager               changed location(x:y:z) to 17.1927:17.7856:0
+84.344442492011 SN.node[0].Application                   Received packet #43 from node 8
+84.4            SN.node[0].MobilityManager               changed location(x:y:z) to 15.8027:16.3476:0
+84.444439795859 SN.node[0].Application                   Received packet #44 from node 8
+84.5            SN.node[0].MobilityManager               changed location(x:y:z) to 14.4127:14.9096:0
+84.6            SN.node[0].MobilityManager               changed location(x:y:z) to 13.0226:13.4717:0
+84.7            SN.node[0].MobilityManager               changed location(x:y:z) to 11.6326:12.0337:0
+84.8            SN.node[0].MobilityManager               changed location(x:y:z) to 10.2425:10.5957:0
+84.9            SN.node[0].MobilityManager               changed location(x:y:z) to 8.85248:9.15774:0
+85              SN.node[0].MobilityManager               changed location(x:y:z) to 7.46244:7.71976:0
+85.1            SN.node[0].MobilityManager               changed location(x:y:z) to 6.07239:6.28178:0
+85.2            SN.node[0].MobilityManager               changed location(x:y:z) to 4.68235:4.84381:0
+85.3            SN.node[0].MobilityManager               changed location(x:y:z) to 3.2923:3.40583:0
+85.4            SN.node[0].MobilityManager               changed location(x:y:z) to 1.90226:1.96785:0
+85.5            SN.node[0].MobilityManager               changed location(x:y:z) to 0.512214:0.529877:0
+85.6            SN.node[0].MobilityManager               changed location(x:y:z) to 0.87783:0.9081:0
+85.7            SN.node[0].MobilityManager               changed location(x:y:z) to 2.26787:2.34608:0
+85.8            SN.node[0].MobilityManager               changed location(x:y:z) to 3.65792:3.78405:0
+85.9            SN.node[0].MobilityManager               changed location(x:y:z) to 5.04796:5.22203:0
+86              SN.node[0].MobilityManager               changed location(x:y:z) to 6.43801:6.66001:0
+86.1            SN.node[0].MobilityManager               changed location(x:y:z) to 7.82805:8.09798:0
+86.2            SN.node[0].MobilityManager               changed location(x:y:z) to 9.21809:9.53596:0
+86.3            SN.node[0].MobilityManager               changed location(x:y:z) to 10.6081:10.9739:0
+86.4            SN.node[0].MobilityManager               changed location(x:y:z) to 11.9982:12.4119:0
+86.5            SN.node[0].MobilityManager               changed location(x:y:z) to 13.3882:13.8499:0
+86.6            SN.node[0].MobilityManager               changed location(x:y:z) to 14.7783:15.2879:0
+86.644380480515 SN.node[0].Application                   Received packet #66 from node 8
+86.7            SN.node[0].MobilityManager               changed location(x:y:z) to 16.1683:16.7258:0
+86.744377784363 SN.node[0].Application                   Received packet #67 from node 8
+86.8            SN.node[0].MobilityManager               changed location(x:y:z) to 17.5584:18.1638:0
+86.844375088211 SN.node[0].Application                   Received packet #68 from node 8
+86.9            SN.node[0].MobilityManager               changed location(x:y:z) to 18.9484:19.6018:0
+86.944372392059 SN.node[0].Application                   Received packet #69 from node 8
+87              SN.node[0].MobilityManager               changed location(x:y:z) to 20.3384:21.0398:0
+87.044369695907 SN.node[0].Application                   Received packet #70 from node 8
+87.1            SN.node[0].MobilityManager               changed location(x:y:z) to 21.7285:22.4778:0
+87.144366999755 SN.node[0].Application                   Received packet #71 from node 8
+87.2            SN.node[0].MobilityManager               changed location(x:y:z) to 23.1185:23.9157:0
+87.244364303603 SN.node[0].Application                   Received packet #72 from node 8
+87.3            SN.node[0].MobilityManager               changed location(x:y:z) to 24.5086:25.3537:0
+87.344361607451 SN.node[0].Application                   Received packet #73 from node 8
+87.4            SN.node[0].MobilityManager               changed location(x:y:z) to 25.8986:26.7917:0
+87.444358911299 SN.node[0].Application                   Received packet #74 from node 8
+87.5            SN.node[0].MobilityManager               changed location(x:y:z) to 27.2887:28.2297:0
+87.544356215147 SN.node[0].Application                   Received packet #75 from node 8
+87.6            SN.node[0].MobilityManager               changed location(x:y:z) to 28.6787:29.6676:0
+87.644353518995 SN.node[0].Application                   Received packet #76 from node 8
+87.7            SN.node[0].MobilityManager               changed location(x:y:z) to 27.9312:28.8944:0
+87.744350822843 SN.node[0].Application                   Received packet #77 from node 8
+87.8            SN.node[0].MobilityManager               changed location(x:y:z) to 26.5412:27.4564:0
+87.844348126691 SN.node[0].Application                   Received packet #78 from node 8
+87.9            SN.node[0].MobilityManager               changed location(x:y:z) to 25.1512:26.0184:0
+87.944345430539 SN.node[0].Application                   Received packet #79 from node 8
+88              SN.node[0].MobilityManager               changed location(x:y:z) to 23.7611:24.5805:0
+88.044342734387 SN.node[0].Application                   Received packet #80 from node 8
+88.1            SN.node[0].MobilityManager               changed location(x:y:z) to 22.3711:23.1425:0
+88.144340038235 SN.node[0].Application                   Received packet #81 from node 8
+88.2            SN.node[0].MobilityManager               changed location(x:y:z) to 20.981:21.7045:0
+88.244337342083 SN.node[0].Application                   Received packet #82 from node 8
+88.3            SN.node[0].MobilityManager               changed location(x:y:z) to 19.591:20.2665:0
+88.344334645931 SN.node[0].Application                   Received packet #83 from node 8
+88.4            SN.node[0].MobilityManager               changed location(x:y:z) to 18.2009:18.8286:0
+88.444331949779 SN.node[0].Application                   Received packet #84 from node 8
+88.5            SN.node[0].MobilityManager               changed location(x:y:z) to 16.8109:17.3906:0
+88.544329253627 SN.node[0].Application                   Received packet #85 from node 8
+88.6            SN.node[0].MobilityManager               changed location(x:y:z) to 15.4208:15.9526:0
+88.644326557475 SN.node[0].Application                   Received packet #86 from node 8
+88.7            SN.node[0].MobilityManager               changed location(x:y:z) to 14.0308:14.5146:0
+88.8            SN.node[0].MobilityManager               changed location(x:y:z) to 12.6408:13.0766:0
+88.9            SN.node[0].MobilityManager               changed location(x:y:z) to 11.2507:11.6387:0
+89              SN.node[0].MobilityManager               changed location(x:y:z) to 9.86067:10.2007:0
+89.1            SN.node[0].MobilityManager               changed location(x:y:z) to 8.47062:8.76271:0
+89.2            SN.node[0].MobilityManager               changed location(x:y:z) to 7.08058:7.32474:0
+89.3            SN.node[0].MobilityManager               changed location(x:y:z) to 5.69054:5.88676:0
+89.4            SN.node[0].MobilityManager               changed location(x:y:z) to 4.30049:4.44878:0
+89.5            SN.node[0].MobilityManager               changed location(x:y:z) to 2.91045:3.01081:0
+89.6            SN.node[0].MobilityManager               changed location(x:y:z) to 1.5204:1.57283:0
+89.7            SN.node[0].MobilityManager               changed location(x:y:z) to 0.130358:0.134853:0
+89.8            SN.node[0].MobilityManager               changed location(x:y:z) to 1.25969:1.30312:0
+89.9            SN.node[0].MobilityManager               changed location(x:y:z) to 2.64973:2.7411:0
+90              SN.node[0].MobilityManager               changed location(x:y:z) to 4.03977:4.17908:0
+90.1            SN.node[0].MobilityManager               changed location(x:y:z) to 5.42982:5.61705:0
+90.2            SN.node[0].MobilityManager               changed location(x:y:z) to 6.81986:7.05503:0
+90.3            SN.node[0].MobilityManager               changed location(x:y:z) to 8.20991:8.49301:0
+90.4            SN.node[0].MobilityManager               changed location(x:y:z) to 9.59995:9.93098:0
+90.5            SN.node[0].MobilityManager               changed location(x:y:z) to 10.99:11.369:0
+90.6            SN.node[0].MobilityManager               changed location(x:y:z) to 12.38:12.8069:0
+90.7            SN.node[0].MobilityManager               changed location(x:y:z) to 13.7701:14.2449:0
+90.8            SN.node[0].MobilityManager               changed location(x:y:z) to 15.1601:15.6829:0
+90.9            SN.node[0].MobilityManager               changed location(x:y:z) to 16.5502:17.1209:0
+91              SN.node[0].MobilityManager               changed location(x:y:z) to 17.9402:18.5588:0
+91.1            SN.node[0].MobilityManager               changed location(x:y:z) to 19.3303:19.9968:0
+91.125657507992 SN.node[0].Application                   Received packet #11 from node 9
+91.2            SN.node[0].MobilityManager               changed location(x:y:z) to 20.7203:21.4348:0
+91.225659414041 SN.node[0].Application                   Received packet #12 from node 9
+91.3            SN.node[0].MobilityManager               changed location(x:y:z) to 22.1103:22.8728:0
+91.32566132009  SN.node[0].Application                   Received packet #13 from node 9
+91.4            SN.node[0].MobilityManager               changed location(x:y:z) to 23.5004:24.3108:0
+91.425663226139 SN.node[0].Application                   Received packet #14 from node 9
+91.5            SN.node[0].MobilityManager               changed location(x:y:z) to 24.8904:25.7487:0
+91.525665132188 SN.node[0].Application                   Received packet #15 from node 9
+91.6            SN.node[0].MobilityManager               changed location(x:y:z) to 26.2805:27.1867:0
+91.625667038237 SN.node[0].Application                   Received packet #16 from node 9
+91.7            SN.node[0].MobilityManager               changed location(x:y:z) to 27.6705:28.6247:0
+91.725668944286 SN.node[0].Application                   Received packet #17 from node 9
+91.8            SN.node[0].MobilityManager               changed location(x:y:z) to 28.9394:29.9373:0
+91.825670850335 SN.node[0].Application                   Received packet #18 from node 9
+91.9            SN.node[0].MobilityManager               changed location(x:y:z) to 27.5494:28.4994:0
+91.925672756384 SN.node[0].Application                   Received packet #19 from node 9
+92              SN.node[0].MobilityManager               changed location(x:y:z) to 26.1593:27.0614:0
+92.025674662433 SN.node[0].Application                   Received packet #20 from node 9
+92.1            SN.node[0].MobilityManager               changed location(x:y:z) to 24.7693:25.6234:0
+92.125676568482 SN.node[0].Application                   Received packet #21 from node 9
+92.2            SN.node[0].MobilityManager               changed location(x:y:z) to 23.3793:24.1854:0
+92.225678474531 SN.node[0].Application                   Received packet #22 from node 9
+92.3            SN.node[0].MobilityManager               changed location(x:y:z) to 21.9892:22.7475:0
+92.32568038058  SN.node[0].Application                   Received packet #23 from node 9
+92.4            SN.node[0].MobilityManager               changed location(x:y:z) to 20.5992:21.3095:0
+92.425682286629 SN.node[0].Application                   Received packet #24 from node 9
+92.5            SN.node[0].MobilityManager               changed location(x:y:z) to 19.2091:19.8715:0
+92.6            SN.node[0].MobilityManager               changed location(x:y:z) to 17.8191:18.4335:0
+92.7            SN.node[0].MobilityManager               changed location(x:y:z) to 16.429:16.9956:0
+92.8            SN.node[0].MobilityManager               changed location(x:y:z) to 15.039:15.5576:0
+92.825689910825 SN.node[0].Application                   Received packet #28 from node 9
+92.9            SN.node[0].MobilityManager               changed location(x:y:z) to 13.6489:14.1196:0
+93              SN.node[0].MobilityManager               changed location(x:y:z) to 12.2589:12.6816:0
+93.1            SN.node[0].MobilityManager               changed location(x:y:z) to 10.8689:11.2436:0
+93.2            SN.node[0].MobilityManager               changed location(x:y:z) to 9.47881:9.80567:0
+93.3            SN.node[0].MobilityManager               changed location(x:y:z) to 8.08877:8.36769:0
+93.4            SN.node[0].MobilityManager               changed location(x:y:z) to 6.69872:6.92971:0
+93.5            SN.node[0].MobilityManager               changed location(x:y:z) to 5.30868:5.49174:0
+93.6            SN.node[0].MobilityManager               changed location(x:y:z) to 3.91863:4.05376:0
+93.7            SN.node[0].MobilityManager               changed location(x:y:z) to 2.52859:2.61578:0
+93.8            SN.node[0].MobilityManager               changed location(x:y:z) to 1.13855:1.17781:0
+93.9            SN.node[0].MobilityManager               changed location(x:y:z) to 0.251498:0.26017:0
+94              SN.node[0].MobilityManager               changed location(x:y:z) to 1.64154:1.69815:0
+94.1            SN.node[0].MobilityManager               changed location(x:y:z) to 3.03159:3.13612:0
+94.2            SN.node[0].MobilityManager               changed location(x:y:z) to 4.42163:4.5741:0
+94.3            SN.node[0].MobilityManager               changed location(x:y:z) to 5.81167:6.01208:0
+94.4            SN.node[0].MobilityManager               changed location(x:y:z) to 7.20172:7.45005:0
+94.5            SN.node[0].MobilityManager               changed location(x:y:z) to 8.59176:8.88803:0
+94.6            SN.node[0].MobilityManager               changed location(x:y:z) to 9.98181:10.326:0
+94.7            SN.node[0].MobilityManager               changed location(x:y:z) to 11.3719:11.764:0
+94.8            SN.node[0].MobilityManager               changed location(x:y:z) to 12.7619:13.202:0
+94.9            SN.node[0].MobilityManager               changed location(x:y:z) to 14.1519:14.6399:0
+95              SN.node[0].MobilityManager               changed location(x:y:z) to 15.542:16.0779:0
+95.1            SN.node[0].MobilityManager               changed location(x:y:z) to 16.932:17.5159:0
+95.125733749952 SN.node[0].Application                   Received packet #51 from node 9
+95.2            SN.node[0].MobilityManager               changed location(x:y:z) to 18.3221:18.9539:0
+95.225735656001 SN.node[0].Application                   Received packet #52 from node 9
+95.3            SN.node[0].MobilityManager               changed location(x:y:z) to 19.7121:20.3918:0
+95.32573756205  SN.node[0].Application                   Received packet #53 from node 9
+95.4            SN.node[0].MobilityManager               changed location(x:y:z) to 21.1022:21.8298:0
+95.425739468099 SN.node[0].Application                   Received packet #54 from node 9
+95.5            SN.node[0].MobilityManager               changed location(x:y:z) to 22.4922:23.2678:0
+95.525741374148 SN.node[0].Application                   Received packet #55 from node 9
+95.6            SN.node[0].MobilityManager               changed location(x:y:z) to 23.8822:24.7058:0
+95.625743280197 SN.node[0].Application                   Received packet #56 from node 9
+95.7            SN.node[0].MobilityManager               changed location(x:y:z) to 25.2723:26.1438:0
+95.725745186246 SN.node[0].Application                   Received packet #57 from node 9
+95.8            SN.node[0].MobilityManager               changed location(x:y:z) to 26.6623:27.5817:0
+95.825747092295 SN.node[0].Application                   Received packet #58 from node 9
+95.9            SN.node[0].MobilityManager               changed location(x:y:z) to 28.0524:29.0197:0
+95.925748998344 SN.node[0].Application                   Received packet #59 from node 9
+96              SN.node[0].MobilityManager               changed location(x:y:z) to 28.5576:29.5423:0
+96.025750904393 SN.node[0].Application                   Received packet #60 from node 9
+96.1            SN.node[0].MobilityManager               changed location(x:y:z) to 27.1675:28.1043:0
+96.125752810442 SN.node[0].Application                   Received packet #61 from node 9
+96.2            SN.node[0].MobilityManager               changed location(x:y:z) to 25.7775:26.6664:0
+96.225754716491 SN.node[0].Application                   Received packet #62 from node 9
+96.3            SN.node[0].MobilityManager               changed location(x:y:z) to 24.3874:25.2284:0
+96.32575662254  SN.node[0].Application                   Received packet #63 from node 9
+96.4            SN.node[0].MobilityManager               changed location(x:y:z) to 22.9974:23.7904:0
+96.425758528589 SN.node[0].Application                   Received packet #64 from node 9
+96.5            SN.node[0].MobilityManager               changed location(x:y:z) to 21.6074:22.3524:0
+96.525760434638 SN.node[0].Application                   Received packet #65 from node 9
+96.6            SN.node[0].MobilityManager               changed location(x:y:z) to 20.2173:20.9145:0
+96.625762340687 SN.node[0].Application                   Received packet #66 from node 9
+96.7            SN.node[0].MobilityManager               changed location(x:y:z) to 18.8273:19.4765:0
+96.725764246736 SN.node[0].Application                   Received packet #67 from node 9
+96.8            SN.node[0].MobilityManager               changed location(x:y:z) to 17.4372:18.0385:0
+96.9            SN.node[0].MobilityManager               changed location(x:y:z) to 16.0472:16.6005:0
+97              SN.node[0].MobilityManager               changed location(x:y:z) to 14.6571:15.1626:0
+97.1            SN.node[0].MobilityManager               changed location(x:y:z) to 13.2671:13.7246:0
+97.2            SN.node[0].MobilityManager               changed location(x:y:z) to 11.877:12.2866:0
+97.3            SN.node[0].MobilityManager               changed location(x:y:z) to 10.487:10.8486:0
+97.4            SN.node[0].MobilityManager               changed location(x:y:z) to 9.09696:9.41064:0
+97.5            SN.node[0].MobilityManager               changed location(x:y:z) to 7.70691:7.97267:0
+97.6            SN.node[0].MobilityManager               changed location(x:y:z) to 6.31687:6.53469:0
+97.7            SN.node[0].MobilityManager               changed location(x:y:z) to 4.92682:5.09671:0
+97.8            SN.node[0].MobilityManager               changed location(x:y:z) to 3.53678:3.65874:0
+97.9            SN.node[0].MobilityManager               changed location(x:y:z) to 2.14673:2.22076:0
+98              SN.node[0].MobilityManager               changed location(x:y:z) to 0.75669:0.782783:0
+98.1            SN.node[0].MobilityManager               changed location(x:y:z) to 0.633354:0.655194:0
+98.2            SN.node[0].MobilityManager               changed location(x:y:z) to 2.0234:2.09317:0
+98.3            SN.node[0].MobilityManager               changed location(x:y:z) to 3.41344:3.53115:0
+98.4            SN.node[0].MobilityManager               changed location(x:y:z) to 4.80349:4.96912:0
+98.5            SN.node[0].MobilityManager               changed location(x:y:z) to 6.19353:6.4071:0
+98.6            SN.node[0].MobilityManager               changed location(x:y:z) to 7.58357:7.84508:0
+98.7            SN.node[0].MobilityManager               changed location(x:y:z) to 8.97362:9.28305:0
+98.8            SN.node[0].MobilityManager               changed location(x:y:z) to 10.3637:10.721:0
+98.9            SN.node[0].MobilityManager               changed location(x:y:z) to 11.7537:12.159:0
+99              SN.node[0].MobilityManager               changed location(x:y:z) to 13.1438:13.597:0
+99.1            SN.node[0].MobilityManager               changed location(x:y:z) to 14.5338:15.035:0
+99.2            SN.node[0].MobilityManager               changed location(x:y:z) to 15.9238:16.4729:0
+99.3            SN.node[0].MobilityManager               changed location(x:y:z) to 17.3139:17.9109:0
+99.32581380401  SN.node[0].Application                   Received packet #93 from node 9
+99.4            SN.node[0].MobilityManager               changed location(x:y:z) to 18.7039:19.3489:0
+99.5            SN.node[0].MobilityManager               changed location(x:y:z) to 20.094:20.7869:0
+99.525817616108 SN.node[0].Application                   Received packet #95 from node 9
+99.6            SN.node[0].MobilityManager               changed location(x:y:z) to 21.484:22.2248:0
+99.625819522157 SN.node[0].Application                   Received packet #96 from node 9
+99.7            SN.node[0].MobilityManager               changed location(x:y:z) to 22.8741:23.6628:0
+99.725821428206 SN.node[0].Application                   Received packet #97 from node 9
+99.8            SN.node[0].MobilityManager               changed location(x:y:z) to 24.2641:25.1008:0
+99.825823334255 SN.node[0].Application                   Received packet #98 from node 9
+99.9            SN.node[0].MobilityManager               changed location(x:y:z) to 25.6541:26.5388:0
+99.925825240304 SN.node[0].Application                   Received packet #99 from node 9
+100             SN.node[0].MobilityManager               changed location(x:y:z) to 27.0442:27.9768:0

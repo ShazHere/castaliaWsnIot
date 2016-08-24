@@ -1,0 +1,343 @@
+
+0               SN.node[0].MobilityManager               initial location(x:y:z) is 29:30:0
+0               SN.node[1].MobilityManager               initial location(x:y:z) is 0:0:0
+0               SN.node[2].MobilityManager               initial location(x:y:z) is 15:0:0
+0               SN.node[3].MobilityManager               initial location(x:y:z) is 30:0:0
+0               SN.node[4].MobilityManager               initial location(x:y:z) is 0:15:0
+0               SN.node[5].MobilityManager               initial location(x:y:z) is 15:15:0
+0               SN.node[6].MobilityManager               initial location(x:y:z) is 30:15:0
+0               SN.node[7].MobilityManager               initial location(x:y:z) is 0:30:0
+0               SN.node[8].MobilityManager               initial location(x:y:z) is 15:30:0
+0               SN.node[9].MobilityManager               initial location(x:y:z) is 30:30:0
+0.003536244016  SN.node[1].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.003536244016  SN.node[1].Application                   This is startup() of NodeSensor 
+0.006066428963  SN.node[5].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.006066428963  SN.node[5].Application                   This is startup() of NodeSensor 
+0.014545237179  SN.node[4].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.014545237179  SN.node[4].Application                   This is startup() of NodeSensor 
+0.021853097004  SN.node[9].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.021853097004  SN.node[9].Application                   This is startup() of NodeSensor 
+0.025541380047  SN.node[6].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.025541380047  SN.node[6].Application                   This is startup() of NodeSensor 
+0.027539895218  SN.node[0].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.027539895218  SN.node[0].Application                   This is startup() of NodeIot 
+0.028465566283  SN.node[7].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.028465566283  SN.node[7].Application                   This is startup() of NodeSensor 
+0.035407391109  SN.node[2].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.035407391109  SN.node[2].Application                   This is startup() of NodeSensor 
+0.041997452115  SN.node[3].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.041997452115  SN.node[3].Application                   This is startup() of NodeSensor 
+0.044647347892  SN.node[8].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.044647347892  SN.node[8].Application                   This is startup() of NodeSensor 
+1               SN.node[0].MobilityManager               changed location(x:y:z) to 15.0996:15.6202:0
+2               SN.node[0].MobilityManager               changed location(x:y:z) to 1.19912:1.24046:0
+3               SN.node[0].MobilityManager               changed location(x:y:z) to 12.7013:13.1393:0
+4               SN.node[0].MobilityManager               changed location(x:y:z) to 26.6018:27.5191:0
+5               SN.node[0].MobilityManager               changed location(x:y:z) to 17.4978:18.1012:0
+6               SN.node[0].MobilityManager               changed location(x:y:z) to 3.59735:3.72139:0
+7               SN.node[0].MobilityManager               changed location(x:y:z) to 10.3031:10.6584:0
+8               SN.node[0].MobilityManager               changed location(x:y:z) to 24.2035:25.0381:0
+9               SN.node[0].MobilityManager               changed location(x:y:z) to 19.896:20.5821:0
+10              SN.node[0].MobilityManager               changed location(x:y:z) to 5.99558:6.20232:0
+10.003604233667 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+10.003604233667 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID 1 with packetsSent == 0 
+10.003604233667 SN.node[1].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.004904233666 SN.node[0].Application                   received packet from 1 with LQI = 14.6124
+10.006393559507 SN.node[5].Application                   This is timerFiredCallback of NodeSensor ID 5 with packetsSent == 0 
+10.006393559507 SN.node[5].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.007693559506 SN.node[0].Application                   received packet from 5 with LQI = 7.38764
+10.014687792058 SN.node[4].Application                   This is timerFiredCallback of NodeSensor ID 4 with packetsSent == 0 
+10.014687792058 SN.node[4].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.015987792057 SN.node[0].Application                   received packet from 4 with LQI = 9.83708
+10.022043701942 SN.node[9].Application                   This is timerFiredCallback of NodeSensor ID 9 with packetsSent == 0 
+10.022043701942 SN.node[9].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.02525516215  SN.node[6].Application                   This is timerFiredCallback of NodeSensor ID 6 with packetsSent == 0 
+10.02525516215  SN.node[6].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.028158709203 SN.node[7].Application                   This is timerFiredCallback of NodeSensor ID 7 with packetsSent == 0 
+10.028158709203 SN.node[7].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.035919320245 SN.node[2].Application                   This is timerFiredCallback of NodeSensor ID 2 with packetsSent == 0 
+10.035919320245 SN.node[2].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.037219320244 SN.node[0].Application                   received packet from 2 with LQI = 9.83708
+10.041937470856 SN.node[3].Application                   This is timerFiredCallback of NodeSensor ID 3 with packetsSent == 0 
+10.041937470856 SN.node[3].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.044377732724 SN.node[8].Application                   This is timerFiredCallback of NodeSensor ID 8 with packetsSent == 0 
+10.044377732724 SN.node[8].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+11              SN.node[0].MobilityManager               changed location(x:y:z) to 7.90486:8.17744:0
+12              SN.node[0].MobilityManager               changed location(x:y:z) to 21.8053:22.5572:0
+13              SN.node[0].MobilityManager               changed location(x:y:z) to 22.2943:23.063:0
+14              SN.node[0].MobilityManager               changed location(x:y:z) to 8.39381:8.68325:0
+15              SN.node[0].MobilityManager               changed location(x:y:z) to 5.50663:5.69651:0
+16              SN.node[0].MobilityManager               changed location(x:y:z) to 19.4071:20.0763:0
+17              SN.node[0].MobilityManager               changed location(x:y:z) to 24.6925:25.544:0
+18              SN.node[0].MobilityManager               changed location(x:y:z) to 10.792:11.1642:0
+19              SN.node[0].MobilityManager               changed location(x:y:z) to 3.1084:3.21558:0
+20              SN.node[0].MobilityManager               changed location(x:y:z) to 17.0088:17.5954:0
+20.003672223318 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+21              SN.node[0].MobilityManager               changed location(x:y:z) to 27.0907:28.0249:0
+22              SN.node[0].MobilityManager               changed location(x:y:z) to 13.1903:13.6451:0
+23              SN.node[0].MobilityManager               changed location(x:y:z) to 0.710165:0.734653:0
+24              SN.node[0].MobilityManager               changed location(x:y:z) to 14.6106:15.1144:0
+25              SN.node[0].MobilityManager               changed location(x:y:z) to 28.511:29.4942:0
+26              SN.node[0].MobilityManager               changed location(x:y:z) to 15.5885:16.126:0
+27              SN.node[0].MobilityManager               changed location(x:y:z) to 1.68807:1.74628:0
+28              SN.node[0].MobilityManager               changed location(x:y:z) to 12.2124:12.6335:0
+29              SN.node[0].MobilityManager               changed location(x:y:z) to 26.1128:27.0133:0
+30              SN.node[0].MobilityManager               changed location(x:y:z) to 17.9867:18.607:0
+30.003740212969 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+31              SN.node[0].MobilityManager               changed location(x:y:z) to 4.0863:4.22721:0
+32              SN.node[0].MobilityManager               changed location(x:y:z) to 9.81414:10.1526:0
+33              SN.node[0].MobilityManager               changed location(x:y:z) to 23.7146:24.5323:0
+34              SN.node[0].MobilityManager               changed location(x:y:z) to 20.385:21.0879:0
+35              SN.node[0].MobilityManager               changed location(x:y:z) to 6.48453:6.70814:0
+36              SN.node[0].MobilityManager               changed location(x:y:z) to 7.41591:7.67163:0
+37              SN.node[0].MobilityManager               changed location(x:y:z) to 21.3164:22.0514:0
+38              SN.node[0].MobilityManager               changed location(x:y:z) to 22.7832:23.5688:0
+39              SN.node[0].MobilityManager               changed location(x:y:z) to 8.88276:9.18907:0
+40              SN.node[0].MobilityManager               changed location(x:y:z) to 5.01768:5.1907:0
+40.00380820262  SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+41              SN.node[0].MobilityManager               changed location(x:y:z) to 18.9181:19.5705:0
+42              SN.node[0].MobilityManager               changed location(x:y:z) to 25.1814:26.0498:0
+43              SN.node[0].MobilityManager               changed location(x:y:z) to 11.281:11.67:0
+44              SN.node[0].MobilityManager               changed location(x:y:z) to 2.61945:2.70977:0
+45              SN.node[0].MobilityManager               changed location(x:y:z) to 16.5199:17.0895:0
+46              SN.node[0].MobilityManager               changed location(x:y:z) to 27.5797:28.5307:0
+47              SN.node[0].MobilityManager               changed location(x:y:z) to 13.6792:14.1509:0
+48              SN.node[0].MobilityManager               changed location(x:y:z) to 0.221213:0.228841:0
+49              SN.node[0].MobilityManager               changed location(x:y:z) to 14.1217:14.6086:0
+50              SN.node[0].MobilityManager               changed location(x:y:z) to 28.0221:28.9884:0
+50.003876192271 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+51              SN.node[0].MobilityManager               changed location(x:y:z) to 16.0775:16.6319:0
+52              SN.node[0].MobilityManager               changed location(x:y:z) to 2.17702:2.25209:0
+53              SN.node[0].MobilityManager               changed location(x:y:z) to 11.7234:12.1277:0
+54              SN.node[0].MobilityManager               changed location(x:y:z) to 25.6239:26.5074:0
+55              SN.node[0].MobilityManager               changed location(x:y:z) to 18.4757:19.1128:0
+56              SN.node[0].MobilityManager               changed location(x:y:z) to 4.57525:4.73302:0
+57              SN.node[0].MobilityManager               changed location(x:y:z) to 9.32519:9.64675:0
+58              SN.node[0].MobilityManager               changed location(x:y:z) to 23.2256:24.0265:0
+59              SN.node[0].MobilityManager               changed location(x:y:z) to 20.8739:21.5937:0
+60              SN.node[0].MobilityManager               changed location(x:y:z) to 6.97348:7.21395:0
+60.003944181922 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+61              SN.node[0].MobilityManager               changed location(x:y:z) to 6.92696:7.16582:0
+62              SN.node[0].MobilityManager               changed location(x:y:z) to 20.8274:21.5456:0
+63              SN.node[0].MobilityManager               changed location(x:y:z) to 23.2722:24.0746:0
+64              SN.node[0].MobilityManager               changed location(x:y:z) to 9.37172:9.69488:0
+65              SN.node[0].MobilityManager               changed location(x:y:z) to 4.52873:4.68489:0
+66              SN.node[0].MobilityManager               changed location(x:y:z) to 18.4292:19.0647:0
+67              SN.node[0].MobilityManager               changed location(x:y:z) to 25.6704:26.5556:0
+68              SN.node[0].MobilityManager               changed location(x:y:z) to 11.7699:12.1758:0
+69              SN.node[0].MobilityManager               changed location(x:y:z) to 2.13049:2.20396:0
+70              SN.node[0].MobilityManager               changed location(x:y:z) to 16.0309:16.5837:0
+70.004012171573 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+71              SN.node[0].MobilityManager               changed location(x:y:z) to 28.0686:29.0365:0
+72              SN.node[0].MobilityManager               changed location(x:y:z) to 14.1682:14.6567:0
+73              SN.node[0].MobilityManager               changed location(x:y:z) to 0.267739:0.276971:0
+74              SN.node[0].MobilityManager               changed location(x:y:z) to 13.6327:14.1028:0
+75              SN.node[0].MobilityManager               changed location(x:y:z) to 27.5331:28.4826:0
+76              SN.node[0].MobilityManager               changed location(x:y:z) to 16.5664:17.1377:0
+77              SN.node[0].MobilityManager               changed location(x:y:z) to 2.66597:2.7579:0
+78              SN.node[0].MobilityManager               changed location(x:y:z) to 11.2345:11.6219:0
+79              SN.node[0].MobilityManager               changed location(x:y:z) to 25.1349:26.0016:0
+80              SN.node[0].MobilityManager               changed location(x:y:z) to 18.9646:19.6186:0
+80.004080161224 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+81              SN.node[0].MobilityManager               changed location(x:y:z) to 5.0642:5.23883:0
+82              SN.node[0].MobilityManager               changed location(x:y:z) to 8.83624:9.14094:0
+83              SN.node[0].MobilityManager               changed location(x:y:z) to 22.7367:23.5207:0
+84              SN.node[0].MobilityManager               changed location(x:y:z) to 21.3629:22.0995:0
+85              SN.node[0].MobilityManager               changed location(x:y:z) to 7.46244:7.71976:0
+86              SN.node[0].MobilityManager               changed location(x:y:z) to 6.43801:6.66001:0
+87              SN.node[0].MobilityManager               changed location(x:y:z) to 20.3384:21.0398:0
+88              SN.node[0].MobilityManager               changed location(x:y:z) to 23.7611:24.5805:0
+89              SN.node[0].MobilityManager               changed location(x:y:z) to 9.86067:10.2007:0
+90              SN.node[0].MobilityManager               changed location(x:y:z) to 4.03977:4.17908:0
+90.004148150875 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+91              SN.node[0].MobilityManager               changed location(x:y:z) to 17.9402:18.5588:0
+92              SN.node[0].MobilityManager               changed location(x:y:z) to 26.1593:27.0614:0
+93              SN.node[0].MobilityManager               changed location(x:y:z) to 12.2589:12.6816:0
+94              SN.node[0].MobilityManager               changed location(x:y:z) to 1.64154:1.69815:0
+95              SN.node[0].MobilityManager               changed location(x:y:z) to 15.542:16.0779:0
+96              SN.node[0].MobilityManager               changed location(x:y:z) to 28.5576:29.5423:0
+97              SN.node[0].MobilityManager               changed location(x:y:z) to 14.6571:15.1626:0
+98              SN.node[0].MobilityManager               changed location(x:y:z) to 0.75669:0.782783:0
+99              SN.node[0].MobilityManager               changed location(x:y:z) to 13.1438:13.597:0
+100             SN.node[0].MobilityManager               changed location(x:y:z) to 27.0442:27.9768:0
+100             SN.node[0].Application                   packets received = 4
+100             SN.node[1].Application                   packets sent 1
+100             SN.node[2].Application                   packets sent 1
+100             SN.node[3].Application                   packets sent 1
+100             SN.node[4].Application                   packets sent 1
+100             SN.node[5].Application                   packets sent 1
+100             SN.node[6].Application                   packets sent 1
+100             SN.node[7].Application                   packets sent 1
+100             SN.node[8].Application                   packets sent 1
+100             SN.node[9].Application                   packets sent 1
+0               SN.node[0].MobilityManager               initial location(x:y:z) is 29:30:0
+0               SN.node[1].MobilityManager               initial location(x:y:z) is 0:0:0
+0               SN.node[2].MobilityManager               initial location(x:y:z) is 15:0:0
+0               SN.node[3].MobilityManager               initial location(x:y:z) is 30:0:0
+0               SN.node[4].MobilityManager               initial location(x:y:z) is 0:15:0
+0               SN.node[5].MobilityManager               initial location(x:y:z) is 15:15:0
+0               SN.node[6].MobilityManager               initial location(x:y:z) is 30:15:0
+0               SN.node[7].MobilityManager               initial location(x:y:z) is 0:30:0
+0               SN.node[8].MobilityManager               initial location(x:y:z) is 15:30:0
+0               SN.node[9].MobilityManager               initial location(x:y:z) is 30:30:0
+0.003536244016  SN.node[1].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.003536244016  SN.node[1].Application                   This is startup() of NodeSensor 
+0.006066428963  SN.node[5].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.006066428963  SN.node[5].Application                   This is startup() of NodeSensor 
+0.014545237179  SN.node[4].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.014545237179  SN.node[4].Application                   This is startup() of NodeSensor 
+0.021853097004  SN.node[9].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.021853097004  SN.node[9].Application                   This is startup() of NodeSensor 
+0.025541380047  SN.node[6].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.025541380047  SN.node[6].Application                   This is startup() of NodeSensor 
+0.027539895218  SN.node[0].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.027539895218  SN.node[0].Application                   This is startup() of NodeIot 
+0.028465566283  SN.node[7].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.028465566283  SN.node[7].Application                   This is startup() of NodeSensor 
+0.035407391109  SN.node[2].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.035407391109  SN.node[2].Application                   This is startup() of NodeSensor 
+0.041997452115  SN.node[3].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.041997452115  SN.node[3].Application                   This is startup() of NodeSensor 
+0.044647347892  SN.node[8].Application                   Alhumdulillah; wa ma toufeeq e illa billah
+0.044647347892  SN.node[8].Application                   This is startup() of NodeSensor 
+1               SN.node[0].MobilityManager               changed location(x:y:z) to 15.0996:15.6202:0
+2               SN.node[0].MobilityManager               changed location(x:y:z) to 1.19912:1.24046:0
+3               SN.node[0].MobilityManager               changed location(x:y:z) to 12.7013:13.1393:0
+4               SN.node[0].MobilityManager               changed location(x:y:z) to 26.6018:27.5191:0
+5               SN.node[0].MobilityManager               changed location(x:y:z) to 17.4978:18.1012:0
+6               SN.node[0].MobilityManager               changed location(x:y:z) to 3.59735:3.72139:0
+7               SN.node[0].MobilityManager               changed location(x:y:z) to 10.3031:10.6584:0
+8               SN.node[0].MobilityManager               changed location(x:y:z) to 24.2035:25.0381:0
+9               SN.node[0].MobilityManager               changed location(x:y:z) to 19.896:20.5821:0
+10              SN.node[0].MobilityManager               changed location(x:y:z) to 5.99558:6.20232:0
+10.003604233667 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+10.003604233667 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID 1 with packetsSent == 0 
+10.003604233667 SN.node[1].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.004904233666 SN.node[0].Application                   received packet from 1 with LQI = 14.6124
+10.006393559507 SN.node[5].Application                   This is timerFiredCallback of NodeSensor ID 5 with packetsSent == 0 
+10.006393559507 SN.node[5].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.007693559506 SN.node[0].Application                   received packet from 5 with LQI = 7.38764
+10.014687792058 SN.node[4].Application                   This is timerFiredCallback of NodeSensor ID 4 with packetsSent == 0 
+10.014687792058 SN.node[4].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.015987792057 SN.node[0].Application                   received packet from 4 with LQI = 9.83708
+10.022043701942 SN.node[9].Application                   This is timerFiredCallback of NodeSensor ID 9 with packetsSent == 0 
+10.022043701942 SN.node[9].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.02525516215  SN.node[6].Application                   This is timerFiredCallback of NodeSensor ID 6 with packetsSent == 0 
+10.02525516215  SN.node[6].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.028158709203 SN.node[7].Application                   This is timerFiredCallback of NodeSensor ID 7 with packetsSent == 0 
+10.028158709203 SN.node[7].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.035919320245 SN.node[2].Application                   This is timerFiredCallback of NodeSensor ID 2 with packetsSent == 0 
+10.035919320245 SN.node[2].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.037219320244 SN.node[0].Application                   received packet from 2 with LQI = 9.83708
+10.041937470856 SN.node[3].Application                   This is timerFiredCallback of NodeSensor ID 3 with packetsSent == 0 
+10.041937470856 SN.node[3].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+10.044377732724 SN.node[8].Application                   This is timerFiredCallback of NodeSensor ID 8 with packetsSent == 0 
+10.044377732724 SN.node[8].Application                   Sending [App generic packet] of size 16 bytes to communication layer
+11              SN.node[0].MobilityManager               changed location(x:y:z) to 7.90486:8.17744:0
+12              SN.node[0].MobilityManager               changed location(x:y:z) to 21.8053:22.5572:0
+13              SN.node[0].MobilityManager               changed location(x:y:z) to 22.2943:23.063:0
+14              SN.node[0].MobilityManager               changed location(x:y:z) to 8.39381:8.68325:0
+15              SN.node[0].MobilityManager               changed location(x:y:z) to 5.50663:5.69651:0
+16              SN.node[0].MobilityManager               changed location(x:y:z) to 19.4071:20.0763:0
+17              SN.node[0].MobilityManager               changed location(x:y:z) to 24.6925:25.544:0
+18              SN.node[0].MobilityManager               changed location(x:y:z) to 10.792:11.1642:0
+19              SN.node[0].MobilityManager               changed location(x:y:z) to 3.1084:3.21558:0
+20              SN.node[0].MobilityManager               changed location(x:y:z) to 17.0088:17.5954:0
+20.003672223318 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+21              SN.node[0].MobilityManager               changed location(x:y:z) to 27.0907:28.0249:0
+22              SN.node[0].MobilityManager               changed location(x:y:z) to 13.1903:13.6451:0
+23              SN.node[0].MobilityManager               changed location(x:y:z) to 0.710165:0.734653:0
+24              SN.node[0].MobilityManager               changed location(x:y:z) to 14.6106:15.1144:0
+25              SN.node[0].MobilityManager               changed location(x:y:z) to 28.511:29.4942:0
+26              SN.node[0].MobilityManager               changed location(x:y:z) to 15.5885:16.126:0
+27              SN.node[0].MobilityManager               changed location(x:y:z) to 1.68807:1.74628:0
+28              SN.node[0].MobilityManager               changed location(x:y:z) to 12.2124:12.6335:0
+29              SN.node[0].MobilityManager               changed location(x:y:z) to 26.1128:27.0133:0
+30              SN.node[0].MobilityManager               changed location(x:y:z) to 17.9867:18.607:0
+30.003740212969 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+31              SN.node[0].MobilityManager               changed location(x:y:z) to 4.0863:4.22721:0
+32              SN.node[0].MobilityManager               changed location(x:y:z) to 9.81414:10.1526:0
+33              SN.node[0].MobilityManager               changed location(x:y:z) to 23.7146:24.5323:0
+34              SN.node[0].MobilityManager               changed location(x:y:z) to 20.385:21.0879:0
+35              SN.node[0].MobilityManager               changed location(x:y:z) to 6.48453:6.70814:0
+36              SN.node[0].MobilityManager               changed location(x:y:z) to 7.41591:7.67163:0
+37              SN.node[0].MobilityManager               changed location(x:y:z) to 21.3164:22.0514:0
+38              SN.node[0].MobilityManager               changed location(x:y:z) to 22.7832:23.5688:0
+39              SN.node[0].MobilityManager               changed location(x:y:z) to 8.88276:9.18907:0
+40              SN.node[0].MobilityManager               changed location(x:y:z) to 5.01768:5.1907:0
+40.00380820262  SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+41              SN.node[0].MobilityManager               changed location(x:y:z) to 18.9181:19.5705:0
+42              SN.node[0].MobilityManager               changed location(x:y:z) to 25.1814:26.0498:0
+43              SN.node[0].MobilityManager               changed location(x:y:z) to 11.281:11.67:0
+44              SN.node[0].MobilityManager               changed location(x:y:z) to 2.61945:2.70977:0
+45              SN.node[0].MobilityManager               changed location(x:y:z) to 16.5199:17.0895:0
+46              SN.node[0].MobilityManager               changed location(x:y:z) to 27.5797:28.5307:0
+47              SN.node[0].MobilityManager               changed location(x:y:z) to 13.6792:14.1509:0
+48              SN.node[0].MobilityManager               changed location(x:y:z) to 0.221213:0.228841:0
+49              SN.node[0].MobilityManager               changed location(x:y:z) to 14.1217:14.6086:0
+50              SN.node[0].MobilityManager               changed location(x:y:z) to 28.0221:28.9884:0
+50.003876192271 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+51              SN.node[0].MobilityManager               changed location(x:y:z) to 16.0775:16.6319:0
+52              SN.node[0].MobilityManager               changed location(x:y:z) to 2.17702:2.25209:0
+53              SN.node[0].MobilityManager               changed location(x:y:z) to 11.7234:12.1277:0
+54              SN.node[0].MobilityManager               changed location(x:y:z) to 25.6239:26.5074:0
+55              SN.node[0].MobilityManager               changed location(x:y:z) to 18.4757:19.1128:0
+56              SN.node[0].MobilityManager               changed location(x:y:z) to 4.57525:4.73302:0
+57              SN.node[0].MobilityManager               changed location(x:y:z) to 9.32519:9.64675:0
+58              SN.node[0].MobilityManager               changed location(x:y:z) to 23.2256:24.0265:0
+59              SN.node[0].MobilityManager               changed location(x:y:z) to 20.8739:21.5937:0
+60              SN.node[0].MobilityManager               changed location(x:y:z) to 6.97348:7.21395:0
+60.003944181922 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+61              SN.node[0].MobilityManager               changed location(x:y:z) to 6.92696:7.16582:0
+62              SN.node[0].MobilityManager               changed location(x:y:z) to 20.8274:21.5456:0
+63              SN.node[0].MobilityManager               changed location(x:y:z) to 23.2722:24.0746:0
+64              SN.node[0].MobilityManager               changed location(x:y:z) to 9.37172:9.69488:0
+65              SN.node[0].MobilityManager               changed location(x:y:z) to 4.52873:4.68489:0
+66              SN.node[0].MobilityManager               changed location(x:y:z) to 18.4292:19.0647:0
+67              SN.node[0].MobilityManager               changed location(x:y:z) to 25.6704:26.5556:0
+68              SN.node[0].MobilityManager               changed location(x:y:z) to 11.7699:12.1758:0
+69              SN.node[0].MobilityManager               changed location(x:y:z) to 2.13049:2.20396:0
+70              SN.node[0].MobilityManager               changed location(x:y:z) to 16.0309:16.5837:0
+70.004012171573 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+71              SN.node[0].MobilityManager               changed location(x:y:z) to 28.0686:29.0365:0
+72              SN.node[0].MobilityManager               changed location(x:y:z) to 14.1682:14.6567:0
+73              SN.node[0].MobilityManager               changed location(x:y:z) to 0.267739:0.276971:0
+74              SN.node[0].MobilityManager               changed location(x:y:z) to 13.6327:14.1028:0
+75              SN.node[0].MobilityManager               changed location(x:y:z) to 27.5331:28.4826:0
+76              SN.node[0].MobilityManager               changed location(x:y:z) to 16.5664:17.1377:0
+77              SN.node[0].MobilityManager               changed location(x:y:z) to 2.66597:2.7579:0
+78              SN.node[0].MobilityManager               changed location(x:y:z) to 11.2345:11.6219:0
+79              SN.node[0].MobilityManager               changed location(x:y:z) to 25.1349:26.0016:0
+80              SN.node[0].MobilityManager               changed location(x:y:z) to 18.9646:19.6186:0
+80.004080161224 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+81              SN.node[0].MobilityManager               changed location(x:y:z) to 5.0642:5.23883:0
+82              SN.node[0].MobilityManager               changed location(x:y:z) to 8.83624:9.14094:0
+83              SN.node[0].MobilityManager               changed location(x:y:z) to 22.7367:23.5207:0
+84              SN.node[0].MobilityManager               changed location(x:y:z) to 21.3629:22.0995:0
+85              SN.node[0].MobilityManager               changed location(x:y:z) to 7.46244:7.71976:0
+86              SN.node[0].MobilityManager               changed location(x:y:z) to 6.43801:6.66001:0
+87              SN.node[0].MobilityManager               changed location(x:y:z) to 20.3384:21.0398:0
+88              SN.node[0].MobilityManager               changed location(x:y:z) to 23.7611:24.5805:0
+89              SN.node[0].MobilityManager               changed location(x:y:z) to 9.86067:10.2007:0
+90              SN.node[0].MobilityManager               changed location(x:y:z) to 4.03977:4.17908:0
+90.004148150875 SN.node[1].Application                   This is timerFiredCallback of NodeSensor ID1
+91              SN.node[0].MobilityManager               changed location(x:y:z) to 17.9402:18.5588:0
+92              SN.node[0].MobilityManager               changed location(x:y:z) to 26.1593:27.0614:0
+93              SN.node[0].MobilityManager               changed location(x:y:z) to 12.2589:12.6816:0
+94              SN.node[0].MobilityManager               changed location(x:y:z) to 1.64154:1.69815:0
+95              SN.node[0].MobilityManager               changed location(x:y:z) to 15.542:16.0779:0
+96              SN.node[0].MobilityManager               changed location(x:y:z) to 28.5576:29.5423:0
+97              SN.node[0].MobilityManager               changed location(x:y:z) to 14.6571:15.1626:0
+98              SN.node[0].MobilityManager               changed location(x:y:z) to 0.75669:0.782783:0
+99              SN.node[0].MobilityManager               changed location(x:y:z) to 13.1438:13.597:0
+100             SN.node[0].MobilityManager               changed location(x:y:z) to 27.0442:27.9768:0
+100             SN.node[0].Application                   packets received = 4
+100             SN.node[1].Application                   packets sent 1
+100             SN.node[2].Application                   packets sent 1
+100             SN.node[3].Application                   packets sent 1
+100             SN.node[4].Application                   packets sent 1
+100             SN.node[5].Application                   packets sent 1
+100             SN.node[6].Application                   packets sent 1
+100             SN.node[7].Application                   packets sent 1
+100             SN.node[8].Application                   packets sent 1
+100             SN.node[9].Application                   packets sent 1
