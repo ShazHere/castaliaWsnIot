@@ -13,39 +13,59 @@
 #include "SnToIotPacket_m.h"
 #include "LineMobilityManager.h"
 #include "GenericPacket_m.h"
+#include "HelperMethods.h"
 
 using namespace std;
 
-struct neighborRecord {
-    int id;
-    int timesRx;
-    int receivedPackets;
+struct iotDataPacketRecord {
+    int oringinatorId;
+    int senderID;
+    GenericPacket *gp;
+    bool isDropCheked; //first step is to check if there is SN avialable to drop messages.
+    // after sending such message, this should be true, then after getting reply, such packets
+    //should be dropped
+};
+
+struct iotDropReplySnRecord {
+    int SnId;
+    double locX;
+    double locY;
+    double spentEnergy;
 };
 
 enum NodeIotTimers {
     SEND_PACKET = 1,
+    CHECK_DROP_PACKAGES = 2,
 };
 
 class NodeIot: public VirtualApplication {
 private:
     // parameters and variables
-    int packetsReceived;
+    int controlPacketsReceived;
+    int controlPacketsSent;
+    int dataPacketsSent;
+    int dataPacketsReceived;
+    int noOfTimesDirectionCHecked;
+
     char *packetReceivedSource;
     double rssi;
     double lqi;
-
-    // parameters related to sending
-    //int packetsPerNode;
     int packetSize;
-    int packetsSent;
+
+    vector<iotDataPacketRecord> dataPacketRecord;
+    vector<iotDropReplySnRecord> dropReplySnRecord;
+    // user defined methods:
+    bool addDataPacketRecord(GenericPacket *, string );
+    void updateDataPacketRecord(iotDataPacketRecord) ;
+//    bool addDropReplySnPacketRecord(SnToIotPacket *, string );
+//    void updateDropReplySnPacketRecord(iotDropReplySnRecord);
+//    int getBestSn(iotDropReplySnRecord *);
 
  protected:
     void startup();
     void fromNetworkLayer(ApplicationPacket *, const char *, double, double);
-        //From Connectivity App
     void finishSpecific();
     void timerFiredCallback(int);
-   // void updateNeighborTable(int nodeID, int theSN);
 };
 
 

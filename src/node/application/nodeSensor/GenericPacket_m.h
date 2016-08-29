@@ -21,12 +21,12 @@
 // }}
 
 /**
- * Struct generated from src/node/application/nodeSensor/GenericPacket.msg:34 by nedtool.
+ * Struct generated from src/node/application/nodeSensor/GenericPacket.msg:26 by nedtool.
  */
 struct packetInfo
 {
     packetInfo();
-    unsigned short nodeID;
+    unsigned short OriginNodeID;
     int messageType;
 };
 
@@ -34,7 +34,7 @@ void doPacking(cCommBuffer *b, packetInfo& a);
 void doUnpacking(cCommBuffer *b, packetInfo& a);
 
 /**
- * Class generated from <tt>src/node/application/nodeSensor/GenericPacket.msg:38</tt> by nedtool.
+ * Class generated from <tt>src/node/application/nodeSensor/GenericPacket.msg:30</tt> by nedtool.
  * <pre>
  * packet GenericPacket extends ApplicationPacket
  * {

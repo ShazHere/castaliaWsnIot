@@ -11,9 +11,11 @@
 #include "VirtualApplication.h"
 #include "SnToIotPacket_m.h"
 #include "IotToSnReplyPacket_m.h"
+#include "GenericPacket_m.h"
+#include "HelperMethods.h"
 
 //#include "assert.h"
-
+//#define NDEBUG //enable it to turn off debug mode and all assertions in current file
 
 using namespace std;
 

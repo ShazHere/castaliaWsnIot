@@ -21,7 +21,7 @@
 // }}
 
 /**
- * Struct generated from src/node/application/nodeSensor/SnToIotPacket.msg:24 by nedtool.
+ * Struct generated from src/node/application/nodeSensor/SnToIotPacket.msg:26 by nedtool.
  */
 struct snInfo
 {
@@ -36,7 +36,7 @@ void doPacking(cCommBuffer *b, snInfo& a);
 void doUnpacking(cCommBuffer *b, snInfo& a);
 
 /**
- * Class generated from <tt>src/node/application/nodeSensor/SnToIotPacket.msg:30</tt> by nedtool.
+ * Class generated from <tt>src/node/application/nodeSensor/SnToIotPacket.msg:32</tt> by nedtool.
  * <pre>
  * packet SnToIotPacket extends ApplicationPacket
  * {

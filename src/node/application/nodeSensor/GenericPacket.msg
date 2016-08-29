@@ -16,15 +16,7 @@
 //
 // TODO generated message class
 // 
-/// enum MessageType tHISis the sequence used for message type. 
-// PROBLEM: i'm unable to use new user defined type in the packet infor, so i used the default 'data'
-//  and explicitly maintain the folowing values. 
-// data field in ApplicationPacket
-//    SnToIotSearchIot = 1,
-//    IotToSnSearchReply = 2,
-//    IotToSnSearchSnForDrop = 3,
-//    SnToIotDataPacket = 4,
-//    IotToSnDataPacket = 5
+
 //
 //Generic message which will be simply extended from ApplicationPacket class with addition of only messageType
 cplusplus {{ 
@@ -32,7 +24,7 @@ cplusplus {{
 }} 
 class ApplicationPacket; 
 struct packetInfo {
-    unsigned short nodeID; //the ID of the Node
+    unsigned short OriginNodeID; //the ID of the Node
     int messageType; //type of message
 } 
 packet GenericPacket extends ApplicationPacket {

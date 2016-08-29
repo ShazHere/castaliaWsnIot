@@ -17,6 +17,8 @@
 // TODO generated message class
 //
 // Description: Used to send informatin about SN towards IoT object
+// Two purposes: 1 ) SNToIot Search message to find any IoT around
+// 2) SNtoIot drop reply message in response to IoT's drop messages
 cplusplus {{ 
 #include "ApplicationPacket_m.h" 
 }} 
