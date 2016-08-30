@@ -31,6 +31,7 @@ struct iotDropReplySnRecord {
     double locX;
     double locY;
     double spentEnergy;
+    double lqi;
 };
 
 enum NodeIotTimers {
@@ -55,11 +56,13 @@ private:
     vector<iotDataPacketRecord> dataPacketRecord;
     vector<iotDropReplySnRecord> dropReplySnRecord;
     // user defined methods:
+    void sendDataPacketRecordsToBestSn(iotDropReplySnRecord* );
     bool addDataPacketRecord(GenericPacket *, string );
     void updateDataPacketRecord(iotDataPacketRecord) ;
-//    bool addDropReplySnPacketRecord(SnToIotPacket *, string );
-//    void updateDropReplySnPacketRecord(iotDropReplySnRecord);
-//    int getBestSn(iotDropReplySnRecord *);
+    bool addDropReplySnPacketRecord(SnToIotPacket *, string, double );
+    void updateDropReplySnPacketRecord(iotDropReplySnRecord);
+    int getBestSn(iotDropReplySnRecord* &bestSn);
+    bool directionCheckOk ();
 
  protected:
     void startup();

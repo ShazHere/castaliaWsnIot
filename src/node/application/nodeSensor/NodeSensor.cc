@@ -147,7 +147,6 @@ void NodeSensor::timerFiredCallback(int timerIndex)
             toNetworkLayer(pkt, getIntToConstChar(proposalRecord[bestProposalId].id));
             dataPacketsSent++;
         }
-
     }
     setTimer(SEND_PACKET, 10); //so that timer is called after every 10 (seconds or ms)
     }
