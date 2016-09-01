@@ -320,6 +320,7 @@ void ApplicationPacket::copy(const ApplicationPacket& other)
     this->applicationID_var = other.applicationID_var;
     this->sequenceNumber_var = other.sequenceNumber_var;
     this->data_var = other.data_var;
+
 }
 
 void ApplicationPacket::parsimPack(cCommBuffer *b)

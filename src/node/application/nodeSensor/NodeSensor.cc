@@ -78,9 +78,15 @@ void NodeSensor::fromNetworkLayer(ApplicationPacket * rcvPacket, const char *sou
                        pkt->setByteLength(packetSize);
                        toNetworkLayer(pkt, source);
                        controlPacketsSent++;
-           break;
+                       break;
        }
-        //case 5: // IotToSnDataPacket
+       case MESSAGETYPE_IOTTOSN_DATAPACKET: // IotToSnDataPacket
+           dataPacketsReceived++;
+           GenericPacket *rcvpkt = check_and_cast<GenericPacket*>(rcvPacket);
+           trace()<<"received dataPacket from IOT "<< strSource << " with LQI = " << lqi
+                   << " messageType = " << getMessageTypeText(rcvpkt->getExtraData().messageType)
+                   << " rcvPacketName = " << rcvPacket->getName() << " message type in data is "
+                   << rcvPacket->getData();
         }
     }
     else //means this is the sink SN

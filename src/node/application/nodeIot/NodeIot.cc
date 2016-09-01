@@ -4,6 +4,24 @@
  *
  */
 
+/**
+ * Comments on SOF about the packet storage error:
+ *
+what is GenericPacket? – fritzone 18 hours ago
+3
+possibly GenericPacket doesn't follow the Rule of Three, and is destructing its internal resource after the line idpr.gp = *rcvpkt; completes. Or perhaps its assignment operator does something weird. – M.M 18 hours ago
+1
+Why it should not be possible? Check GenericPacket copy constructor and assignment operator. There is no guarantee that name member is copied. – Ari0nhh 18 hours ago
+2
+It would help to at least link to the source code for GenericPacket – M.M 18 hours ago
+2
+Where gp is a class from a tested library -- Looks like this library needs a bit more testing. – PaulMcKenzie 18 hours ago
+
+Or is GenericPacket just never intended for copying? – Hayt 18 hours ago
+
+Ok, so its not my fault in using pointers? I better ask the library developers then. –
+ */
+
 #include "NodeIot.h"
 
 Define_Module(NodeIot);
@@ -95,7 +113,7 @@ bool NodeIot::addDropReplySnPacketRecord(SnToIotPacket *rcvpkt, string source, d
     idrsr.locY =  rcvpkt->getExtraData().locY;
     idrsr.spentEnergy = rcvpkt->getExtraData().spentEnergy;
     idrsr.lqi = lqi;
-    trace() << "checking addDropReplySnPacketRecord method.. sendderID is " << idrsr.SnId << " and Source is " << source;
+    //trace() << "checking addDropReplySnPacketRecord method.. sendderID is " << idrsr.SnId << " and Source is " << source;
     updateDropReplySnPacketRecord(idrsr);
 }
 void NodeIot::updateDropReplySnPacketRecord(iotDropReplySnRecord idrsr) {
@@ -124,6 +142,8 @@ bool NodeIot::addDataPacketRecord(GenericPacket *rcvpkt, string source) {
     idpr.isDropCheked = false;
     idpr.senderID = std::stoi(source); //tested working
     idpr.gp = rcvpkt;
+    trace() << "packet Name originally  = " << rcvpkt->getName();
+    trace() << "packet name after storing = " << idpr.gp->getName();
     updateDataPacketRecord(idpr);
 }
 void NodeIot::updateDataPacketRecord(iotDataPacketRecord idpr) {
@@ -141,6 +161,8 @@ void NodeIot::updateDataPacketRecord(iotDataPacketRecord idpr) {
         }
         if ((int)dataPacketRecord.size() > tblSize)
             trace() << "Data packet added at Iot";
+//        trace()<<"Checking datapacketRecord messageType = " << dataPacketRecord[0].gp.getData()
+//                << " and Name = " << dataPacketRecord[0].gp.getName();
 }
 void NodeIot::timerFiredCallback(int timerIndex)
 {
@@ -167,8 +189,8 @@ void NodeIot::timerFiredCallback(int timerIndex)
             trace()<< "Found best SN with id = "<< bestSn->SnId;
             //send the data packet so to best SN and clear the dataPacketRecord table and drop SN table
             sendDataPacketRecordsToBestSn(bestSn);
-            //dataPacketRecord.clear();
-            //dropReplySnRecord.clear();
+            dataPacketRecord.clear();
+            dropReplySnRecord.clear();
         }
         else {
             trace()<<"NO SN FOUND";
@@ -176,6 +198,8 @@ void NodeIot::timerFiredCallback(int timerIndex)
             int tblSize = (int)dataPacketRecord.size();
             for (int i = 0; i < tblSize; i++) // if there is any record without check drop, just drop mesages
                 if (dataPacketRecord[i].isDropCheked == false) {
+                  //  trace() << "Checking datapacketRecord originID = " << dataPacketRecord[i].oringinatorId;
+                  // trace() << "Checking datapacketRecord messageType = " << dataPacketRecord[i].gp.getData();
                     GenericPacket *pkt = new GenericPacket("IoTDropPacket", APPLICATION_PACKET);
                     packetInfo temp;
                     temp.OriginNodeID = self; //no need to put origin data id in it
@@ -217,13 +241,29 @@ int NodeIot::getBestSn(iotDropReplySnRecord* &bestSn) {
 
     return 0; //normal return should be 0
 }
+/**
+ * TODO: fix this method because I'm unable to store and then send data packet to network layer.
+ * PS: may be create new data packets each time...since I any way don't need the same data packet to be sent
+ */
 void NodeIot::sendDataPacketRecordsToBestSn(iotDropReplySnRecord* bestSn) {
     int tblSize = (int)dataPacketRecord.size();
     trace()<< "sending " << tblSize << " data packets to " << bestSn->SnId;
-//    for (int i = 0; i < tblSize; i++) {
-//        toNetworkLayer(dataPacketRecord[i].gp,getIntToConstChar(bestSn->SnId));
-//        dataPacketsSent++;
-//    }
+    for (int i = 0; i < tblSize; i++) {
+        //before sending gp, reset it and send a new packet. this is because of error in storing data
+        GenericPacket *pkt = new GenericPacket("genericDataPacket", APPLICATION_PACKET);
+        packetInfo temp;
+        temp.OriginNodeID = dataPacketRecord[i].oringinatorId;
+        temp.messageType = MESSAGETYPE_IOTTOSN_DATAPACKET;
+        pkt->setExtraData(temp);
+        pkt->setData(MESSAGETYPE_IOTTOSN_DATAPACKET);
+        pkt->setSequenceNumber(dataPacketsSent); //TODO: Check what should be sequence no.
+        pkt->setByteLength(packetSize); //TODO: check what should be data packet size
+        //                trace() << " dataPacketRecord chk messageType = " << pkt->getData() << " and Name = "
+        //                        << pkt->getName() << " sequenceNo =  " << pkt->getSequenceNumber();
+        toNetworkLayer(pkt,getIntToConstChar(bestSn->SnId));
+        trace()<< "DONE aLHUMD" ;
+        dataPacketsSent++;
+    }
 }
 /**
  * return True if Iot object should drop messages considering its direction.
