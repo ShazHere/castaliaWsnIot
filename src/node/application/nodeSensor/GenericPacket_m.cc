@@ -1,5 +1,5 @@
 //
-// Generated file, do not edit! Created by nedtool 4.6 from src/node/application/ApplicationPacket.msg.
+// Generated file, do not edit! Created by nedtool 4.6 from src/node/application/nodeSensor/GenericPacket.msg.
 //
 
 // Disable warnings about unused variables, empty switch stmts, etc:
@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include <sstream>
-#include "ApplicationPacket_m.h"
+#include "GenericPacket_m.h"
 
 USING_NAMESPACE
 
@@ -53,38 +53,29 @@ inline std::ostream& operator<<(std::ostream& out, const std::vector<T,A>& vec)
 template<typename T>
 inline std::ostream& operator<<(std::ostream& out,const T&) {return out;}
 
-AppNetInfoExchange_type::AppNetInfoExchange_type()
+packetInfo::packetInfo()
 {
-    RSSI = 0;
-    LQI = 0;
-    source = 0;
-    destination = 0;
-    timestamp = 0;
+    OriginNodeID = 0;
+    messageType = 0;
 }
 
-void doPacking(cCommBuffer *b, AppNetInfoExchange_type& a)
+void doPacking(cCommBuffer *b, packetInfo& a)
 {
-    doPacking(b,a.RSSI);
-    doPacking(b,a.LQI);
-    doPacking(b,a.source);
-    doPacking(b,a.destination);
-    doPacking(b,a.timestamp);
+    doPacking(b,a.OriginNodeID);
+    doPacking(b,a.messageType);
 }
 
-void doUnpacking(cCommBuffer *b, AppNetInfoExchange_type& a)
+void doUnpacking(cCommBuffer *b, packetInfo& a)
 {
-    doUnpacking(b,a.RSSI);
-    doUnpacking(b,a.LQI);
-    doUnpacking(b,a.source);
-    doUnpacking(b,a.destination);
-    doUnpacking(b,a.timestamp);
+    doUnpacking(b,a.OriginNodeID);
+    doUnpacking(b,a.messageType);
 }
 
-class AppNetInfoExchange_typeDescriptor : public cClassDescriptor
+class packetInfoDescriptor : public cClassDescriptor
 {
   public:
-    AppNetInfoExchange_typeDescriptor();
-    virtual ~AppNetInfoExchange_typeDescriptor();
+    packetInfoDescriptor();
+    virtual ~packetInfoDescriptor();
 
     virtual bool doesSupport(cObject *obj) const;
     virtual const char *getProperty(const char *propertyname) const;
@@ -103,34 +94,34 @@ class AppNetInfoExchange_typeDescriptor : public cClassDescriptor
     virtual void *getFieldStructPointer(void *object, int field, int i) const;
 };
 
-Register_ClassDescriptor(AppNetInfoExchange_typeDescriptor);
+Register_ClassDescriptor(packetInfoDescriptor);
 
-AppNetInfoExchange_typeDescriptor::AppNetInfoExchange_typeDescriptor() : cClassDescriptor("AppNetInfoExchange_type", "")
+packetInfoDescriptor::packetInfoDescriptor() : cClassDescriptor("packetInfo", "")
 {
 }
 
-AppNetInfoExchange_typeDescriptor::~AppNetInfoExchange_typeDescriptor()
+packetInfoDescriptor::~packetInfoDescriptor()
 {
 }
 
-bool AppNetInfoExchange_typeDescriptor::doesSupport(cObject *obj) const
+bool packetInfoDescriptor::doesSupport(cObject *obj) const
 {
-    return dynamic_cast<AppNetInfoExchange_type *>(obj)!=NULL;
+    return dynamic_cast<packetInfo *>(obj)!=NULL;
 }
 
-const char *AppNetInfoExchange_typeDescriptor::getProperty(const char *propertyname) const
+const char *packetInfoDescriptor::getProperty(const char *propertyname) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     return basedesc ? basedesc->getProperty(propertyname) : NULL;
 }
 
-int AppNetInfoExchange_typeDescriptor::getFieldCount(void *object) const
+int packetInfoDescriptor::getFieldCount(void *object) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
-    return basedesc ? 5+basedesc->getFieldCount(object) : 5;
+    return basedesc ? 2+basedesc->getFieldCount(object) : 2;
 }
 
-unsigned int AppNetInfoExchange_typeDescriptor::getFieldTypeFlags(void *object, int field) const
+unsigned int packetInfoDescriptor::getFieldTypeFlags(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -141,14 +132,11 @@ unsigned int AppNetInfoExchange_typeDescriptor::getFieldTypeFlags(void *object, 
     static unsigned int fieldTypeFlags[] = {
         FD_ISEDITABLE,
         FD_ISEDITABLE,
-        FD_ISEDITABLE,
-        FD_ISEDITABLE,
-        FD_ISEDITABLE,
     };
-    return (field>=0 && field<5) ? fieldTypeFlags[field] : 0;
+    return (field>=0 && field<2) ? fieldTypeFlags[field] : 0;
 }
 
-const char *AppNetInfoExchange_typeDescriptor::getFieldName(void *object, int field) const
+const char *packetInfoDescriptor::getFieldName(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -157,28 +145,22 @@ const char *AppNetInfoExchange_typeDescriptor::getFieldName(void *object, int fi
         field -= basedesc->getFieldCount(object);
     }
     static const char *fieldNames[] = {
-        "RSSI",
-        "LQI",
-        "source",
-        "destination",
-        "timestamp",
+        "OriginNodeID",
+        "messageType",
     };
-    return (field>=0 && field<5) ? fieldNames[field] : NULL;
+    return (field>=0 && field<2) ? fieldNames[field] : NULL;
 }
 
-int AppNetInfoExchange_typeDescriptor::findField(void *object, const char *fieldName) const
+int packetInfoDescriptor::findField(void *object, const char *fieldName) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     int base = basedesc ? basedesc->getFieldCount(object) : 0;
-    if (fieldName[0]=='R' && strcmp(fieldName, "RSSI")==0) return base+0;
-    if (fieldName[0]=='L' && strcmp(fieldName, "LQI")==0) return base+1;
-    if (fieldName[0]=='s' && strcmp(fieldName, "source")==0) return base+2;
-    if (fieldName[0]=='d' && strcmp(fieldName, "destination")==0) return base+3;
-    if (fieldName[0]=='t' && strcmp(fieldName, "timestamp")==0) return base+4;
+    if (fieldName[0]=='O' && strcmp(fieldName, "OriginNodeID")==0) return base+0;
+    if (fieldName[0]=='m' && strcmp(fieldName, "messageType")==0) return base+1;
     return basedesc ? basedesc->findField(object, fieldName) : -1;
 }
 
-const char *AppNetInfoExchange_typeDescriptor::getFieldTypeString(void *object, int field) const
+const char *packetInfoDescriptor::getFieldTypeString(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -187,16 +169,13 @@ const char *AppNetInfoExchange_typeDescriptor::getFieldTypeString(void *object, 
         field -= basedesc->getFieldCount(object);
     }
     static const char *fieldTypeStrings[] = {
-        "double",
-        "double",
-        "string",
-        "string",
-        "simtime_t",
+        "unsigned short",
+        "int",
     };
-    return (field>=0 && field<5) ? fieldTypeStrings[field] : NULL;
+    return (field>=0 && field<2) ? fieldTypeStrings[field] : NULL;
 }
 
-const char *AppNetInfoExchange_typeDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
+const char *packetInfoDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -209,7 +188,7 @@ const char *AppNetInfoExchange_typeDescriptor::getFieldProperty(void *object, in
     }
 }
 
-int AppNetInfoExchange_typeDescriptor::getArraySize(void *object, int field) const
+int packetInfoDescriptor::getArraySize(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -217,13 +196,13 @@ int AppNetInfoExchange_typeDescriptor::getArraySize(void *object, int field) con
             return basedesc->getArraySize(object, field);
         field -= basedesc->getFieldCount(object);
     }
-    AppNetInfoExchange_type *pp = (AppNetInfoExchange_type *)object; (void)pp;
+    packetInfo *pp = (packetInfo *)object; (void)pp;
     switch (field) {
         default: return 0;
     }
 }
 
-std::string AppNetInfoExchange_typeDescriptor::getFieldAsString(void *object, int field, int i) const
+std::string packetInfoDescriptor::getFieldAsString(void *object, int field, int i) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -231,18 +210,15 @@ std::string AppNetInfoExchange_typeDescriptor::getFieldAsString(void *object, in
             return basedesc->getFieldAsString(object,field,i);
         field -= basedesc->getFieldCount(object);
     }
-    AppNetInfoExchange_type *pp = (AppNetInfoExchange_type *)object; (void)pp;
+    packetInfo *pp = (packetInfo *)object; (void)pp;
     switch (field) {
-        case 0: return double2string(pp->RSSI);
-        case 1: return double2string(pp->LQI);
-        case 2: return oppstring2string(pp->source);
-        case 3: return oppstring2string(pp->destination);
-        case 4: return double2string(pp->timestamp);
+        case 0: return ulong2string(pp->OriginNodeID);
+        case 1: return long2string(pp->messageType);
         default: return "";
     }
 }
 
-bool AppNetInfoExchange_typeDescriptor::setFieldAsString(void *object, int field, int i, const char *value) const
+bool packetInfoDescriptor::setFieldAsString(void *object, int field, int i, const char *value) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -250,18 +226,15 @@ bool AppNetInfoExchange_typeDescriptor::setFieldAsString(void *object, int field
             return basedesc->setFieldAsString(object,field,i,value);
         field -= basedesc->getFieldCount(object);
     }
-    AppNetInfoExchange_type *pp = (AppNetInfoExchange_type *)object; (void)pp;
+    packetInfo *pp = (packetInfo *)object; (void)pp;
     switch (field) {
-        case 0: pp->RSSI = string2double(value); return true;
-        case 1: pp->LQI = string2double(value); return true;
-        case 2: pp->source = (value); return true;
-        case 3: pp->destination = (value); return true;
-        case 4: pp->timestamp = string2double(value); return true;
+        case 0: pp->OriginNodeID = string2ulong(value); return true;
+        case 1: pp->messageType = string2long(value); return true;
         default: return false;
     }
 }
 
-const char *AppNetInfoExchange_typeDescriptor::getFieldStructName(void *object, int field) const
+const char *packetInfoDescriptor::getFieldStructName(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -274,7 +247,7 @@ const char *AppNetInfoExchange_typeDescriptor::getFieldStructName(void *object, 
     };
 }
 
-void *AppNetInfoExchange_typeDescriptor::getFieldStructPointer(void *object, int field, int i) const
+void *packetInfoDescriptor::getFieldStructPointer(void *object, int field, int i) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -282,109 +255,67 @@ void *AppNetInfoExchange_typeDescriptor::getFieldStructPointer(void *object, int
             return basedesc->getFieldStructPointer(object, field, i);
         field -= basedesc->getFieldCount(object);
     }
-    AppNetInfoExchange_type *pp = (AppNetInfoExchange_type *)object; (void)pp;
+    packetInfo *pp = (packetInfo *)object; (void)pp;
     switch (field) {
         default: return NULL;
     }
 }
 
-Register_Class(ApplicationPacket);
+Register_Class(GenericPacket);
 
-ApplicationPacket::ApplicationPacket(const char *name, int kind) : ::cPacket(name,kind)
+GenericPacket::GenericPacket(const char *name, int kind) : ::ApplicationPacket(name,kind)
 {
-    this->applicationID_var = 0;
-    this->sequenceNumber_var = 0;
-    this->data_var = 0;
 }
 
-ApplicationPacket::ApplicationPacket(const ApplicationPacket& other) : ::cPacket(other)
+GenericPacket::GenericPacket(const GenericPacket& other) : ::ApplicationPacket(other)
 {
     copy(other);
 }
 
-ApplicationPacket::~ApplicationPacket()
+GenericPacket::~GenericPacket()
 {
 }
 
-ApplicationPacket& ApplicationPacket::operator=(const ApplicationPacket& other)
+GenericPacket& GenericPacket::operator=(const GenericPacket& other)
 {
     if (this==&other) return *this;
-    ::cPacket::operator=(other);
+    ::ApplicationPacket::operator=(other);
     copy(other);
     return *this;
 }
 
-void ApplicationPacket::copy(const ApplicationPacket& other)
+void GenericPacket::copy(const GenericPacket& other)
 {
-    this->appNetInfoExchange_var = other.appNetInfoExchange_var;
-    this->applicationID_var = other.applicationID_var;
-    this->sequenceNumber_var = other.sequenceNumber_var;
-    this->data_var = other.data_var;
+    this->extraData_var = other.extraData_var;
 }
 
-void ApplicationPacket::parsimPack(cCommBuffer *b)
+void GenericPacket::parsimPack(cCommBuffer *b)
 {
-    ::cPacket::parsimPack(b);
-    doPacking(b,this->appNetInfoExchange_var);
-    doPacking(b,this->applicationID_var);
-    doPacking(b,this->sequenceNumber_var);
-    doPacking(b,this->data_var);
+    ::ApplicationPacket::parsimPack(b);
+    doPacking(b,this->extraData_var);
 }
 
-void ApplicationPacket::parsimUnpack(cCommBuffer *b)
+void GenericPacket::parsimUnpack(cCommBuffer *b)
 {
-    ::cPacket::parsimUnpack(b);
-    doUnpacking(b,this->appNetInfoExchange_var);
-    doUnpacking(b,this->applicationID_var);
-    doUnpacking(b,this->sequenceNumber_var);
-    doUnpacking(b,this->data_var);
+    ::ApplicationPacket::parsimUnpack(b);
+    doUnpacking(b,this->extraData_var);
 }
 
-AppNetInfoExchange_type& ApplicationPacket::getAppNetInfoExchange()
+packetInfo& GenericPacket::getExtraData()
 {
-    return appNetInfoExchange_var;
+    return extraData_var;
 }
 
-void ApplicationPacket::setAppNetInfoExchange(const AppNetInfoExchange_type& appNetInfoExchange)
+void GenericPacket::setExtraData(const packetInfo& extraData)
 {
-    this->appNetInfoExchange_var = appNetInfoExchange;
+    this->extraData_var = extraData;
 }
 
-const char * ApplicationPacket::getApplicationID() const
-{
-    return applicationID_var.c_str();
-}
-
-void ApplicationPacket::setApplicationID(const char * applicationID)
-{
-    this->applicationID_var = applicationID;
-}
-
-unsigned int ApplicationPacket::getSequenceNumber() const
-{
-    return sequenceNumber_var;
-}
-
-void ApplicationPacket::setSequenceNumber(unsigned int sequenceNumber)
-{
-    this->sequenceNumber_var = sequenceNumber;
-}
-
-double ApplicationPacket::getData() const
-{
-    return data_var;
-}
-
-void ApplicationPacket::setData(double data)
-{
-    this->data_var = data;
-}
-
-class ApplicationPacketDescriptor : public cClassDescriptor
+class GenericPacketDescriptor : public cClassDescriptor
 {
   public:
-    ApplicationPacketDescriptor();
-    virtual ~ApplicationPacketDescriptor();
+    GenericPacketDescriptor();
+    virtual ~GenericPacketDescriptor();
 
     virtual bool doesSupport(cObject *obj) const;
     virtual const char *getProperty(const char *propertyname) const;
@@ -403,34 +334,34 @@ class ApplicationPacketDescriptor : public cClassDescriptor
     virtual void *getFieldStructPointer(void *object, int field, int i) const;
 };
 
-Register_ClassDescriptor(ApplicationPacketDescriptor);
+Register_ClassDescriptor(GenericPacketDescriptor);
 
-ApplicationPacketDescriptor::ApplicationPacketDescriptor() : cClassDescriptor("ApplicationPacket", "cPacket")
+GenericPacketDescriptor::GenericPacketDescriptor() : cClassDescriptor("GenericPacket", "ApplicationPacket")
 {
 }
 
-ApplicationPacketDescriptor::~ApplicationPacketDescriptor()
+GenericPacketDescriptor::~GenericPacketDescriptor()
 {
 }
 
-bool ApplicationPacketDescriptor::doesSupport(cObject *obj) const
+bool GenericPacketDescriptor::doesSupport(cObject *obj) const
 {
-    return dynamic_cast<ApplicationPacket *>(obj)!=NULL;
+    return dynamic_cast<GenericPacket *>(obj)!=NULL;
 }
 
-const char *ApplicationPacketDescriptor::getProperty(const char *propertyname) const
+const char *GenericPacketDescriptor::getProperty(const char *propertyname) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     return basedesc ? basedesc->getProperty(propertyname) : NULL;
 }
 
-int ApplicationPacketDescriptor::getFieldCount(void *object) const
+int GenericPacketDescriptor::getFieldCount(void *object) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
-    return basedesc ? 4+basedesc->getFieldCount(object) : 4;
+    return basedesc ? 1+basedesc->getFieldCount(object) : 1;
 }
 
-unsigned int ApplicationPacketDescriptor::getFieldTypeFlags(void *object, int field) const
+unsigned int GenericPacketDescriptor::getFieldTypeFlags(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -440,14 +371,11 @@ unsigned int ApplicationPacketDescriptor::getFieldTypeFlags(void *object, int fi
     }
     static unsigned int fieldTypeFlags[] = {
         FD_ISCOMPOUND,
-        FD_ISEDITABLE,
-        FD_ISEDITABLE,
-        FD_ISEDITABLE,
     };
-    return (field>=0 && field<4) ? fieldTypeFlags[field] : 0;
+    return (field>=0 && field<1) ? fieldTypeFlags[field] : 0;
 }
 
-const char *ApplicationPacketDescriptor::getFieldName(void *object, int field) const
+const char *GenericPacketDescriptor::getFieldName(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -456,26 +384,20 @@ const char *ApplicationPacketDescriptor::getFieldName(void *object, int field) c
         field -= basedesc->getFieldCount(object);
     }
     static const char *fieldNames[] = {
-        "appNetInfoExchange",
-        "applicationID",
-        "sequenceNumber",
-        "data",
+        "extraData",
     };
-    return (field>=0 && field<4) ? fieldNames[field] : NULL;
+    return (field>=0 && field<1) ? fieldNames[field] : NULL;
 }
 
-int ApplicationPacketDescriptor::findField(void *object, const char *fieldName) const
+int GenericPacketDescriptor::findField(void *object, const char *fieldName) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     int base = basedesc ? basedesc->getFieldCount(object) : 0;
-    if (fieldName[0]=='a' && strcmp(fieldName, "appNetInfoExchange")==0) return base+0;
-    if (fieldName[0]=='a' && strcmp(fieldName, "applicationID")==0) return base+1;
-    if (fieldName[0]=='s' && strcmp(fieldName, "sequenceNumber")==0) return base+2;
-    if (fieldName[0]=='d' && strcmp(fieldName, "data")==0) return base+3;
+    if (fieldName[0]=='e' && strcmp(fieldName, "extraData")==0) return base+0;
     return basedesc ? basedesc->findField(object, fieldName) : -1;
 }
 
-const char *ApplicationPacketDescriptor::getFieldTypeString(void *object, int field) const
+const char *GenericPacketDescriptor::getFieldTypeString(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -484,15 +406,12 @@ const char *ApplicationPacketDescriptor::getFieldTypeString(void *object, int fi
         field -= basedesc->getFieldCount(object);
     }
     static const char *fieldTypeStrings[] = {
-        "AppNetInfoExchange_type",
-        "string",
-        "unsigned int",
-        "double",
+        "packetInfo",
     };
-    return (field>=0 && field<4) ? fieldTypeStrings[field] : NULL;
+    return (field>=0 && field<1) ? fieldTypeStrings[field] : NULL;
 }
 
-const char *ApplicationPacketDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
+const char *GenericPacketDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -505,7 +424,7 @@ const char *ApplicationPacketDescriptor::getFieldProperty(void *object, int fiel
     }
 }
 
-int ApplicationPacketDescriptor::getArraySize(void *object, int field) const
+int GenericPacketDescriptor::getArraySize(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -513,13 +432,13 @@ int ApplicationPacketDescriptor::getArraySize(void *object, int field) const
             return basedesc->getArraySize(object, field);
         field -= basedesc->getFieldCount(object);
     }
-    ApplicationPacket *pp = (ApplicationPacket *)object; (void)pp;
+    GenericPacket *pp = (GenericPacket *)object; (void)pp;
     switch (field) {
         default: return 0;
     }
 }
 
-std::string ApplicationPacketDescriptor::getFieldAsString(void *object, int field, int i) const
+std::string GenericPacketDescriptor::getFieldAsString(void *object, int field, int i) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -527,17 +446,14 @@ std::string ApplicationPacketDescriptor::getFieldAsString(void *object, int fiel
             return basedesc->getFieldAsString(object,field,i);
         field -= basedesc->getFieldCount(object);
     }
-    ApplicationPacket *pp = (ApplicationPacket *)object; (void)pp;
+    GenericPacket *pp = (GenericPacket *)object; (void)pp;
     switch (field) {
-        case 0: {std::stringstream out; out << pp->getAppNetInfoExchange(); return out.str();}
-        case 1: return oppstring2string(pp->getApplicationID());
-        case 2: return ulong2string(pp->getSequenceNumber());
-        case 3: return double2string(pp->getData());
+        case 0: {std::stringstream out; out << pp->getExtraData(); return out.str();}
         default: return "";
     }
 }
 
-bool ApplicationPacketDescriptor::setFieldAsString(void *object, int field, int i, const char *value) const
+bool GenericPacketDescriptor::setFieldAsString(void *object, int field, int i, const char *value) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -545,16 +461,13 @@ bool ApplicationPacketDescriptor::setFieldAsString(void *object, int field, int 
             return basedesc->setFieldAsString(object,field,i,value);
         field -= basedesc->getFieldCount(object);
     }
-    ApplicationPacket *pp = (ApplicationPacket *)object; (void)pp;
+    GenericPacket *pp = (GenericPacket *)object; (void)pp;
     switch (field) {
-        case 1: pp->setApplicationID((value)); return true;
-        case 2: pp->setSequenceNumber(string2ulong(value)); return true;
-        case 3: pp->setData(string2double(value)); return true;
         default: return false;
     }
 }
 
-const char *ApplicationPacketDescriptor::getFieldStructName(void *object, int field) const
+const char *GenericPacketDescriptor::getFieldStructName(void *object, int field) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -563,12 +476,12 @@ const char *ApplicationPacketDescriptor::getFieldStructName(void *object, int fi
         field -= basedesc->getFieldCount(object);
     }
     switch (field) {
-        case 0: return opp_typename(typeid(AppNetInfoExchange_type));
+        case 0: return opp_typename(typeid(packetInfo));
         default: return NULL;
     };
 }
 
-void *ApplicationPacketDescriptor::getFieldStructPointer(void *object, int field, int i) const
+void *GenericPacketDescriptor::getFieldStructPointer(void *object, int field, int i) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
     if (basedesc) {
@@ -576,9 +489,9 @@ void *ApplicationPacketDescriptor::getFieldStructPointer(void *object, int field
             return basedesc->getFieldStructPointer(object, field, i);
         field -= basedesc->getFieldCount(object);
     }
-    ApplicationPacket *pp = (ApplicationPacket *)object; (void)pp;
+    GenericPacket *pp = (GenericPacket *)object; (void)pp;
     switch (field) {
-        case 0: return (void *)(&pp->getAppNetInfoExchange()); break;
+        case 0: return (void *)(&pp->getExtraData()); break;
         default: return NULL;
     }
 }

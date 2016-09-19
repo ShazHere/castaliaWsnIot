@@ -14,6 +14,7 @@
 #include "LineMobilityManager.h"
 #include "GenericPacket_m.h"
 #include "HelperMethods.h"
+#include <sstream>
 
 using namespace std;
 
@@ -39,6 +40,8 @@ enum NodeIotTimers {
     CHECK_DROP_PACKAGES = 2,
 };
 
+
+
 class NodeIot: public VirtualApplication {
 private:
     // parameters and variables
@@ -46,12 +49,20 @@ private:
     int controlPacketsSent;
     int dataPacketsSent;
     int dataPacketsReceived;
-    int noOfTimesDirectionCHecked;
+
+    double sinkX;
+    double sinkY;
 
     char *packetReceivedSource;
     double rssi;
     double lqi;
     int packetSize;
+
+    bool justReturned; // for keeping track of mobility direction of Iot. True means just took turn and should send drop replies
+    // False means that either direction is towards sink or it has returned from quite some time.
+
+    const int SEND_PACKET_INTERVAL = 10; //interval to call settimer()
+    const int CHECK_DROP_PACKAGES_INTERVAL = 3; //interval to call settimer()
 
     vector<iotDataPacketRecord> dataPacketRecord;
     vector<iotDropReplySnRecord> dropReplySnRecord;
@@ -63,6 +74,7 @@ private:
     void updateDropReplySnPacketRecord(iotDropReplySnRecord);
     int getBestSn(iotDropReplySnRecord* &bestSn);
     bool directionCheckOk ();
+    string getLocationText();
 
  protected:
     void startup();

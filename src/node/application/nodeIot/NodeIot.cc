@@ -26,14 +26,21 @@ Ok, so its not my fault in using pointers? I better ask the library developers t
 
 Define_Module(NodeIot);
 
+string NodeIot::getLocationText() {
+    std::string str;
+    str =  " Location = (" + std::to_string((int)(floor(mobilityModule->getLocation().x))) + ", "
+           + std::to_string((int)(floor(mobilityModule->getLocation().y))) + ")";
+    return str;
+}
 
 void NodeIot::startup()
 {
     //From connectivityApp
-    trace() << "Alhumdulillah; This is startup() of NodeIot ";
+    trace() << "Alhumdulillah; This is startup() of NodeIot "
+            << getLocationText();
     //fix sink location, make consistent with omnetpp.ini of project
-    double sinkX = 1;
-    double sinkY = 0;
+    sinkX = 1;
+    sinkY = 0;
 
     dataPacketsSent = 0; //means no packet is sent so far
     controlPacketsSent = 0;
@@ -43,11 +50,10 @@ void NodeIot::startup()
     dataPacketRecord.clear();
     dropReplySnRecord.clear();
 
-    noOfTimesDirectionCHecked = 0; // just for checking
 
-    double startTxTime = 10; //I think it sets the start time of packets sent according to simulation time
+    //double startTxTime = 10; //I think it sets the start time of packets sent according to simulation time
     //setTimer(SEND_PACKET, startTxTime);
-    setTimer(CHECK_DROP_PACKAGES, 2);
+    setTimer(CHECK_DROP_PACKAGES, CHECK_DROP_PACKAGES_INTERVAL);
 
 }
 
@@ -61,8 +67,7 @@ void NodeIot::fromNetworkLayer(ApplicationPacket * rcvPacket, const char *source
         SnToIotPacket *rcvpkt = check_and_cast<SnToIotPacket*>(rcvPacket);
         trace()<<"received packet from "<< strSource << " with LQI = " << lqi
                 << " spEnergy = " << rcvpkt->getExtraData().spentEnergy
-                << " rcvPacketName = " << rcvPacket->getName() << " message type is "
-                << rcvPacket->getData();
+                << " message type is "<< getMessageTypeText(rcvPacket->getData());
         IotToSnReplyPacket *pkt = new IotToSnReplyPacket("IoTReplyPacket", APPLICATION_PACKET);
         iotInfo temp;
         temp.locX = mobilityModule->getLocation().x;
@@ -84,10 +89,8 @@ void NodeIot::fromNetworkLayer(ApplicationPacket * rcvPacket, const char *source
         SnToIotPacket *rcvpkt = check_and_cast<SnToIotPacket*>(rcvPacket);
                trace()<<"Received drop reply packet from "<< strSource << " with LQI = " << lqi
                        << " spEnergy = " << rcvpkt->getExtraData().spentEnergy
-                       << " rcvPacketName = " << rcvPacket->getName() << " message type is "
-                       << rcvPacket->getData();
+                       << " message type is " << getMessageTypeText(rcvPacket->getData());
                addDropReplySnPacketRecord(rcvpkt, source, lqi);
-///////////////START HERE
         break;
     }
     case MESSAGETYPE_SNTOIOT_DATAPACKET: {//data packet
@@ -95,11 +98,10 @@ void NodeIot::fromNetworkLayer(ApplicationPacket * rcvPacket, const char *source
         GenericPacket *rcvpkt = check_and_cast<GenericPacket*>(rcvPacket);
         trace()<<"received packet from "<< strSource << " with LQI = " << lqi
                             << " messageType = " << rcvpkt->getExtraData().messageType
-                            << " rcvPacketName = " << rcvPacket->getName() << " message type in data is "
-                            << rcvPacket->getData();
+                           << " message type in data is " << getMessageTypeText(rcvPacket->getData());
         addDataPacketRecord(rcvpkt, source);
         //send this data to sink node? or dropPacket messages?
-        //save this data packet?
+
         break;
     }
     }
@@ -115,6 +117,7 @@ bool NodeIot::addDropReplySnPacketRecord(SnToIotPacket *rcvpkt, string source, d
     idrsr.lqi = lqi;
     //trace() << "checking addDropReplySnPacketRecord method.. sendderID is " << idrsr.SnId << " and Source is " << source;
     updateDropReplySnPacketRecord(idrsr);
+    return true;
 }
 void NodeIot::updateDropReplySnPacketRecord(iotDropReplySnRecord idrsr) {
     int i = 0, pos = -1;
@@ -125,14 +128,14 @@ void NodeIot::updateDropReplySnPacketRecord(iotDropReplySnRecord idrsr) {
                 pos = i;
         if (pos == -1) {
             dropReplySnRecord.push_back(idrsr);
-            //trace()<< "added new SN record";
+            trace()<< "added new SN record";
         }
         else {
-            //trace()<< "Updating SN record";
+            trace()<< "Updating SN record";
             dropReplySnRecord[pos].spentEnergy = idrsr.spentEnergy;
             dropReplySnRecord[pos].lqi = idrsr.lqi;
         }
-        if (tblSize > (int)dropReplySnRecord.size())
+        if (tblSize < (int)dropReplySnRecord.size())
             trace() << "drop reply packet added/updated at Iot";
 }
 bool NodeIot::addDataPacketRecord(GenericPacket *rcvpkt, string source) {
@@ -141,10 +144,9 @@ bool NodeIot::addDataPacketRecord(GenericPacket *rcvpkt, string source) {
     idpr.oringinatorId = rcvpkt->getExtraData().OriginNodeID;
     idpr.isDropCheked = false;
     idpr.senderID = std::stoi(source); //tested working
-    idpr.gp = rcvpkt;
-    trace() << "packet Name originally  = " << rcvpkt->getName();
-    trace() << "packet name after storing = " << idpr.gp->getName();
+    idpr.gp = rcvpkt->dup();
     updateDataPacketRecord(idpr);
+    return true;
 }
 void NodeIot::updateDataPacketRecord(iotDataPacketRecord idpr) {
     int i = 0, pos = -1;
@@ -177,11 +179,13 @@ void NodeIot::timerFiredCallback(int timerIndex)
         break;
     }
     case CHECK_DROP_PACKAGES:{
-        setTimer(CHECK_DROP_PACKAGES, 2);
+        setTimer(CHECK_DROP_PACKAGES, CHECK_DROP_PACKAGES_INTERVAL);
         if (!directionCheckOk())
-            break;
+            return;
+        trace() << "direction check passed and direction is " << (check_and_cast<LineMobilityManager*>(mobilityModule))->getDirection();
         if ((int)dataPacketRecord.size() == 0)
-            break;
+            return;
+        trace()<< "directin chek passed n datapacketrecord > 0";
         iotDropReplySnRecord *bestSn;
         int returnCode = -1;
         returnCode = getBestSn(bestSn);
@@ -191,15 +195,16 @@ void NodeIot::timerFiredCallback(int timerIndex)
             sendDataPacketRecordsToBestSn(bestSn);
             dataPacketRecord.clear();
             dropReplySnRecord.clear();
+            justReturned = false;
         }
         else {
-            trace()<<"NO SN FOUND";
+            trace()<<"NO SN FOUND to drop data packts";
             ///TODO There should be no need to send drop messages when bestSN is already there.
             int tblSize = (int)dataPacketRecord.size();
             for (int i = 0; i < tblSize; i++) // if there is any record without check drop, just drop mesages
                 if (dataPacketRecord[i].isDropCheked == false) {
                   //  trace() << "Checking datapacketRecord originID = " << dataPacketRecord[i].oringinatorId;
-                  // trace() << "Checking datapacketRecord messageType = " << dataPacketRecord[i].gp.getData();
+                    trace() << "broadcasting drop packet from " << getLocationText() ;
                     GenericPacket *pkt = new GenericPacket("IoTDropPacket", APPLICATION_PACKET);
                     packetInfo temp;
                     temp.OriginNodeID = self; //no need to put origin data id in it
@@ -219,26 +224,24 @@ void NodeIot::timerFiredCallback(int timerIndex)
 }//End of method
 
 int NodeIot::getBestSn(iotDropReplySnRecord* &bestSn) {
-
     int tblSize = (int)dropReplySnRecord.size();
     if (tblSize == 0)
         return -1; //return with error code
-    double selfX = mobilityModule->getLocation().x;
-    double selfY = mobilityModule->getLocation().y;
-    double closestSnDist = getDistance(selfX, selfY, dropReplySnRecord[0].locX, dropReplySnRecord[0].locY);
+
+    double closestSnDist = getDistance(sinkX, sinkY, dropReplySnRecord[0].locX, dropReplySnRecord[0].locY);
     int closestSnId = 0;
+    double dist;
     for (int i = 0; i < tblSize; i++) { //decide based on distance
-        double dist = getDistance(selfX, selfY, dropReplySnRecord[i].locX, dropReplySnRecord[i].locY);
+        dist = getDistance(sinkX, sinkY, dropReplySnRecord[i].locX, dropReplySnRecord[i].locY);
+//        trace()<< "sink = (" << sinkX <<", " << sinkY << ") and SN "<< dropReplySnRecord[i].SnId << " is at ("
+//                << dropReplySnRecord[i].locX << ", " << dropReplySnRecord[i].locY << ")";
+        trace()<< "Sink distance from id " << dropReplySnRecord[i].SnId << "is " << dist;
         if (dist<closestSnDist) {
             closestSnDist = dist;
             closestSnId = i;
         }
     }
-    trace()<< "value of bestSn from vector " << dropReplySnRecord[closestSnId].SnId;
     bestSn = &(dropReplySnRecord[closestSnId]);
-    //trace()<< "value of bestSn before calling clear() " << bestSn->SnId;
-    //dropReplySnRecord.clear();
-
     return 0; //normal return should be 0
 }
 /**
@@ -261,24 +264,27 @@ void NodeIot::sendDataPacketRecordsToBestSn(iotDropReplySnRecord* bestSn) {
         //                trace() << " dataPacketRecord chk messageType = " << pkt->getData() << " and Name = "
         //                        << pkt->getName() << " sequenceNo =  " << pkt->getSequenceNumber();
         toNetworkLayer(pkt,getIntToConstChar(bestSn->SnId));
-        trace()<< "DONE aLHUMD" ;
         dataPacketsSent++;
     }
 }
 /**
  * return True if Iot object should drop messages considering its direction.
- * At the moment return true whatever is the direction.
  *
  */
 bool NodeIot::directionCheckOk ()
 {
-    return true;
-    bool iotDirection = (check_and_cast<LineMobilityManager*>(mobilityModule))->getDirection();
-    if (iotDirection == 1) {//0 means going away from sink
-        noOfTimesDirectionCHecked++;
+    bool direction = (check_and_cast<LineMobilityManager*>(mobilityModule))->getDirection();
+    if (1 == direction ) {//0 means going away from sink
+            return false;
+        }
+    else{ // direction == 0
+        if (false == justReturned ) {
+            justReturned = true;
+            return true;
+        }
+        else
+            return true;
     }
-    //TODO adjut how should i actually send data packets after reciving drop replies.
-    trace()<< "Direction checked this no of times: " << noOfTimesDirectionCHecked;
 }
 void NodeIot::finishSpecific()
 {
@@ -302,30 +308,4 @@ void NodeIot::finishSpecific()
 //                  "Success", neighborTable[i].receivedPackets);
 //    }
 }
-
-//void NodeIot::updateNeighborTable(int nodeID, int serialNum)
-//{
-//    int i = 0, pos = -1;
-//    int tblSize = (int)neighborTable.size();
-//
-//    for (i = 0; i < tblSize; i++)
-//        if (neighborTable[i].id == nodeID)
-//            pos = i;
-//
-//    if (pos == -1) {
-//        neighborRecord newRec;
-//        newRec.id = nodeID;
-//        newRec.timesRx = 1;
-//
-//        if ((serialNum >= 0) && (serialNum < packetsPerNode))
-//            newRec.receivedPackets = 1;
-//
-//        neighborTable.push_back(newRec);
-//    } else {
-//        neighborTable[pos].timesRx++;
-//
-//        if ((serialNum >= 0) && (serialNum < packetsPerNode))
-//            neighborTable[pos].receivedPackets++;
-//    }
-//}
 
