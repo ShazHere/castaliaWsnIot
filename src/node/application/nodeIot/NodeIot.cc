@@ -54,7 +54,8 @@ void NodeIot::startup()
     //double startTxTime = 10; //I think it sets the start time of packets sent according to simulation time
     //setTimer(SEND_PACKET, startTxTime);
     setTimer(CHECK_DROP_PACKAGES, CHECK_DROP_PACKAGES_INTERVAL);
-
+    setTimer(RECORD_ENERGY, 10); //after every 10 seconds energy consumed is recorded
+    declareOutput("EnergyConsumed");
 }
 
 void NodeIot::fromNetworkLayer(ApplicationPacket * rcvPacket, const char *source, double rssi, double lqi)
@@ -185,7 +186,7 @@ void NodeIot::timerFiredCallback(int timerIndex)
         trace() << "direction check passed and direction is " << (check_and_cast<LineMobilityManager*>(mobilityModule))->getDirection();
         if ((int)dataPacketRecord.size() == 0)
             return;
-        trace()<< "directin chek passed n datapacketrecord > 0";
+        trace()<< "direction check passed n datapacketrecord > 0";
         iotDropReplySnRecord *bestSn;
         int returnCode = -1;
         returnCode = getBestSn(bestSn);
@@ -220,6 +221,13 @@ void NodeIot::timerFiredCallback(int timerIndex)
         }
         break;
     } //End of case CHECK_DROP_PACKAGES
+    case RECORD_ENERGY: {
+            int currentTimeInSec = (int) ((simTime().dbl()));
+            trace()<< "EnergyConsumed" << self << getIntToConstChar(currentTimeInSec) << " and " <<resMgrModule->getSpentEnergy();
+            collectOutput("EnergyConsumed", self,  getIntToConstChar(currentTimeInSec),resMgrModule->getSpentEnergy());
+            setTimer(RECORD_ENERGY, 10);
+            break;
+        }//end case RECORD_ENERGY
     }//End of switch (timerIndex)
 }//End of method
 

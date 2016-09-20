@@ -38,6 +38,7 @@ struct iotDropReplySnRecord {
 enum NodeIotTimers {
     SEND_PACKET = 1,
     CHECK_DROP_PACKAGES = 2,
+    RECORD_ENERGY = 3,
 };
 
 

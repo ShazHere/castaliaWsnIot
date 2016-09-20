@@ -42,6 +42,7 @@ enum NodeSensorTimers {
     SEND_PACKET = 1,
     CHECK_IOT_PROPOSALS = 2,
     CHECK_TOSEND_IOTDROPREPLY = 3,
+    RECORD_ENERGY = 4,
 };
 
 class NodeSensor:  public VirtualApplication {

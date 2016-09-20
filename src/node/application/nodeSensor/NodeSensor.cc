@@ -57,9 +57,12 @@ void NodeSensor::startup()
 
         //Generate Data packets
         generateDataPacket(self);
+        generateDataPacket(self);
     }
     setTimer(SEND_PACKET, startTxTime+self);
     setTimer(CHECK_IOT_PROPOSALS, startTxTime+2+self);
+    setTimer(RECORD_ENERGY, 10);
+    declareOutput("EnergyConsumed");
 
     /// int length = -1;
     /// assert(length >= 0 && "Length is not greater than equal to 0 "); sample assert to recall
@@ -261,6 +264,13 @@ void NodeSensor::timerFiredCallback(int timerIndex)
         sourcesForDropReply.clear();
         break;
     } //end case CHECK_TOSEND_IOTDROPREPLY
+    case RECORD_ENERGY: {
+        int currentTimeInSec = (int) ((simTime().dbl()));
+        trace()<< "EnergyConsumed" << self << getIntToConstChar(currentTimeInSec) << " and " <<resMgrModule->getSpentEnergy();
+        collectOutput("EnergyConsumed", self,  getIntToConstChar(currentTimeInSec),resMgrModule->getSpentEnergy());
+        setTimer(RECORD_ENERGY, 10);
+        break;
+    }//end case RECORD_ENERGY
     }// end switch(timerIndex)
 }
 int NodeSensor::getBestProposal() {
