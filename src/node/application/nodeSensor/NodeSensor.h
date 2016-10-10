@@ -19,12 +19,6 @@
 
 using namespace std;
 
-//struct neighborRecord {
-//    int id;
-//    int timesRx;
-//    int receivedPackets;
-//};
-
 struct iotProposalRecord {
     int id;
     double speed;
@@ -42,7 +36,6 @@ enum NodeSensorTimers {
     SEND_PACKET = 1,
     CHECK_IOT_PROPOSALS = 2,
     CHECK_TOSEND_IOTDROPREPLY = 3,
-    RECORD_ENERGY = 4,
 };
 
 class NodeSensor:  public VirtualApplication {
@@ -67,7 +60,7 @@ private:
    int getBestProposal();
    void removeProposals();
    void generateDataPacket(int originatorId);
-   GenericPacket* createGenericDataPacket(int originNodeId, int messageType);
+   GenericPacket* createGenericDataPacket(int originNodeId, int messageType, int sequenceNo);
    string getLocationText();
     void sendDropReplyTo(int source);
 

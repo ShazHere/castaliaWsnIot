@@ -54,8 +54,8 @@ void NodeIot::startup()
     //double startTxTime = 10; //I think it sets the start time of packets sent according to simulation time
     //setTimer(SEND_PACKET, startTxTime);
     setTimer(CHECK_DROP_PACKAGES, CHECK_DROP_PACKAGES_INTERVAL);
-    setTimer(RECORD_ENERGY, 10); //after every 10 seconds energy consumed is recorded
-    declareOutput("EnergyConsumed");
+    //setTimer(RECORD_ENERGY, 10); //after every 10 seconds energy consumed is recorded
+//    declareOutput("EnergyConsumed");
 }
 
 void NodeIot::fromNetworkLayer(ApplicationPacket * rcvPacket, const char *source, double rssi, double lqi)
@@ -183,7 +183,7 @@ void NodeIot::timerFiredCallback(int timerIndex)
         setTimer(CHECK_DROP_PACKAGES, CHECK_DROP_PACKAGES_INTERVAL);
         if (!directionCheckOk())
             return;
-        trace() << "direction check passed and direction is " << (check_and_cast<LineMobilityManager*>(mobilityModule))->getDirection();
+        //trace() << "direction check passed and direction is " << (check_and_cast<LineMobilityManager*>(mobilityModule))->getDirection();
         if ((int)dataPacketRecord.size() == 0)
             return;
         trace()<< "direction check passed n datapacketrecord > 0";
@@ -194,9 +194,11 @@ void NodeIot::timerFiredCallback(int timerIndex)
             trace()<< "Found best SN with id = "<< bestSn->SnId;
             //send the data packet so to best SN and clear the dataPacketRecord table and drop SN table
             sendDataPacketRecordsToBestSn(bestSn);
-            dataPacketRecord.clear();
-            dropReplySnRecord.clear();
-            justReturned = false;
+            if (dataPacketRecord.size() == 0) {
+                dataPacketRecord.clear();
+                dropReplySnRecord.clear();
+                justReturned = false;
+            }
         }
         else {
             trace()<<"NO SN FOUND to drop data packts";
@@ -205,6 +207,7 @@ void NodeIot::timerFiredCallback(int timerIndex)
             for (int i = 0; i < tblSize; i++) // if there is any record without check drop, just drop mesages
                 if (dataPacketRecord[i].isDropCheked == false) {
                   //  trace() << "Checking datapacketRecord originID = " << dataPacketRecord[i].oringinatorId;
+                    dataPacketRecord[i].isDropCheked = true;
                     trace() << "broadcasting drop packet from " << getLocationText() ;
                     GenericPacket *pkt = new GenericPacket("IoTDropPacket", APPLICATION_PACKET);
                     packetInfo temp;
@@ -221,13 +224,7 @@ void NodeIot::timerFiredCallback(int timerIndex)
         }
         break;
     } //End of case CHECK_DROP_PACKAGES
-    case RECORD_ENERGY: {
-            int currentTimeInSec = (int) ((simTime().dbl()));
-            trace()<< "EnergyConsumed" << self << getIntToConstChar(currentTimeInSec) << " and " <<resMgrModule->getSpentEnergy();
-            collectOutput("EnergyConsumed", self,  getIntToConstChar(currentTimeInSec),resMgrModule->getSpentEnergy());
-            setTimer(RECORD_ENERGY, 10);
-            break;
-        }//end case RECORD_ENERGY
+
     }//End of switch (timerIndex)
 }//End of method
 
@@ -258,22 +255,17 @@ int NodeIot::getBestSn(iotDropReplySnRecord* &bestSn) {
  */
 void NodeIot::sendDataPacketRecordsToBestSn(iotDropReplySnRecord* bestSn) {
     int tblSize = (int)dataPacketRecord.size();
-    trace()<< "sending " << tblSize << " data packets to " << bestSn->SnId;
+    //trace()<< "sending " << tblSize << " data packets to " << bestSn->SnId;
     for (int i = 0; i < tblSize; i++) {
-        //before sending gp, reset it and send a new packet. this is because of error in storing data
-        GenericPacket *pkt = new GenericPacket("genericDataPacket", APPLICATION_PACKET);
-        packetInfo temp;
-        temp.OriginNodeID = dataPacketRecord[i].oringinatorId;
-        temp.messageType = MESSAGETYPE_IOTTOSN_DATAPACKET;
-        pkt->setExtraData(temp);
-        pkt->setData(MESSAGETYPE_IOTTOSN_DATAPACKET);
-        pkt->setSequenceNumber(dataPacketsSent); //TODO: Check what should be sequence no.
-        pkt->setByteLength(packetSize); //TODO: check what should be data packet size
-        //                trace() << " dataPacketRecord chk messageType = " << pkt->getData() << " and Name = "
-        //                        << pkt->getName() << " sequenceNo =  " << pkt->getSequenceNumber();
-        toNetworkLayer(pkt,getIntToConstChar(bestSn->SnId));
+//need to change message type since manupulation is different at sensor side.
+        dataPacketRecord[i].gp->getExtraData().messageType = MESSAGETYPE_IOTTOSN_DATAPACKET;
+        dataPacketRecord[i].gp->setData(MESSAGETYPE_IOTTOSN_DATAPACKET);
+        dataPacketRecord[i].gp->setSequenceNumber(dataPacketsSent);  //TODO: Check what should be sequence no.
+        toNetworkLayer(dataPacketRecord[i].gp,getIntToConstChar(bestSn->SnId));
         dataPacketsSent++;
+        break;
     }
+    dataPacketRecord.erase(dataPacketRecord.begin()); // removes the first element that is sent
 }
 /**
  * return True if Iot object should drop messages considering its direction.

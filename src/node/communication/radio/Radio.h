@@ -200,7 +200,7 @@ class Radio: public CastaliaModule {
 	bool disabled;
 
 	PktBreakdown stats;
-	string startingTxPower;
+	string startingTxPower; //added by shaz
 
  protected:
 	virtual void initialize();

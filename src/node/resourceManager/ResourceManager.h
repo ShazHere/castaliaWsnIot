@@ -29,7 +29,7 @@ class ResourceManager: public CastaliaModule {
 	/*--- The .ned file's parameters ---*/
 	double sigmaCPUClockDrift;
 	double cpuClockDrift;
-	double initialEnergy;
+
 	double ramSize;
 	double baselineNodePower;
 	double currentNodePower;
@@ -44,17 +44,21 @@ class ResourceManager: public CastaliaModule {
 
 	cMessage *energyMsg;
 	bool disabled;
+	int self;	//add
 
  protected:
+
 	virtual void initialize();
 	virtual void handleMessage(cMessage * msg);
 	virtual void finishSpecific();
 	void calculateEnergySpent();
 
  public:
+	double initialEnergy;
 	double getCPUClockDrift(void);
 	void consumeEnergy(double amount);
 	double getSpentEnergy(void);
+	double getRemainingEnergy(void); //ADD	
 	void destroyNode(void);
 	int RamStore(int numBytes);
 	void RamFree(int numBytes);

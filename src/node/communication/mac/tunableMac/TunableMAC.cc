@@ -405,6 +405,8 @@ void TunableMAC::sendBeaconsOrData()
 void TunableMAC::fromRadioLayer(cPacket * pkt, double rssi, double lqi)
 {
 	TunableMacPacket *macFrame = dynamic_cast <TunableMacPacket*>(pkt);
+	macFrame->getMacRadioInfoExchange().RSSI = rssi;
+	macFrame->getMacRadioInfoExchange().LQI = lqi;
 	if (macFrame == NULL){
 		collectOutput("TunableMAC packet breakdown", "filtered, other MAC");
 		return;
@@ -454,7 +456,8 @@ void TunableMAC::fromRadioLayer(cPacket * pkt, double rssi, double lqi)
 		}
 
 		case DATA_FRAME:{
-			toNetworkLayer(macFrame->decapsulate());
+			cPacket *netPkt = decapsulatePacket(macFrame);
+			toNetworkLayer(netPkt);
 			collectOutput("TunableMAC packet breakdown", "received data pkts");
 			if (macState == MAC_STATE_RX) {
 				cancelTimer(ATTEMPT_TX);

@@ -27,7 +27,8 @@ simple ThroughputTest like node.application.iApplication {
 											// This parameter can be used to create an
 											// application-level static routing. This way we can
 											// have a multi-hop throughput test   
-
+    bool isSink = default (false);
+    
 	double packet_rate = default (0);	// packets per second, by default we transmit no packets
 	double startupDelay = default (0);	// delay in seconds before the app stars producing packets
 

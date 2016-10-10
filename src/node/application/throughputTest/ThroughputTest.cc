@@ -22,12 +22,12 @@ void ThroughputTest::startup()
 
 	packet_spacing = packet_rate > 0 ? 1 / float (packet_rate) : -1;
 	dataSN = 0;
-
+//if (self == 5) {
 	if (packet_spacing > 0 && recipientAddress.compare(SELF_NETWORK_ADDRESS) != 0)
 		setTimer(SEND_PACKET, packet_spacing + startupDelay);
 	else
 		trace() << "Not sending packets";
-
+//}
 	declareOutput("Packets received per node");
 }
 

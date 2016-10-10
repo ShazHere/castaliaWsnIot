@@ -43,20 +43,33 @@ void ResourceManager::initialize()
 	remainingEnergy = initialEnergy;
 	totalRamData = 0;
 	disabled = true;
+	
+	
+	declareOutput("Consumed Remaing");	//add
+
 }
 
 void ResourceManager::calculateEnergySpent()
 {
-	if (remainingEnergy > 0) {
+	self = getParentModule()->getIndex();
+	if (remainingEnergy > 0 && (self!=0)) { //modificado
 		simtime_t timePassed = simTime() - timeOfLastCalculation;
-		trace() << "energy consumed in the last " << timePassed << 
-			"s is " <<(timePassed * currentNodePower);
+		 //ADD
+/*		trace() << "energy consumed in the last " << timePassed << 
+			"s is " <<(timePassed * currentNodePower)<< ;*/ //RETIRADO
+		//trace_location() << simTime()<< " ["<< self << "] "<< getRemainingEnergy();	//add
+
 		consumeEnergy(SIMTIME_DBL(timePassed * currentNodePower / 1000.0));
 		timeOfLastCalculation = simTime();
 
 		cancelEvent(energyMsg);
 		scheduleAt(simTime() + periodicEnergyCalculationInterval, energyMsg);
 	}
+	//add
+//	else
+//		if (remainingEnergy <= 0)
+//		trace_location() << simTime()<< " ["<< self << "] "<< "0";
+	//add
 }
 
 /* The ResourceManager module has only one "unconnected" port where it can receive messages that
@@ -78,6 +91,7 @@ void ResourceManager::handleMessage(cMessage * msg)
 	
 		case TIMER_SERVICE:{
 			calculateEnergySpent();
+			getRemainingEnergy();		//add
 			return;
 		}
 
@@ -85,9 +99,9 @@ void ResourceManager::handleMessage(cMessage * msg)
 			ResourceManagerMessage *resMsg = check_and_cast<ResourceManagerMessage*>(msg);
 			int id = resMsg->getSenderModuleId();
 			double oldPower = storedPowerConsumptions[id];
-			trace() << "New power consumption, id = " << id << ", oldPower = " << 
+			/*trace() << "New power consumption, id = " << id << ", oldPower = " << 
 					currentNodePower << ", newPower = " << 
-					currentNodePower - oldPower + resMsg->getPowerConsumed();
+					currentNodePower - oldPower + resMsg->getPowerConsumed();*/ //RETIRADO
 			if (!disabled)
 				calculateEnergySpent();
 			currentNodePower = currentNodePower - oldPower + resMsg->getPowerConsumed();
@@ -106,7 +120,14 @@ void ResourceManager::finishSpecific()
 {
 	calculateEnergySpent();
 	declareOutput("Consumed Energy");
+//	collectOutput("Consumed Energy", "", getSpentEnergy());		RETIDADO
+
+//add
+	self = getParentModule()->getIndex();
+	if (self != 0){
+	collectOutput("Consumed Remaing", "", getRemainingEnergy());//add
 	collectOutput("Consumed Energy", "", getSpentEnergy());
+	}	//add
 }
 
 double ResourceManager::getSpentEnergy(void)
@@ -114,6 +135,14 @@ double ResourceManager::getSpentEnergy(void)
 	Enter_Method("getSpentEnergy()");
 	return (initialEnergy - remainingEnergy);
 }
+
+//add
+double ResourceManager::getRemainingEnergy(void)
+{
+	Enter_Method("getRemainingEnergy()");	
+	return (remainingEnergy);
+}
+//
 
 double ResourceManager::getCPUClockDrift(void)
 {
@@ -154,8 +183,8 @@ int ResourceManager::RamStore(int numBytes)
 
 	int ramHasSpace = ((totalRamData + numBytes) <= ramSize) ? 1 : 0;
 	if (!ramHasSpace) {
-		trace() << "\n[Resource Manager] t= " << simTime() <<
-				": WARNING: Data not stored to Ram. Not enough space to store them.";
+		/*trace() << "\n[Resource Manager] t= " << simTime() <<
+				": WARNING: Data not stored to Ram. Not enough space to store them.";*/	//RETIRADO
 		return 0;
 	} else
 		totalRamData += numBytes;

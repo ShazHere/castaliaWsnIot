@@ -36,12 +36,9 @@ struct iotDropReplySnRecord {
 };
 
 enum NodeIotTimers {
-    SEND_PACKET = 1,
-    CHECK_DROP_PACKAGES = 2,
-    RECORD_ENERGY = 3,
+    SEND_PACKET = 1, //also exist SEND_PACKET_INTERVAL
+    CHECK_DROP_PACKAGES = 2, // CHECK_DROP_PACKAGES_INTERVAL
 };
-
-
 
 class NodeIot: public VirtualApplication {
 private:
@@ -63,7 +60,11 @@ private:
     // False means that either direction is towards sink or it has returned from quite some time.
 
     const int SEND_PACKET_INTERVAL = 10; //interval to call settimer()
-    const int CHECK_DROP_PACKAGES_INTERVAL = 3; //interval to call settimer()
+    const int CHECK_DROP_PACKAGES_INTERVAL = 1; //interval to call settimer()
+    //I think it should be as less as possible, the reason is that when Iot changes direction,
+    //it needs to send all the packets it is carrying. Now if we send all data packets simultaniously, due to collision packets
+    //are not received by sensor 1 or sink. So we need to send packets in seperate time slots. Thus if this time slot is high,
+    // Iot may completely move its direction and decesion of sending all data to SN layer may change
 
     vector<iotDataPacketRecord> dataPacketRecord;
     vector<iotDropReplySnRecord> dropReplySnRecord;

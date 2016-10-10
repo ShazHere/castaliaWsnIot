@@ -32,6 +32,7 @@ simple NodeSensor like node.application.iApplication {
 //inspired by throughtput app
 	double packet_rate = default (0);	// packets per second, by default we transmit no packets
 	double startupDelay = default (0);	// delay in seconds before the app stars producing packets
+    bool isSink = default (false);//to check if it should work
 
  gates:
  	output toCommunicationModule;
